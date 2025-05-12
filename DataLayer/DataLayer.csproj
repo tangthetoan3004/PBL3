@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B863261D-040E-486E-A21A-3F61BE59B4C2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataLayer</RootNamespace>
+    <AssemblyName>DataLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.WinterJoySkin, Version=1.0.3.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Win.WinterJoySkin.1.0.3\lib\net452\DevExpress.WinterJoySkin.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="connect.cs" />
+    <Compile Include="Encryptor.cs" />
+    <Compile Include="Entities.cs" />
+    <Compile Include="KHOHANG.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KHOHANG.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KHOHANG.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KHOHANG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KHOHANG.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tb_CHUNGTU.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_CHUNGTU_CT.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_CONGTY.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_DONVI.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_DVT.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_HANGHOA.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_KHACHHANG.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_NHACUNGCAP.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_NHOMHH.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_SYS_FUNC.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_SYS_GROUP.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_SYS_REPORT.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_SYS_RIGHT.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_SYS_RIGHT_REP.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_SYS_SEQUENCE.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_SYS_USER.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_TONKHO.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_XUATXU.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_FUNC_SYS_RIGHT.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_REP_SYS_RIGHT_REP.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_USER_IN_GROUP.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_USER_NOTIN_GROUP.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="KHOHANG.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>KHOHANG.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="KHOHANG.edmx.diagram">
+      <DependentUpon>KHOHANG.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KHOHANG.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>KHOHANG.edmx</DependentUpon>
+      <LastGenOutput>KHOHANG.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="KHOHANG.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>KHOHANG.edmx</DependentUpon>
+      <LastGenOutput>KHOHANG.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+</Project>

@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QUANLY_KHOHANGModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tb_CHUNGTU">
+    <Key>
+      <PropertyRef Name="KHOA" />
+    </Key>
+    <Property Name="KHOA" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SCT2" Type="nvarchar" MaxLength="50" />
+    <Property Name="SCT" Type="nvarchar" MaxLength="50" />
+    <Property Name="NGAY" Type="datetime" />
+    <Property Name="LCT" Type="int" />
+    <Property Name="NGAY2" Type="datetime" />
+    <Property Name="CHIETKHAU" Type="int" />
+    <Property Name="SOLUONG" Type="int" />
+    <Property Name="TONGTIEN" Type="float" />
+    <Property Name="GHICHU" Type="nvarchar" MaxLength="500" />
+    <Property Name="MACTY" Type="nvarchar" MaxLength="50" />
+    <Property Name="MADVI2" Type="nvarchar" MaxLength="50" />
+    <Property Name="MADVI" Type="nvarchar" MaxLength="50" />
+    <Property Name="TRANGTHAI" Type="int" />
+    <Property Name="CREATED_DATE" Type="datetime" />
+    <Property Name="CREATED_BY" Type="int" />
+    <Property Name="UPDATED_DATE" Type="datetime" />
+    <Property Name="UPDATED_BY" Type="int" />
+    <Property Name="DELETED_DATE" Type="datetime" />
+    <Property Name="DELETED_BY" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_CHUNGTU_CT">
+    <Key>
+      <PropertyRef Name="KHOACT" />
+    </Key>
+    <Property Name="KHOACT" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="KHOA" Type="uniqueidentifier" />
+    <Property Name="STT" Type="int" />
+    <Property Name="BARCODE" Type="nvarchar" MaxLength="50" />
+    <Property Name="SOLUONGCT" Type="int" />
+    <Property Name="DONGIA" Type="float" />
+    <Property Name="CHIETKHAU" Type="int" />
+    <Property Name="THANHTIEN" Type="float" />
+    <Property Name="NGAY" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tb_CONGTY">
+    <Key>
+      <PropertyRef Name="MACTY" />
+    </Key>
+    <Property Name="MACTY" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TENCTY" Type="nvarchar" MaxLength="200" />
+    <Property Name="DIENTHOAI" Type="nvarchar" MaxLength="20" />
+    <Property Name="EMAIL" Type="nvarchar" MaxLength="50" />
+    <Property Name="FAX" Type="nvarchar" MaxLength="20" />
+    <Property Name="DIACHI" Type="nvarchar" MaxLength="500" />
+    <Property Name="DISABLED" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_DONVI">
+    <Key>
+      <PropertyRef Name="MADV" />
+    </Key>
+    <Property Name="MADV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TENDVI" Type="nvarchar" MaxLength="200" />
+    <Property Name="DIENTHOAI" Type="nvarchar" MaxLength="20" />
+    <Property Name="FAX" Type="nvarchar" MaxLength="20" />
+    <Property Name="EMAIL" Type="nvarchar" MaxLength="20" />
+    <Property Name="DIACHI" Type="nvarchar" MaxLength="500" />
+    <Property Name="MACTY" Type="nchar" MaxLength="10" />
+    <Property Name="DISABLED" Type="bit" />
+    <Property Name="KHO" Type="bit" />
+    <Property Name="KYHIEU" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tb_DVT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TEN" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tb_HANGHOA">
+    <Key>
+      <PropertyRef Name="BARCODE" />
+    </Key>
+    <Property Name="BARCODE" Type="nvarchar" MaxLength="13" Nullable="false" />
+    <Property Name="TENHH" Type="nvarchar" MaxLength="500" />
+    <Property Name="TENTAT" Type="nvarchar" MaxLength="50" />
+    <Property Name="DVT" Type="nvarchar" MaxLength="50" />
+    <Property Name="DONGIA" Type="float" />
+    <Property Name="MANCC" Type="nvarchar" MaxLength="50" />
+    <Property Name="MAXX" Type="int" />
+    <Property Name="MOTA" Type="nvarchar" MaxLength="800" />
+    <Property Name="IDNHOM" Type="int" />
+    <Property Name="CREATED_DATE" Type="datetime" />
+    <Property Name="CREATED_BY" Type="int" />
+    <Property Name="DISABLE" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_KHACHHANG">
+    <Key>
+      <PropertyRef Name="IDKH" />
+    </Key>
+    <Property Name="IDKH" Type="int" Nullable="false" />
+    <Property Name="HOTEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="DIENTHOAI" Type="nvarchar" MaxLength="50" />
+    <Property Name="EMAIL" Type="nvarchar" MaxLength="50" />
+    <Property Name="DIACHI" Type="nvarchar" MaxLength="50" />
+    <Property Name="MST" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tb_NHACUNGCAP">
+    <Key>
+      <PropertyRef Name="MANCC" />
+    </Key>
+    <Property Name="MANCC" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TENNCC" Type="nvarchar" MaxLength="50" />
+    <Property Name="EMAIL" Type="nvarchar" MaxLength="50" />
+    <Property Name="DIENTHOAI" Type="nvarchar" MaxLength="50" />
+    <Property Name="FAX" Type="nvarchar" MaxLength="50" />
+    <Property Name="DIACHI" Type="nvarchar" MaxLength="500" />
+    <Property Name="DISABLED" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_NHOMHH">
+    <Key>
+      <PropertyRef Name="IDNHOM" />
+    </Key>
+    <Property Name="IDNHOM" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TENNHOM" Type="nvarchar" MaxLength="50" />
+    <Property Name="GHICHU" Type="nvarchar" MaxLength="500" />
+    <Property Name="DISABLED" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_SYS_FUNC">
+    <Key>
+      <PropertyRef Name="FUNC_CODE" />
+      <PropertyRef Name="SORT" />
+    </Key>
+    <Property Name="FUNC_CODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SORT" Type="int" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="200" />
+    <Property Name="ISGROUP" Type="bit" />
+    <Property Name="PARENT" Type="varchar" MaxLength="50" />
+    <Property Name="MENU" Type="bit" />
+    <Property Name="TIPS" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tb_SYS_GROUP">
+    <Key>
+      <PropertyRef Name="GROUP" />
+      <PropertyRef Name="MEMBER" />
+    </Key>
+    <Property Name="GROUP" Type="int" Nullable="false" />
+    <Property Name="MEMBER" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_SYS_REPORT">
+    <Key>
+      <PropertyRef Name="REP_CODE" />
+    </Key>
+    <Property Name="REP_CODE" Type="int" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="50" />
+    <Property Name="REP_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="VISIBLED" Type="bit" />
+    <Property Name="TUNGAY" Type="bit" />
+    <Property Name="THANGNAM" Type="bit" />
+    <Property Name="MACTY" Type="bit" />
+    <Property Name="MADVI" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_SYS_RIGHT">
+    <Key>
+      <PropertyRef Name="FUNC_CODE" />
+      <PropertyRef Name="IDUSER" />
+    </Key>
+    <Property Name="FUNC_CODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="IDUSER" Type="int" Nullable="false" />
+    <Property Name="USER_RIGHT" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_SYS_RIGHT_REP">
+    <Key>
+      <PropertyRef Name="REP_CODE" />
+      <PropertyRef Name="IDUSER" />
+    </Key>
+    <Property Name="REP_CODE" Type="int" Nullable="false" />
+    <Property Name="IDUSER" Type="int" Nullable="false" />
+    <Property Name="USER_RIGHT" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_SYS_SEQUENCE">
+    <Key>
+      <PropertyRef Name="SEQNAME" />
+    </Key>
+    <Property Name="SEQNAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SEQVALUE" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_SYS_USER">
+    <Key>
+      <PropertyRef Name="IDUSER" />
+    </Key>
+    <Property Name="IDUSER" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="USERNAME" Type="varchar" MaxLength="50" />
+    <Property Name="PASSWD" Type="varchar" MaxLength="50" />
+    <Property Name="FULLNAME" Type="nvarchar" MaxLength="255" />
+    <Property Name="MACTY" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="MADVI" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="LAST_PWD_CHANGED" Type="datetime" />
+    <Property Name="DISABLED" Type="bit" />
+    <Property Name="ISGROUP" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_TONKHO">
+    <Key>
+      <PropertyRef Name="KHOA" />
+    </Key>
+    <Property Name="KHOA" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="NAMKY" Type="int" />
+    <Property Name="NAM" Type="int" />
+    <Property Name="KY" Type="int" />
+    <Property Name="MADV" Type="nvarchar" MaxLength="50" />
+    <Property Name="LG_DAU" Type="int" />
+    <Property Name="LG_NHAPMUA" Type="int" />
+    <Property Name="LG_XUATNB" Type="int" />
+    <Property Name="LG_CUOI" Type="int" />
+    <Property Name="NGAY" Type="datetime" />
+    <Property Name="MACTY" Type="nvarchar" MaxLength="50" />
+    <Property Name="BARCODE" Type="nvarchar" MaxLength="13" />
+    <Property Name="LG_NHAPNB" Type="int" />
+    <Property Name="LG_XUATSI" Type="int" />
+    <Property Name="LG_BANLE" Type="int" />
+    <Property Name="TRIGIA" Type="float" />
+    <Property Name="TIEN_CUOI" Type="float" />
+  </EntityType>
+  <EntityType Name="tb_XUATXU">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="DISABLED" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_FUNC_SYS_RIGHT' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="V_FUNC_SYS_RIGHT">
+    <Key>
+      <PropertyRef Name="FUNC_CODE" />
+      <PropertyRef Name="SORT" />
+      <PropertyRef Name="IDUSER" />
+    </Key>
+    <Property Name="FUNC_CODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="200" />
+    <Property Name="ISGROUP" Type="bit" />
+    <Property Name="PARENT" Type="varchar" MaxLength="50" />
+    <Property Name="SORT" Type="int" Nullable="false" />
+    <Property Name="IDUSER" Type="int" Nullable="false" />
+    <Property Name="QUYEN" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_REP_SYS_RIGHT_REP' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="V_REP_SYS_RIGHT_REP">
+    <Key>
+      <PropertyRef Name="REP_CODE" />
+      <PropertyRef Name="IDUSER" />
+    </Key>
+    <Property Name="REP_CODE" Type="int" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="50" />
+    <Property Name="REP_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="VISIBLED" Type="bit" />
+    <Property Name="IDUSER" Type="int" Nullable="false" />
+    <Property Name="QUYEN" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_IN_GROUP' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="V_USER_IN_GROUP">
+    <Key>
+      <PropertyRef Name="GROUP" />
+      <PropertyRef Name="MEMBER" />
+    </Key>
+    <Property Name="IDUSER" Type="int" />
+    <Property Name="USERNAME" Type="varchar" MaxLength="50" />
+    <Property Name="PASSWD" Type="varchar" MaxLength="50" />
+    <Property Name="FULLNAME" Type="nvarchar" MaxLength="255" />
+    <Property Name="MACTY" Type="nvarchar" MaxLength="10" />
+    <Property Name="MADVI" Type="nvarchar" MaxLength="10" />
+    <Property Name="LAST_PWD_CHANGED" Type="datetime" />
+    <Property Name="DISABLED" Type="bit" />
+    <Property Name="ISGROUP" Type="bit" />
+    <Property Name="GROUP" Type="int" Nullable="false" />
+    <Property Name="MEMBER" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="V_USER_NOTIN_GROUP">
+    <Key>
+      <PropertyRef Name="IDUSER" />
+      <PropertyRef Name="MACTY" />
+      <PropertyRef Name="MADVI" />
+    </Key>
+    <Property Name="IDUSER" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="USERNAME" Type="varchar" MaxLength="50" />
+    <Property Name="PASSWD" Type="varchar" MaxLength="50" />
+    <Property Name="FULLNAME" Type="nvarchar" MaxLength="255" />
+    <Property Name="MACTY" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="MADVI" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="LAST_PWD_CHANGED" Type="datetime" />
+    <Property Name="DISABLED" Type="bit" />
+    <Property Name="ISGROUP" Type="bit" />
+  </EntityType>
+  <Function Name="spNGAY_TINHTON" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NGAYC" Type="datetime" Mode="InOut" />
+    <Parameter Name="NGAYD" Type="datetime" Mode="InOut" />
+    <Parameter Name="NAM" Type="int" Mode="InOut" />
+    <Parameter Name="KY" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="TINH_TONKHO_DONVI" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NGAYC" Type="datetime" Mode="In" />
+    <Parameter Name="MADVI" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="QUANLY_KHOHANGModelStoreContainer">
+    <EntitySet Name="tb_CHUNGTU" EntityType="Self.tb_CHUNGTU" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_CHUNGTU_CT" EntityType="Self.tb_CHUNGTU_CT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_CONGTY" EntityType="Self.tb_CONGTY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_DONVI" EntityType="Self.tb_DONVI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_DVT" EntityType="Self.tb_DVT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_HANGHOA" EntityType="Self.tb_HANGHOA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_KHACHHANG" EntityType="Self.tb_KHACHHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_NHACUNGCAP" EntityType="Self.tb_NHACUNGCAP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_NHOMHH" EntityType="Self.tb_NHOMHH" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_SYS_FUNC" EntityType="Self.tb_SYS_FUNC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_SYS_GROUP" EntityType="Self.tb_SYS_GROUP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_SYS_REPORT" EntityType="Self.tb_SYS_REPORT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_SYS_RIGHT" EntityType="Self.tb_SYS_RIGHT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_SYS_RIGHT_REP" EntityType="Self.tb_SYS_RIGHT_REP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_SYS_SEQUENCE" EntityType="Self.tb_SYS_SEQUENCE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_SYS_USER" EntityType="Self.tb_SYS_USER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_TONKHO" EntityType="Self.tb_TONKHO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_XUATXU" EntityType="Self.tb_XUATXU" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="V_FUNC_SYS_RIGHT" EntityType="Self.V_FUNC_SYS_RIGHT" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [V_FUNC_SYS_RIGHT].[FUNC_CODE] AS [FUNC_CODE], 
+    [V_FUNC_SYS_RIGHT].[DESCRIPTION] AS [DESCRIPTION], 
+    [V_FUNC_SYS_RIGHT].[ISGROUP] AS [ISGROUP], 
+    [V_FUNC_SYS_RIGHT].[PARENT] AS [PARENT], 
+    [V_FUNC_SYS_RIGHT].[SORT] AS [SORT], 
+    [V_FUNC_SYS_RIGHT].[IDUSER] AS [IDUSER], 
+    [V_FUNC_SYS_RIGHT].[QUYEN] AS [QUYEN]
+    FROM [dbo].[V_FUNC_SYS_RIGHT] AS [V_FUNC_SYS_RIGHT]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="V_REP_SYS_RIGHT_REP" EntityType="Self.V_REP_SYS_RIGHT_REP" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [V_REP_SYS_RIGHT_REP].[REP_CODE] AS [REP_CODE], 
+    [V_REP_SYS_RIGHT_REP].[DESCRIPTION] AS [DESCRIPTION], 
+    [V_REP_SYS_RIGHT_REP].[REP_NAME] AS [REP_NAME], 
+    [V_REP_SYS_RIGHT_REP].[VISIBLED] AS [VISIBLED], 
+    [V_REP_SYS_RIGHT_REP].[IDUSER] AS [IDUSER], 
+    [V_REP_SYS_RIGHT_REP].[QUYEN] AS [QUYEN]
+    FROM [dbo].[V_REP_SYS_RIGHT_REP] AS [V_REP_SYS_RIGHT_REP]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="V_USER_IN_GROUP" EntityType="Self.V_USER_IN_GROUP" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [V_USER_IN_GROUP].[IDUSER] AS [IDUSER], 
+    [V_USER_IN_GROUP].[USERNAME] AS [USERNAME], 
+    [V_USER_IN_GROUP].[PASSWD] AS [PASSWD], 
+    [V_USER_IN_GROUP].[FULLNAME] AS [FULLNAME], 
+    [V_USER_IN_GROUP].[MACTY] AS [MACTY], 
+    [V_USER_IN_GROUP].[MADVI] AS [MADVI], 
+    [V_USER_IN_GROUP].[LAST_PWD_CHANGED] AS [LAST_PWD_CHANGED], 
+    [V_USER_IN_GROUP].[DISABLED] AS [DISABLED], 
+    [V_USER_IN_GROUP].[ISGROUP] AS [ISGROUP], 
+    [V_USER_IN_GROUP].[GROUP] AS [GROUP], 
+    [V_USER_IN_GROUP].[MEMBER] AS [MEMBER]
+    FROM [dbo].[V_USER_IN_GROUP] AS [V_USER_IN_GROUP]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="V_USER_NOTIN_GROUP" EntityType="Self.V_USER_NOTIN_GROUP" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [V_USER_NOTIN_GROUP].[IDUSER] AS [IDUSER], 
+    [V_USER_NOTIN_GROUP].[USERNAME] AS [USERNAME], 
+    [V_USER_NOTIN_GROUP].[PASSWD] AS [PASSWD], 
+    [V_USER_NOTIN_GROUP].[FULLNAME] AS [FULLNAME], 
+    [V_USER_NOTIN_GROUP].[MACTY] AS [MACTY], 
+    [V_USER_NOTIN_GROUP].[MADVI] AS [MADVI], 
+    [V_USER_NOTIN_GROUP].[LAST_PWD_CHANGED] AS [LAST_PWD_CHANGED], 
+    [V_USER_NOTIN_GROUP].[DISABLED] AS [DISABLED], 
+    [V_USER_NOTIN_GROUP].[ISGROUP] AS [ISGROUP]
+    FROM [dbo].[V_USER_NOTIN_GROUP] AS [V_USER_NOTIN_GROUP]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

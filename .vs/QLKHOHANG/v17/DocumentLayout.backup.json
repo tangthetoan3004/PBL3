@@ -1,0 +1,2026 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET\\VS2022\\QLKHOHANG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmxuatnoibo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmxuatnoibo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\phieu_nhapmua_ncc.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\phieu_nhapmua_ncc.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|d:\\.net\\vs2022\\qlkhohang\\stock\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\obj_tonkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\obj_tonkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\khohang.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\khohang.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmrestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmrestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmxuatxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmxuatxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\formxuatxu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\formxuatxu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmdvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmcongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmcongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|d:\\.net\\vs2022\\qlkhohang\\stock\\frmtonkhodvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtonkhodvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|d:\\.net\\vs2022\\qlkhohang\\stock\\frmtonkhodvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtonkhodvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\tonkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\tonkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|d:\\.net\\vs2022\\qlkhohang\\stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmxuatnoibo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmxuatnoibo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|d:\\.net\\vs2022\\qlkhohang\\stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmphieunhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmphieunhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\obj_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\obj_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\chungtu_ct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\chungtu_ct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\tb_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\myfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\myfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhapnb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapnb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmrestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmrestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmbackup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbackup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmxuatxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmxuatxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\obj_chungtu_ct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\obj_chungtu_ct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\tb_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\tb_nhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_nhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\sys_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\sys_right.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_right.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\tb_chungtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_chungtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\tb_congty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_congty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\khohang.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\khohang.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\sys_sequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_sequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\chungtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\chungtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmxuatnoibo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmxuatnoibo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\frmphanquyenchucnang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmphanquyenchucnang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\frmphanquyenchucnang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmphanquyenchucnang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\sys_func.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_func.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\sys_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhapmua.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapmua.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\sys_param.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_param.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\frmshowgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmshowgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\frmshowgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmshowgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\frmgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\sys_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\view_user_notin_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\view_user_notin_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\xuatxu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\xuatxu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\sys_right_rep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_right_rep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\usermanagement\\frmphanquyenbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmphanquyenbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\view_user_in_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\view_user_in_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\view_rep_sys_right_rep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\view_rep_sys_right_rep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmdonvi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdonvi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmdvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmcongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmcongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\formxuatxu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\formxuatxu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhacungcap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhacungcap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmhanghoa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmhanghoa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmdvt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdvt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmdanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmcongty.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmcongty.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\formxuatxu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\formxuatxu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\errexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\errexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\tb_chungtu_ct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_chungtu_ct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\stock\\frmnhomhh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhomhh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\nhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\nhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\barcodeean13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\barcodeean13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\donvitinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\donvitinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\congty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\congty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\tb_donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\tb_sys_func.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_sys_func.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\businesslayer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|D:\\.NET\\VS2022\\QLKHOHANG\\datalayer\\tb_dvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_dvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\MainForm.cs",
+              "RelativeDocumentMoniker": "STOCK\\MainForm.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\MainForm.cs",
+              "RelativeToolTip": "STOCK\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:17:53.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmXuatNoiBo.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmXuatNoiBo.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmXuatNoiBo.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmXuatNoiBo.cs",
+              "RelativeToolTip": "STOCK\\frmXuatNoiBo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:49:00.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmNhapmua.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapmua.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhapmua.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapmua.cs",
+              "RelativeToolTip": "STOCK\\frmNhapmua.cs",
+              "ViewState": "AgIAAPICAAAAAAAAAAArwCEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:14:18.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PHIEU_NHAPMUA_NCC.rpt",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\PHIEU_NHAPMUA_NCC.rpt",
+              "RelativeDocumentMoniker": "STOCK\\PHIEU_NHAPMUA_NCC.rpt",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\PHIEU_NHAPMUA_NCC.rpt",
+              "RelativeToolTip": "STOCK\\PHIEU_NHAPMUA_NCC.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-05-11T02:33:08.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmTonkhoCty.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTonkhoCty.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmTonkhoCty.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTonkhoCty.cs",
+              "RelativeToolTip": "STOCK\\frmTonkhoCty.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAcwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T14:22:37.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmTonkhoDvi.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTonkhoDvi.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmTonkhoDvi.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTonkhoDvi.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmTonkhoDvi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T03:57:47.561Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmTonkhoCty.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTonkhoCty.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmTonkhoCty.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTonkhoCty.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmTonkhoCty.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:08:47.014Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmChietkhau.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmChietkhau.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmChietkhau.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmChietkhau.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmChietkhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T05:49:16.158Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmBanle.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmBanle.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmBanle.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmBanle.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmBanle.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:31:20.362Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmXuatNoiBo.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmXuatNoiBo.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmXuatNoiBo.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmXuatNoiBo.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmXuatNoiBo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:45:04.082Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmPhieuNhapMua.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmPhieuNhapMua.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmPhieuNhapMua.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmPhieuNhapMua.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmPhieuNhapMua.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:23:32.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "frmHanghoa.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmHanghoa.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmHanghoa.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmHanghoa.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmHanghoa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:38:51.653Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "frmNhapmua.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapmua.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhapmua.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapmua.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmNhapmua.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T15:20:00.217Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmMain.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\frmMain.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmMain.cs",
+              "RelativeToolTip": "USERMANAGEMENT\\frmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:19:08.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "frmNhapNB.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapNB.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhapNB.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapNB.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmNhapNB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:29:20.249Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "frmNhapNB.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapNB.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhapNB.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapNB.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmNhapNB.Designer.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAuwI0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T18:35:13.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "frmBackup.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmBackup.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmBackup.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmBackup.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmBackup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:55:04.86Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "frmBackup.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmBackup.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmBackup.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmBackup.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmBackup.Designer.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:22:07.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "frmRestore.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmRestore.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmRestore.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmRestore.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmRestore.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T17:47:04.422Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "frmXuatxi.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmXuatxi.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmXuatxi.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmXuatxi.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmXuatxi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T01:48:17.3Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "frmNhaCungCap.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhaCungCap.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhaCungCap.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhaCungCap.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmNhaCungCap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T05:52:49.038Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "frmChangePassword.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmChangePassword.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmChangePassword.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmChangePassword.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmChangePassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:25:45.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "frmPhanQuyenChucNang.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmPhanQuyenChucNang.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\frmPhanQuyenChucNang.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmPhanQuyenChucNang.cs",
+              "RelativeToolTip": "USERMANAGEMENT\\frmPhanQuyenChucNang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:14:37.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "frmNhapmua.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapmua.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhapmua.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapmua.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmNhapmua.Designer.cs",
+              "ViewState": "AgIAALMDAAAAAAAAAAAAAMsDAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T07:03:10.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "frmPhanQuyenChucNang.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmPhanQuyenChucNang.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\frmPhanQuyenChucNang.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmPhanQuyenChucNang.cs [Design]",
+              "RelativeToolTip": "USERMANAGEMENT\\frmPhanQuyenChucNang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:29:45.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "frmPhanQuyenBaoCao.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmPhanQuyenBaoCao.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\frmPhanQuyenBaoCao.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmPhanQuyenBaoCao.cs [Design]",
+              "RelativeToolTip": "USERMANAGEMENT\\frmPhanQuyenBaoCao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:29:18.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "frmNhomhh.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhomhh.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhomhh.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhomhh.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmNhomhh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T07:53:31.812Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "frmDVT.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDVT.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmDVT.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDVT.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmDVT.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T03:04:14.677Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "frmDonVi.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDonVi.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmDonVi.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDonVi.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmDonVi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:30:58.123Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "frmCongTy.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmCongTy.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmCongTy.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmCongTy.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmCongTy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T03:04:45.3Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "formXuatxu.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\formXuatxu.cs",
+              "RelativeDocumentMoniker": "STOCK\\formXuatxu.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\formXuatxu.cs [Design]",
+              "RelativeToolTip": "STOCK\\formXuatxu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:18:08.139Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "frmNhaCungCap.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhaCungCap.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhaCungCap.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhaCungCap.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmNhaCungCap.Designer.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAYwKQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T01:07:33.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "frmDVT.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDVT.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmDVT.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDVT.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmDVT.Designer.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAwJEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T02:50:29.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "frmDanhMuc.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDanhMuc.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmDanhMuc.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDanhMuc.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmDanhMuc.Designer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T03:32:27.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "formXuatxu.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\formXuatxu.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\formXuatxu.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\formXuatxu.Designer.cs",
+              "RelativeToolTip": "STOCK\\formXuatxu.Designer.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAwJIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:03:50.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "frmCongTy.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmCongTy.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmCongTy.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmCongTy.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmCongTy.Designer.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAwKcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:22:57.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "frmNhomhh.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhomhh.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhomhh.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhomhh.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmNhomhh.Designer.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAYwJMAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:34:33.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "BARCODEEAN13.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\BARCODEEAN13.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\BARCODEEAN13.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\BARCODEEAN13.cs",
+              "RelativeToolTip": "BusinessLayer\\BARCODEEAN13.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:29:15.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "DONVITINH.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\DONVITINH.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\DONVITINH.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\DONVITINH.cs",
+              "RelativeToolTip": "BusinessLayer\\DONVITINH.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:32:25.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "CONGTY.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\CONGTY.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\CONGTY.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\CONGTY.cs",
+              "RelativeToolTip": "BusinessLayer\\CONGTY.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:43:11.678Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 191,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\Program.cs",
+              "RelativeDocumentMoniker": "STOCK\\Program.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\Program.cs",
+              "RelativeToolTip": "STOCK\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T08:07:03.74Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "connect.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\connect.cs",
+              "RelativeDocumentMoniker": "DataLayer\\connect.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\connect.cs",
+              "RelativeToolTip": "DataLayer\\connect.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T11:38:13.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "obj_TONKHO.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\obj_TONKHO.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\obj_TONKHO.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\obj_TONKHO.cs",
+              "RelativeToolTip": "BusinessLayer\\obj_TONKHO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T14:26:42.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KHOHANG.Context.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\KHOHANG.Context.cs",
+              "RelativeDocumentMoniker": "DataLayer\\KHOHANG.Context.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\KHOHANG.Context.cs",
+              "RelativeToolTip": "DataLayer\\KHOHANG.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:47:50.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\Entities.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entities.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\Entities.cs",
+              "RelativeToolTip": "DataLayer\\Entities.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAA8wDkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T11:20:36.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmNhapNB.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapNB.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhapNB.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhapNB.cs",
+              "RelativeToolTip": "STOCK\\frmNhapNB.cs",
+              "ViewState": "AgIAAOkBAAAAAAAAAAAwwFgCAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:34:40.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmBanle.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmBanle.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmBanle.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmBanle.cs",
+              "RelativeToolTip": "STOCK\\frmBanle.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAjwGMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:31:54.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmRestore.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmRestore.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmRestore.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmRestore.cs",
+              "RelativeToolTip": "STOCK\\frmRestore.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwDkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T17:49:46.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmBackup.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmBackup.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmBackup.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmBackup.cs",
+              "RelativeToolTip": "STOCK\\frmBackup.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:16:51.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmXuatxi.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmXuatxi.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmXuatxi.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmXuatxi.cs",
+              "RelativeToolTip": "STOCK\\frmXuatxi.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAjwCwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T01:49:54.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmHanghoa.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmHanghoa.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmHanghoa.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmHanghoa.cs",
+              "RelativeToolTip": "STOCK\\frmHanghoa.cs",
+              "ViewState": "AgIAAMcBAAAAAAAAAADgv+kBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:15:01.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmNhomhh.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhomhh.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhomhh.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhomhh.cs",
+              "RelativeToolTip": "STOCK\\frmNhomhh.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAhwIEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:06:15.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "formXuatxu.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\formXuatxu.cs",
+              "RelativeDocumentMoniker": "STOCK\\formXuatxu.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\formXuatxu.cs",
+              "RelativeToolTip": "STOCK\\formXuatxu.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAhwH4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:30:19.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmDVT.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDVT.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmDVT.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDVT.cs",
+              "RelativeToolTip": "STOCK\\frmDVT.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAtwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T03:25:42.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmNhaCungCap.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhaCungCap.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhaCungCap.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmNhaCungCap.cs",
+              "RelativeToolTip": "STOCK\\frmNhaCungCap.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv1QAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:47:15.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmCongTy.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmCongTy.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmCongTy.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmCongTy.cs",
+              "RelativeToolTip": "STOCK\\frmCongTy.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAawGoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T03:37:33.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmDonVi.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDonVi.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmDonVi.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDonVi.cs",
+              "RelativeToolTip": "STOCK\\frmDonVi.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAqwIYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T08:46:14.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmTonkhoDvi.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTonkhoDvi.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmTonkhoDvi.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTonkhoDvi.cs",
+              "RelativeToolTip": "STOCK\\frmTonkhoDvi.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAtwI8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:05:27.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\MainForm.cs",
+              "RelativeDocumentMoniker": "STOCK\\MainForm.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\MainForm.cs [Design]",
+              "RelativeToolTip": "STOCK\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:54:51.713Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmTrahang.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTrahang.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmTrahang.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTrahang.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmTrahang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T16:47:38.792Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TONKHO.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\TONKHO.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\TONKHO.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\TONKHO.cs",
+              "RelativeToolTip": "BusinessLayer\\TONKHO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwEIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T04:49:08.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\App.config",
+              "RelativeDocumentMoniker": "DataLayer\\App.config",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\App.config",
+              "RelativeToolTip": "DataLayer\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAADoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-14T14:14:22.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmTrahang.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTrahang.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmTrahang.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmTrahang.cs",
+              "RelativeToolTip": "STOCK\\frmTrahang.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:01:30.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frmChietkhau.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmChietkhau.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmChietkhau.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmChietkhau.cs",
+              "RelativeToolTip": "STOCK\\frmChietkhau.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwCAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T05:57:16.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "HANGHOA.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\HANGHOA.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\HANGHOA.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\HANGHOA.cs",
+              "RelativeToolTip": "BusinessLayer\\HANGHOA.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAqwAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:21:45.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CHUNGTU_CT.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\CHUNGTU_CT.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\CHUNGTU_CT.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\CHUNGTU_CT.cs",
+              "RelativeToolTip": "BusinessLayer\\CHUNGTU_CT.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:11:32.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "obj_HANGHOA.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\obj_HANGHOA.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\obj_HANGHOA.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\obj_HANGHOA.cs",
+              "RelativeToolTip": "BusinessLayer\\obj_HANGHOA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T06:12:23.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "NHACUNGCAP.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\NHACUNGCAP.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\NHACUNGCAP.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\NHACUNGCAP.cs",
+              "RelativeToolTip": "BusinessLayer\\NHACUNGCAP.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:27:54.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "tb_HANGHOA.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_HANGHOA.cs",
+              "RelativeDocumentMoniker": "DataLayer\\tb_HANGHOA.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_HANGHOA.cs",
+              "RelativeToolTip": "DataLayer\\tb_HANGHOA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:19:04.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "myFunctions.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\myFunctions.cs",
+              "RelativeDocumentMoniker": "STOCK\\myFunctions.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\myFunctions.cs",
+              "RelativeToolTip": "STOCK\\myFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:34:05.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "frmSetParam.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmSetParam.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmSetParam.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmSetParam.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmSetParam.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:40:34.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmLogin.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmLogin.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmLogin.cs",
+              "RelativeToolTip": "STOCK\\frmLogin.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA6wCkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:15:35.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmLogin.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmLogin.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmLogin.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:09:09.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\App.config",
+              "RelativeDocumentMoniker": "STOCK\\App.config",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\App.config",
+              "RelativeToolTip": "STOCK\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-10T15:23:51.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\packages.config",
+              "RelativeDocumentMoniker": "STOCK\\packages.config",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\packages.config",
+              "RelativeToolTip": "STOCK\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-16T16:55:07.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "tb_NHACUNGCAP.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_NHACUNGCAP.cs",
+              "RelativeDocumentMoniker": "DataLayer\\tb_NHACUNGCAP.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_NHACUNGCAP.cs",
+              "RelativeToolTip": "DataLayer\\tb_NHACUNGCAP.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:29:50.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "obj_CHUNGTU_CT.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\obj_CHUNGTU_CT.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\obj_CHUNGTU_CT.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\obj_CHUNGTU_CT.cs",
+              "RelativeToolTip": "BusinessLayer\\obj_CHUNGTU_CT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:55:40.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "tb_NHOMHH.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_NHOMHH.cs",
+              "RelativeDocumentMoniker": "DataLayer\\tb_NHOMHH.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_NHOMHH.cs",
+              "RelativeToolTip": "DataLayer\\tb_NHOMHH.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:22:06.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "SYS_USER.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_USER.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\SYS_USER.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_USER.cs",
+              "RelativeToolTip": "BusinessLayer\\SYS_USER.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA5wCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:35:24.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "frmChangePassword.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmChangePassword.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmChangePassword.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmChangePassword.cs",
+              "RelativeToolTip": "STOCK\\frmChangePassword.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwHkAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:35:13.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "tb_CONGTY.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_CONGTY.cs",
+              "RelativeDocumentMoniker": "DataLayer\\tb_CONGTY.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_CONGTY.cs",
+              "RelativeToolTip": "DataLayer\\tb_CONGTY.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:11:39.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "frmConnect.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmConnect.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmConnect.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmConnect.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmConnect.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:24:45.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmMain.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\frmMain.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmMain.cs [Design]",
+              "RelativeToolTip": "USERMANAGEMENT\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:21:49.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "tb_CHUNGTU.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_CHUNGTU.cs",
+              "RelativeDocumentMoniker": "DataLayer\\tb_CHUNGTU.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_CHUNGTU.cs",
+              "RelativeToolTip": "DataLayer\\tb_CHUNGTU.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:54:03.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "KHOHANG.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\KHOHANG.cs",
+              "RelativeDocumentMoniker": "DataLayer\\KHOHANG.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\KHOHANG.cs",
+              "RelativeToolTip": "DataLayer\\KHOHANG.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:33:35.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "DataLayer\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T14:15:01.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "SYS_RIGHT.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_RIGHT.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\SYS_RIGHT.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_RIGHT.cs",
+              "RelativeToolTip": "BusinessLayer\\SYS_RIGHT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:52:13.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "KHOHANG.edmx.diagram",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\KHOHANG.edmx.diagram",
+              "RelativeDocumentMoniker": "DataLayer\\KHOHANG.edmx.diagram",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\KHOHANG.edmx.diagram",
+              "RelativeToolTip": "DataLayer\\KHOHANG.edmx.diagram",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-14T13:52:35.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "SYS_SEQUENCE.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_SEQUENCE.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\SYS_SEQUENCE.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_SEQUENCE.cs",
+              "RelativeToolTip": "BusinessLayer\\SYS_SEQUENCE.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T03:28:01.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Encryptor.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\Encryptor.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Encryptor.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\Encryptor.cs",
+              "RelativeToolTip": "DataLayer\\Encryptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T11:55:05.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "CHUNGTU.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\CHUNGTU.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\CHUNGTU.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\CHUNGTU.cs",
+              "RelativeToolTip": "BusinessLayer\\CHUNGTU.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAEwBgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:32:35.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "frmXuatNoiBo.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmXuatNoiBo.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmXuatNoiBo.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmXuatNoiBo.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmXuatNoiBo.Designer.cs",
+              "ViewState": "AgIAAA8DAAAAAAAAAAAYwBcDAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T15:26:53.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "DONVI.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\DONVI.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\DONVI.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\DONVI.cs",
+              "RelativeToolTip": "BusinessLayer\\DONVI.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:17:02.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "SYS_GROUP.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_GROUP.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\SYS_GROUP.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_GROUP.cs",
+              "RelativeToolTip": "BusinessLayer\\SYS_GROUP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:31:24.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "SYS_FUNC.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_FUNC.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\SYS_FUNC.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_FUNC.cs",
+              "RelativeToolTip": "BusinessLayer\\SYS_FUNC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwB4AAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T17:09:33.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "frmConnect.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmConnect.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmConnect.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmConnect.cs",
+              "RelativeToolTip": "STOCK\\frmConnect.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAA/wEgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:27:01.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "SYS_PARAM.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_PARAM.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\SYS_PARAM.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_PARAM.cs",
+              "RelativeToolTip": "BusinessLayer\\SYS_PARAM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:00:39.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "frmSetParam.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmSetParam.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmSetParam.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmSetParam.cs",
+              "RelativeToolTip": "STOCK\\frmSetParam.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:50:13.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "frmUser.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmUser.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\frmUser.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmUser.cs",
+              "RelativeToolTip": "USERMANAGEMENT\\frmUser.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:34:03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "frmUser.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmUser.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\frmUser.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmUser.cs [Design]",
+              "RelativeToolTip": "USERMANAGEMENT\\frmUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:21:35.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "frmShowGroup.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmShowGroup.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\frmShowGroup.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmShowGroup.cs",
+              "RelativeToolTip": "USERMANAGEMENT\\frmShowGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:50:36.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "frmShowGroup.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmShowGroup.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\frmShowGroup.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmShowGroup.cs [Design]",
+              "RelativeToolTip": "USERMANAGEMENT\\frmShowGroup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:50:33.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\Program.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\Program.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\Program.cs",
+              "RelativeToolTip": "USERMANAGEMENT\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:50:21.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "SYS_REPORT.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_REPORT.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\SYS_REPORT.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_REPORT.cs",
+              "RelativeToolTip": "BusinessLayer\\SYS_REPORT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:40:08.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "frmGroup.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmGroup.cs",
+              "RelativeDocumentMoniker": "USERMANAGEMENT\\frmGroup.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\USERMANAGEMENT\\frmGroup.cs [Design]",
+              "RelativeToolTip": "USERMANAGEMENT\\frmGroup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:21:31.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "VIEW_USER_NOTIN_GROUP.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\VIEW_USER_NOTIN_GROUP.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\VIEW_USER_NOTIN_GROUP.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\VIEW_USER_NOTIN_GROUP.cs",
+              "RelativeToolTip": "BusinessLayer\\VIEW_USER_NOTIN_GROUP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:16:08.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "SYS_RIGHT_REP.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_RIGHT_REP.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\SYS_RIGHT_REP.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\SYS_RIGHT_REP.cs",
+              "RelativeToolTip": "BusinessLayer\\SYS_RIGHT_REP.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:29:15.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "XUATXU.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\XUATXU.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\XUATXU.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\XUATXU.cs",
+              "RelativeToolTip": "BusinessLayer\\XUATXU.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:42:55.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "frmDanhMuc.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDanhMuc.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmDanhMuc.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDanhMuc.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmDanhMuc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T07:11:21.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "VIEW_REP_SYS_RIGHT_REP.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\VIEW_REP_SYS_RIGHT_REP.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\VIEW_REP_SYS_RIGHT_REP.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\VIEW_REP_SYS_RIGHT_REP.cs",
+              "RelativeToolTip": "BusinessLayer\\VIEW_REP_SYS_RIGHT_REP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:14:15.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "VIEW_USER_IN_GROUP.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\VIEW_USER_IN_GROUP.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\VIEW_USER_IN_GROUP.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\VIEW_USER_IN_GROUP.cs",
+              "RelativeToolTip": "BusinessLayer\\VIEW_USER_IN_GROUP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:15:10.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "frmDonVi.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDonVi.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmDonVi.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDonVi.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmDonVi.Designer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:53:51.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "frmDanhMuc.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDanhMuc.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmDanhMuc.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmDanhMuc.cs",
+              "RelativeToolTip": "STOCK\\frmDanhMuc.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAmwL8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T07:30:24.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "frmHanghoa.Designer.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmHanghoa.Designer.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmHanghoa.Designer.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\STOCK\\frmHanghoa.Designer.cs",
+              "RelativeToolTip": "STOCK\\frmHanghoa.Designer.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAYwM8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T13:29:34.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "errExport.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\errExport.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\errExport.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\errExport.cs",
+              "RelativeToolTip": "BusinessLayer\\errExport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T07:35:19.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "tb_CHUNGTU_CT.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_CHUNGTU_CT.cs",
+              "RelativeDocumentMoniker": "DataLayer\\tb_CHUNGTU_CT.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_CHUNGTU_CT.cs",
+              "RelativeToolTip": "DataLayer\\tb_CHUNGTU_CT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:28:23.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "NHOMHH.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\NHOMHH.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\NHOMHH.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\NHOMHH.cs",
+              "RelativeToolTip": "BusinessLayer\\NHOMHH.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T07:26:01.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "tb_DONVI.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_DONVI.cs",
+              "RelativeDocumentMoniker": "DataLayer\\tb_DONVI.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_DONVI.cs",
+              "RelativeToolTip": "DataLayer\\tb_DONVI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:19:41.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "tb_SYS_FUNC.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_SYS_FUNC.cs",
+              "RelativeDocumentMoniker": "DataLayer\\tb_SYS_FUNC.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_SYS_FUNC.cs",
+              "RelativeToolTip": "DataLayer\\tb_SYS_FUNC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:37:45.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\App.config",
+              "RelativeDocumentMoniker": "BusinessLayer\\App.config",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\BusinessLayer\\App.config",
+              "RelativeToolTip": "BusinessLayer\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-14T14:15:24.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\POS\\Form1.cs",
+              "RelativeDocumentMoniker": "POS\\Form1.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\POS\\Form1.cs [Design]",
+              "RelativeToolTip": "POS\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:58:06.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "tb_DVT.cs",
+              "DocumentMoniker": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_DVT.cs",
+              "RelativeDocumentMoniker": "DataLayer\\tb_DVT.cs",
+              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\DataLayer\\tb_DVT.cs",
+              "RelativeToolTip": "DataLayer\\tb_DVT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:38:42.494Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
