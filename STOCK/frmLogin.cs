@@ -80,7 +80,7 @@ namespace STOCK
                             {
                                 lb_saimk.Text = "";
                                 lb_saidangnhap.Text = "";
-                                MainForm frm = new MainForm(user);
+                                frmMain frm = new frmMain(user);
                                 frm.Show();
                                 this.Hide();
                             }

@@ -24,3 +24,16 @@ D:\.NET\VS2022\QLKHOHANG\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.
 D:\.NET\VS2022\QLKHOHANG\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
 D:\.NET\VS2022\QLKHOHANG\DataLayer\obj\Debug\DataLayer.dll
 D:\.NET\VS2022\QLKHOHANG\DataLayer\obj\Debug\DataLayer.pdb
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\bin\Debug\DataLayer.dll.config
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\bin\Debug\DataLayer.dll
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\bin\Debug\DataLayer.pdb
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\bin\Debug\DevExpress.WinterJoySkin.dll
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\bin\Debug\EntityFramework.dll
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\bin\Debug\EntityFramework.xml
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\obj\Debug\DataLayer.dll
+E:\PBL3\QLKHOHANG\QLKHOHANG\DataLayer\obj\Debug\DataLayer.pdb

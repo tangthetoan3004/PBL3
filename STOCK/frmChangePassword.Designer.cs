@@ -48,7 +48,7 @@
             // 
             // txtMKCu
             // 
-            this.txtMKCu.BackColor = System.Drawing.Color.Azure;
+            this.txtMKCu.BackColor = System.Drawing.SystemColors.Control;
             this.txtMKCu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtMKCu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMKCu.Location = new System.Drawing.Point(275, 37);
@@ -70,7 +70,7 @@
             // 
             // txtMKMoi
             // 
-            this.txtMKMoi.BackColor = System.Drawing.Color.Azure;
+            this.txtMKMoi.BackColor = System.Drawing.SystemColors.Control;
             this.txtMKMoi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtMKMoi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMKMoi.Location = new System.Drawing.Point(275, 94);
@@ -93,7 +93,7 @@
             // 
             // txtNhaplaiMK
             // 
-            this.txtNhaplaiMK.BackColor = System.Drawing.Color.Azure;
+            this.txtNhaplaiMK.BackColor = System.Drawing.SystemColors.Control;
             this.txtNhaplaiMK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNhaplaiMK.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNhaplaiMK.Location = new System.Drawing.Point(275, 156);
@@ -105,8 +105,7 @@
             // 
             // btnCapNhat
             // 
-            this.btnCapNhat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnCapNhat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCapNhat.BackColor = System.Drawing.SystemColors.Control;
             this.btnCapNhat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCapNhat.Location = new System.Drawing.Point(174, 227);
             this.btnCapNhat.Name = "btnCapNhat";
@@ -128,8 +127,7 @@
             // 
             // btnDong
             // 
-            this.btnDong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnDong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDong.BackColor = System.Drawing.SystemColors.Control;
             this.btnDong.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDong.Location = new System.Drawing.Point(433, 227);
             this.btnDong.Name = "btnDong";
@@ -142,6 +140,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.lb_doimatkhau);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -155,7 +154,7 @@
             this.lb_doimatkhau.AutoSize = true;
             this.lb_doimatkhau.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_doimatkhau.ForeColor = System.Drawing.Color.Blue;
-            this.lb_doimatkhau.Location = new System.Drawing.Point(18, 9);
+            this.lb_doimatkhau.Location = new System.Drawing.Point(16, 7);
             this.lb_doimatkhau.Name = "lb_doimatkhau";
             this.lb_doimatkhau.Size = new System.Drawing.Size(159, 31);
             this.lb_doimatkhau.TabIndex = 0;
@@ -164,7 +163,8 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Azure;
+            this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.lb_mkmoi);
             this.panel1.Controls.Add(this.lb_khongdungmkcu);
             this.panel1.Controls.Add(this.lb_khongtrungmk);

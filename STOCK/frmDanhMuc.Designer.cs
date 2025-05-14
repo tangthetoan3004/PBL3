@@ -53,6 +53,7 @@
             this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.Navy;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -124,6 +125,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightGray;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.bt_exit);
             this.panel1.Controls.Add(this.bt_import);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -135,8 +137,7 @@
             // 
             // bt_exit
             // 
-            this.bt_exit.BackColor = System.Drawing.Color.Red;
-            this.bt_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_exit.BackColor = System.Drawing.SystemColors.Control;
             this.bt_exit.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_exit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_exit.ImageList = this.imageList1;
@@ -158,8 +159,7 @@
             // 
             // bt_import
             // 
-            this.bt_import.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bt_import.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_import.BackColor = System.Drawing.SystemColors.Control;
             this.bt_import.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_import.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_import.ImageList = this.imageList1;

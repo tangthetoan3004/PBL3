@@ -42,13 +42,6 @@ namespace STOCK
             this.toolStripButton_Boqua = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.DISABLE = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.MACTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TENCTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DIENTHOAI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EMAIL = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FAX = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DIACHI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox_MA = new System.Windows.Forms.TextBox();
             this.lb_ma = new System.Windows.Forms.Label();
@@ -66,6 +59,13 @@ namespace STOCK
             this.lb_ten = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lb_thongtin = new System.Windows.Forms.Label();
+            this.DISABLE = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.MACTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TENCTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DIENTHOAI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EMAIL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FAX = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DIACHI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -74,6 +74,7 @@ namespace STOCK
             // 
             // toolStrip1
             // 
+            this.toolStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.toolStrip1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -163,6 +164,7 @@ namespace STOCK
             this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.Navy;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -198,75 +200,10 @@ namespace STOCK
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
-            // DISABLE
-            // 
-            this.DISABLE.DataPropertyName = "DISABLED";
-            this.DISABLE.HeaderText = "DEL";
-            this.DISABLE.MinimumWidth = 6;
-            this.DISABLE.Name = "DISABLE";
-            this.DISABLE.ReadOnly = true;
-            this.DISABLE.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.DISABLE.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.DISABLE.Width = 50;
-            // 
-            // MACTY
-            // 
-            this.MACTY.DataPropertyName = "MACTY";
-            this.MACTY.HeaderText = "MÃ CÔNG TY";
-            this.MACTY.MinimumWidth = 6;
-            this.MACTY.Name = "MACTY";
-            this.MACTY.ReadOnly = true;
-            this.MACTY.Width = 125;
-            // 
-            // TENCTY
-            // 
-            this.TENCTY.DataPropertyName = "TENCTY";
-            this.TENCTY.HeaderText = "TÊN CÔNG TY";
-            this.TENCTY.MinimumWidth = 6;
-            this.TENCTY.Name = "TENCTY";
-            this.TENCTY.ReadOnly = true;
-            this.TENCTY.Width = 250;
-            // 
-            // DIENTHOAI
-            // 
-            this.DIENTHOAI.DataPropertyName = "DIENTHOAI";
-            this.DIENTHOAI.HeaderText = "ĐIỆN THOẠI";
-            this.DIENTHOAI.MinimumWidth = 6;
-            this.DIENTHOAI.Name = "DIENTHOAI";
-            this.DIENTHOAI.ReadOnly = true;
-            this.DIENTHOAI.Width = 150;
-            // 
-            // EMAIL
-            // 
-            this.EMAIL.DataPropertyName = "EMAIL";
-            this.EMAIL.HeaderText = "EMAIL";
-            this.EMAIL.MinimumWidth = 6;
-            this.EMAIL.Name = "EMAIL";
-            this.EMAIL.ReadOnly = true;
-            this.EMAIL.Width = 225;
-            // 
-            // FAX
-            // 
-            this.FAX.DataPropertyName = "FAX";
-            this.FAX.HeaderText = "FAX";
-            this.FAX.MinimumWidth = 6;
-            this.FAX.Name = "FAX";
-            this.FAX.ReadOnly = true;
-            this.FAX.Width = 125;
-            // 
-            // DIACHI
-            // 
-            this.DIACHI.DataPropertyName = "DIACHI";
-            this.DIACHI.HeaderText = "ĐỊA CHỈ";
-            this.DIACHI.MinimumWidth = 6;
-            this.DIACHI.Name = "DIACHI";
-            this.DIACHI.ReadOnly = true;
-            this.DIACHI.Width = 250;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightGray;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.textBox_MA);
             this.panel2.Controls.Add(this.lb_ma);
             this.panel2.Controls.Add(this.checkBox_Disable);
@@ -432,7 +369,7 @@ namespace STOCK
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.lb_thongtin);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 422);
@@ -449,6 +386,71 @@ namespace STOCK
             this.lb_thongtin.Size = new System.Drawing.Size(88, 23);
             this.lb_thongtin.TabIndex = 0;
             this.lb_thongtin.Text = "Thông tin";
+            // 
+            // DISABLE
+            // 
+            this.DISABLE.DataPropertyName = "DISABLED";
+            this.DISABLE.HeaderText = "DEL";
+            this.DISABLE.MinimumWidth = 6;
+            this.DISABLE.Name = "DISABLE";
+            this.DISABLE.ReadOnly = true;
+            this.DISABLE.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.DISABLE.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.DISABLE.Width = 50;
+            // 
+            // MACTY
+            // 
+            this.MACTY.DataPropertyName = "MACTY";
+            this.MACTY.HeaderText = "MÃ CÔNG TY";
+            this.MACTY.MinimumWidth = 6;
+            this.MACTY.Name = "MACTY";
+            this.MACTY.ReadOnly = true;
+            this.MACTY.Width = 96;
+            // 
+            // TENCTY
+            // 
+            this.TENCTY.DataPropertyName = "TENCTY";
+            this.TENCTY.HeaderText = "TÊN CÔNG TY";
+            this.TENCTY.MinimumWidth = 6;
+            this.TENCTY.Name = "TENCTY";
+            this.TENCTY.ReadOnly = true;
+            this.TENCTY.Width = 250;
+            // 
+            // DIENTHOAI
+            // 
+            this.DIENTHOAI.DataPropertyName = "DIENTHOAI";
+            this.DIENTHOAI.HeaderText = "ĐIỆN THOẠI";
+            this.DIENTHOAI.MinimumWidth = 6;
+            this.DIENTHOAI.Name = "DIENTHOAI";
+            this.DIENTHOAI.ReadOnly = true;
+            this.DIENTHOAI.Width = 150;
+            // 
+            // EMAIL
+            // 
+            this.EMAIL.DataPropertyName = "EMAIL";
+            this.EMAIL.HeaderText = "EMAIL";
+            this.EMAIL.MinimumWidth = 6;
+            this.EMAIL.Name = "EMAIL";
+            this.EMAIL.ReadOnly = true;
+            this.EMAIL.Width = 225;
+            // 
+            // FAX
+            // 
+            this.FAX.DataPropertyName = "FAX";
+            this.FAX.HeaderText = "FAX";
+            this.FAX.MinimumWidth = 6;
+            this.FAX.Name = "FAX";
+            this.FAX.ReadOnly = true;
+            this.FAX.Width = 125;
+            // 
+            // DIACHI
+            // 
+            this.DIACHI.DataPropertyName = "DIACHI";
+            this.DIACHI.HeaderText = "ĐỊA CHỈ";
+            this.DIACHI.MinimumWidth = 6;
+            this.DIACHI.Name = "DIACHI";
+            this.DIACHI.ReadOnly = true;
+            this.DIACHI.Width = 230;
             // 
             // frmCongTy
             // 

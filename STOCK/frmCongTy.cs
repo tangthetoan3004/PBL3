@@ -22,7 +22,8 @@ namespace STOCK
         public frmCongTy(tb_SYS_USER user, int right)
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Maximized;
+            this.Size = new Size(1200, 727);
+            this.StartPosition = FormStartPosition.CenterScreen;
             _user = user;
             _right = right;
         }
@@ -242,7 +243,7 @@ namespace STOCK
         }
         private void _center()
         {
-            int space1 = 90;
+            int space1 = 20;
             int space3 = 10;
             int space2 = textBox_Fax.Width + space3 + lb_email.Width + 3 + textBox_Email.Width - checkBox_Disable.Width - textBox_Ten.Width;
 
@@ -253,7 +254,7 @@ namespace STOCK
             textBox_MA.Left = lb_ma.Right + 3;
 
             lb_ten.Top = lb_ma.Top;
-            lb_ten.Left = textBox_MA.Right + space1 + 200;
+            lb_ten.Left = textBox_MA.Right + space1 + 50;
 
             textBox_Ten.Top = textBox_MA.Top;
             textBox_Ten.Left = lb_ten.Right + 3;

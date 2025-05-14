@@ -54,7 +54,6 @@
             // 
             // bt_capnhat
             // 
-            this.bt_capnhat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_capnhat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_capnhat.Location = new System.Drawing.Point(301, 37);
             this.bt_capnhat.Name = "bt_capnhat";
@@ -68,6 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(464, 115);
             this.Controls.Add(this.bt_capnhat);
             this.Controls.Add(this.lb_chietkhau);

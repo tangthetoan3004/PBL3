@@ -39,8 +39,6 @@
             this.toolStripButton_Boqua = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.DISABLED = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.TEN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -48,6 +46,8 @@
             this.textBox_Ten = new System.Windows.Forms.TextBox();
             this.label_Ten = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.DISABLED = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.TEN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -56,6 +56,7 @@
             // 
             // toolStrip1
             // 
+            this.toolStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.toolStrip1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -173,30 +174,10 @@
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
-            // DISABLED
-            // 
-            this.DISABLED.DataPropertyName = "DISABLED";
-            this.DISABLED.HeaderText = "DEL";
-            this.DISABLED.MinimumWidth = 6;
-            this.DISABLED.Name = "DISABLED";
-            this.DISABLED.ReadOnly = true;
-            this.DISABLED.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.DISABLED.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.DISABLED.Width = 50;
-            // 
-            // TEN
-            // 
-            this.TEN.DataPropertyName = "TEN";
-            this.TEN.HeaderText = "TÊN";
-            this.TEN.MinimumWidth = 6;
-            this.TEN.Name = "TEN";
-            this.TEN.ReadOnly = true;
-            this.TEN.Width = 200;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 374);
@@ -217,7 +198,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightGray;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.checkBox_DISABLED);
             this.panel2.Controls.Add(this.textBox_Ten);
             this.panel2.Controls.Add(this.label_Ten);
@@ -269,6 +250,26 @@
             this.label8.Size = new System.Drawing.Size(12, 18);
             this.label8.TabIndex = 14;
             this.label8.Text = ".";
+            // 
+            // DISABLED
+            // 
+            this.DISABLED.DataPropertyName = "DISABLED";
+            this.DISABLED.HeaderText = "DEL";
+            this.DISABLED.MinimumWidth = 6;
+            this.DISABLED.Name = "DISABLED";
+            this.DISABLED.ReadOnly = true;
+            this.DISABLED.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.DISABLED.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.DISABLED.Width = 90;
+            // 
+            // TEN
+            // 
+            this.TEN.DataPropertyName = "TEN";
+            this.TEN.HeaderText = "TÊN";
+            this.TEN.MinimumWidth = 6;
+            this.TEN.Name = "TEN";
+            this.TEN.ReadOnly = true;
+            this.TEN.Width = 160;
             // 
             // formXuatxu
             // 

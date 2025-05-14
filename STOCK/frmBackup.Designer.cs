@@ -59,11 +59,10 @@
             // 
             // bt_browse
             // 
-            this.bt_browse.BackColor = System.Drawing.Color.Pink;
-            this.bt_browse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_browse.BackColor = System.Drawing.SystemColors.Control;
             this.bt_browse.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_browse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_browse.Location = new System.Drawing.Point(218, 129);
+            this.bt_browse.Location = new System.Drawing.Point(339, 120);
             this.bt_browse.Name = "bt_browse";
             this.bt_browse.Size = new System.Drawing.Size(130, 53);
             this.bt_browse.TabIndex = 2;
@@ -82,11 +81,10 @@
             // 
             // bt_backup
             // 
-            this.bt_backup.BackColor = System.Drawing.Color.DarkOrange;
-            this.bt_backup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_backup.BackColor = System.Drawing.SystemColors.Control;
             this.bt_backup.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_backup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bt_backup.Location = new System.Drawing.Point(486, 129);
+            this.bt_backup.Location = new System.Drawing.Point(547, 120);
             this.bt_backup.Name = "bt_backup";
             this.bt_backup.Size = new System.Drawing.Size(136, 53);
             this.bt_backup.TabIndex = 3;
@@ -100,8 +98,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(789, 227);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(789, 208);
             this.Controls.Add(this.bt_backup);
             this.Controls.Add(this.bt_browse);
             this.Controls.Add(this.tb_file);

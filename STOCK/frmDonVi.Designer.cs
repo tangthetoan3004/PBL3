@@ -2,7 +2,7 @@
 
 namespace STOCK
 {
-    partial class frmDonVi
+    public partial class frmDonVi
     {
         /// <summary>
         /// Required designer variable.
@@ -30,27 +30,11 @@ namespace STOCK
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton_Them = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Sua = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Xoa = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Luu = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Boqua = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.DISABLE = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.MADV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TENDVI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DIENTHOAI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FAX = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EMAIL = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DIACHI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MACTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.KHO = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.KYHIEU = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox_Diachi = new System.Windows.Forms.TextBox();
             this.lb_diachi = new System.Windows.Forms.Label();
@@ -72,6 +56,22 @@ namespace STOCK
             this.lb_congty = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lb_thongtin = new System.Windows.Forms.Label();
+            this.DISABLE = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.MADV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TENDVI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DIENTHOAI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FAX = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EMAIL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DIACHI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MACTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.KHO = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.KYHIEU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.toolStripButton_Them = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Sua = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Xoa = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Luu = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Boqua = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -80,6 +80,7 @@ namespace STOCK
             // 
             // toolStrip1
             // 
+            this.toolStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.toolStrip1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -95,87 +96,22 @@ namespace STOCK
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripButton_Them
-            // 
-            this.toolStripButton_Them.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Them.Image = global::STOCK.Properties.Resources.plus;
-            this.toolStripButton_Them.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Them.Name = "toolStripButton_Them";
-            this.toolStripButton_Them.Size = new System.Drawing.Size(64, 52);
-            this.toolStripButton_Them.Text = "Thêm";
-            this.toolStripButton_Them.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Them.Click += new System.EventHandler(this.toolStripButton_Them_Click);
-            // 
-            // toolStripButton_Sua
-            // 
-            this.toolStripButton_Sua.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Sua.Image = global::STOCK.Properties.Resources.update;
-            this.toolStripButton_Sua.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Sua.Name = "toolStripButton_Sua";
-            this.toolStripButton_Sua.Size = new System.Drawing.Size(49, 52);
-            this.toolStripButton_Sua.Text = "Sửa";
-            this.toolStripButton_Sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Sua.Click += new System.EventHandler(this.toolStripButton_Sua_Click);
-            // 
-            // toolStripButton_Xoa
-            // 
-            this.toolStripButton_Xoa.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Xoa.Image = global::STOCK.Properties.Resources.trash;
-            this.toolStripButton_Xoa.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Xoa.Name = "toolStripButton_Xoa";
-            this.toolStripButton_Xoa.Size = new System.Drawing.Size(50, 52);
-            this.toolStripButton_Xoa.Text = "Xóa";
-            this.toolStripButton_Xoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Xoa.Click += new System.EventHandler(this.toolStripButton_Xoa_Click);
-            // 
-            // toolStripButton_Luu
-            // 
-            this.toolStripButton_Luu.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Luu.Image = global::STOCK.Properties.Resources.diskette;
-            this.toolStripButton_Luu.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Luu.Name = "toolStripButton_Luu";
-            this.toolStripButton_Luu.Size = new System.Drawing.Size(48, 52);
-            this.toolStripButton_Luu.Text = "Lưu";
-            this.toolStripButton_Luu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Luu.Click += new System.EventHandler(this.toolStripButton_Luu_Click);
-            // 
-            // toolStripButton_Boqua
-            // 
-            this.toolStripButton_Boqua.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Boqua.Image = global::STOCK.Properties.Resources.fast_forward_button;
-            this.toolStripButton_Boqua.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Boqua.Name = "toolStripButton_Boqua";
-            this.toolStripButton_Boqua.Size = new System.Drawing.Size(77, 52);
-            this.toolStripButton_Boqua.Text = "Bỏ qua";
-            this.toolStripButton_Boqua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Boqua.Click += new System.EventHandler(this.toolStripButton_Boqua_Click);
-            // 
-            // toolStripButton_Thoat
-            // 
-            this.toolStripButton_Thoat.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Thoat.Image = global::STOCK.Properties.Resources.exit;
-            this.toolStripButton_Thoat.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Thoat.Name = "toolStripButton_Thoat";
-            this.toolStripButton_Thoat.Size = new System.Drawing.Size(66, 52);
-            this.toolStripButton_Thoat.Text = "Thoát";
-            this.toolStripButton_Thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Thoat.Click += new System.EventHandler(this.toolStripButton_Thoat_Click);
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightGray;
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.LightGray;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.DISABLE,
@@ -188,14 +124,14 @@ namespace STOCK
             this.MACTY,
             this.KHO,
             this.KYHIEU});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView1.Location = new System.Drawing.Point(0, 55);
             this.dataGridView1.Name = "dataGridView1";
@@ -206,104 +142,10 @@ namespace STOCK
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
-            // DISABLE
-            // 
-            this.DISABLE.DataPropertyName = "DISABLED";
-            this.DISABLE.HeaderText = "DEL";
-            this.DISABLE.MinimumWidth = 6;
-            this.DISABLE.Name = "DISABLE";
-            this.DISABLE.ReadOnly = true;
-            this.DISABLE.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.DISABLE.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.DISABLE.Width = 50;
-            // 
-            // MADV
-            // 
-            this.MADV.DataPropertyName = "MADV";
-            this.MADV.HeaderText = "MÃ ĐƠN VỊ";
-            this.MADV.MinimumWidth = 6;
-            this.MADV.Name = "MADV";
-            this.MADV.ReadOnly = true;
-            this.MADV.Width = 125;
-            // 
-            // TENDVI
-            // 
-            this.TENDVI.DataPropertyName = "TENDVI";
-            this.TENDVI.HeaderText = "TÊN ĐƠN VỊ";
-            this.TENDVI.MinimumWidth = 6;
-            this.TENDVI.Name = "TENDVI";
-            this.TENDVI.ReadOnly = true;
-            this.TENDVI.Width = 250;
-            // 
-            // DIENTHOAI
-            // 
-            this.DIENTHOAI.DataPropertyName = "DIENTHOAI";
-            this.DIENTHOAI.HeaderText = "ĐIỆN THOẠI";
-            this.DIENTHOAI.MinimumWidth = 6;
-            this.DIENTHOAI.Name = "DIENTHOAI";
-            this.DIENTHOAI.ReadOnly = true;
-            this.DIENTHOAI.Width = 125;
-            // 
-            // FAX
-            // 
-            this.FAX.DataPropertyName = "FAX";
-            this.FAX.HeaderText = "FAX";
-            this.FAX.MinimumWidth = 6;
-            this.FAX.Name = "FAX";
-            this.FAX.ReadOnly = true;
-            this.FAX.Width = 125;
-            // 
-            // EMAIL
-            // 
-            this.EMAIL.DataPropertyName = "EMAIL";
-            this.EMAIL.HeaderText = "EMAIL";
-            this.EMAIL.MinimumWidth = 6;
-            this.EMAIL.Name = "EMAIL";
-            this.EMAIL.ReadOnly = true;
-            this.EMAIL.Width = 200;
-            // 
-            // DIACHI
-            // 
-            this.DIACHI.DataPropertyName = "DIACHI";
-            this.DIACHI.HeaderText = "ĐỊA CHỈ";
-            this.DIACHI.MinimumWidth = 6;
-            this.DIACHI.Name = "DIACHI";
-            this.DIACHI.ReadOnly = true;
-            this.DIACHI.Width = 250;
-            // 
-            // MACTY
-            // 
-            this.MACTY.DataPropertyName = "MACTY";
-            this.MACTY.HeaderText = "MÃ CÔNG TY";
-            this.MACTY.MinimumWidth = 6;
-            this.MACTY.Name = "MACTY";
-            this.MACTY.ReadOnly = true;
-            this.MACTY.Width = 125;
-            // 
-            // KHO
-            // 
-            this.KHO.DataPropertyName = "KHO";
-            this.KHO.HeaderText = "KHO";
-            this.KHO.MinimumWidth = 6;
-            this.KHO.Name = "KHO";
-            this.KHO.ReadOnly = true;
-            this.KHO.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.KHO.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.KHO.Width = 80;
-            // 
-            // KYHIEU
-            // 
-            this.KYHIEU.DataPropertyName = "KYHIEU";
-            this.KYHIEU.HeaderText = "KÝ HIỆU";
-            this.KYHIEU.MinimumWidth = 6;
-            this.KYHIEU.Name = "KYHIEU";
-            this.KYHIEU.ReadOnly = true;
-            this.KYHIEU.Width = 125;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightGray;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.textBox_Diachi);
             this.panel2.Controls.Add(this.lb_diachi);
             this.panel2.Controls.Add(this.textBox_Email);
@@ -517,7 +359,7 @@ namespace STOCK
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.lb_thongtin);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 359);
@@ -534,6 +376,166 @@ namespace STOCK
             this.lb_thongtin.Size = new System.Drawing.Size(88, 23);
             this.lb_thongtin.TabIndex = 0;
             this.lb_thongtin.Text = "Thông tin";
+            // 
+            // DISABLE
+            // 
+            this.DISABLE.DataPropertyName = "DISABLED";
+            this.DISABLE.HeaderText = "DEL";
+            this.DISABLE.MinimumWidth = 6;
+            this.DISABLE.Name = "DISABLE";
+            this.DISABLE.ReadOnly = true;
+            this.DISABLE.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.DISABLE.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.DISABLE.Width = 50;
+            // 
+            // MADV
+            // 
+            this.MADV.DataPropertyName = "MADV";
+            this.MADV.HeaderText = "MÃ ĐƠN VỊ";
+            this.MADV.MinimumWidth = 6;
+            this.MADV.Name = "MADV";
+            this.MADV.ReadOnly = true;
+            this.MADV.Width = 125;
+            // 
+            // TENDVI
+            // 
+            this.TENDVI.DataPropertyName = "TENDVI";
+            this.TENDVI.HeaderText = "TÊN ĐƠN VỊ";
+            this.TENDVI.MinimumWidth = 6;
+            this.TENDVI.Name = "TENDVI";
+            this.TENDVI.ReadOnly = true;
+            this.TENDVI.Width = 250;
+            // 
+            // DIENTHOAI
+            // 
+            this.DIENTHOAI.DataPropertyName = "DIENTHOAI";
+            this.DIENTHOAI.HeaderText = "ĐIỆN THOẠI";
+            this.DIENTHOAI.MinimumWidth = 6;
+            this.DIENTHOAI.Name = "DIENTHOAI";
+            this.DIENTHOAI.ReadOnly = true;
+            this.DIENTHOAI.Width = 125;
+            // 
+            // FAX
+            // 
+            this.FAX.DataPropertyName = "FAX";
+            this.FAX.HeaderText = "FAX";
+            this.FAX.MinimumWidth = 6;
+            this.FAX.Name = "FAX";
+            this.FAX.ReadOnly = true;
+            this.FAX.Width = 125;
+            // 
+            // EMAIL
+            // 
+            this.EMAIL.DataPropertyName = "EMAIL";
+            this.EMAIL.HeaderText = "EMAIL";
+            this.EMAIL.MinimumWidth = 6;
+            this.EMAIL.Name = "EMAIL";
+            this.EMAIL.ReadOnly = true;
+            this.EMAIL.Width = 200;
+            // 
+            // DIACHI
+            // 
+            this.DIACHI.DataPropertyName = "DIACHI";
+            this.DIACHI.HeaderText = "ĐỊA CHỈ";
+            this.DIACHI.MinimumWidth = 6;
+            this.DIACHI.Name = "DIACHI";
+            this.DIACHI.ReadOnly = true;
+            this.DIACHI.Width = 250;
+            // 
+            // MACTY
+            // 
+            this.MACTY.DataPropertyName = "MACTY";
+            this.MACTY.HeaderText = "MÃ CÔNG TY";
+            this.MACTY.MinimumWidth = 6;
+            this.MACTY.Name = "MACTY";
+            this.MACTY.ReadOnly = true;
+            this.MACTY.Width = 80;
+            // 
+            // KHO
+            // 
+            this.KHO.DataPropertyName = "KHO";
+            this.KHO.HeaderText = "KHO";
+            this.KHO.MinimumWidth = 6;
+            this.KHO.Name = "KHO";
+            this.KHO.ReadOnly = true;
+            this.KHO.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.KHO.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.KHO.Width = 50;
+            // 
+            // KYHIEU
+            // 
+            this.KYHIEU.DataPropertyName = "KYHIEU";
+            this.KYHIEU.HeaderText = "KÝ HIỆU";
+            this.KYHIEU.MinimumWidth = 6;
+            this.KYHIEU.Name = "KYHIEU";
+            this.KYHIEU.ReadOnly = true;
+            this.KYHIEU.Width = 70;
+            // 
+            // toolStripButton_Them
+            // 
+            this.toolStripButton_Them.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Them.Image = global::STOCK.Properties.Resources.plus;
+            this.toolStripButton_Them.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Them.Name = "toolStripButton_Them";
+            this.toolStripButton_Them.Size = new System.Drawing.Size(64, 52);
+            this.toolStripButton_Them.Text = "Thêm";
+            this.toolStripButton_Them.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Them.Click += new System.EventHandler(this.toolStripButton_Them_Click);
+            // 
+            // toolStripButton_Sua
+            // 
+            this.toolStripButton_Sua.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Sua.Image = global::STOCK.Properties.Resources.update;
+            this.toolStripButton_Sua.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Sua.Name = "toolStripButton_Sua";
+            this.toolStripButton_Sua.Size = new System.Drawing.Size(49, 52);
+            this.toolStripButton_Sua.Text = "Sửa";
+            this.toolStripButton_Sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Sua.Click += new System.EventHandler(this.toolStripButton_Sua_Click);
+            // 
+            // toolStripButton_Xoa
+            // 
+            this.toolStripButton_Xoa.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Xoa.Image = global::STOCK.Properties.Resources.trash;
+            this.toolStripButton_Xoa.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Xoa.Name = "toolStripButton_Xoa";
+            this.toolStripButton_Xoa.Size = new System.Drawing.Size(50, 52);
+            this.toolStripButton_Xoa.Text = "Xóa";
+            this.toolStripButton_Xoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Xoa.Click += new System.EventHandler(this.toolStripButton_Xoa_Click);
+            // 
+            // toolStripButton_Luu
+            // 
+            this.toolStripButton_Luu.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Luu.Image = global::STOCK.Properties.Resources.diskette;
+            this.toolStripButton_Luu.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Luu.Name = "toolStripButton_Luu";
+            this.toolStripButton_Luu.Size = new System.Drawing.Size(48, 52);
+            this.toolStripButton_Luu.Text = "Lưu";
+            this.toolStripButton_Luu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Luu.Click += new System.EventHandler(this.toolStripButton_Luu_Click);
+            // 
+            // toolStripButton_Boqua
+            // 
+            this.toolStripButton_Boqua.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Boqua.Image = global::STOCK.Properties.Resources.fast_forward_button;
+            this.toolStripButton_Boqua.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Boqua.Name = "toolStripButton_Boqua";
+            this.toolStripButton_Boqua.Size = new System.Drawing.Size(77, 52);
+            this.toolStripButton_Boqua.Text = "Bỏ qua";
+            this.toolStripButton_Boqua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Boqua.Click += new System.EventHandler(this.toolStripButton_Boqua_Click);
+            // 
+            // toolStripButton_Thoat
+            // 
+            this.toolStripButton_Thoat.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Thoat.Image = global::STOCK.Properties.Resources.exit;
+            this.toolStripButton_Thoat.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Thoat.Name = "toolStripButton_Thoat";
+            this.toolStripButton_Thoat.Size = new System.Drawing.Size(66, 52);
+            this.toolStripButton_Thoat.Text = "Thoát";
+            this.toolStripButton_Thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Thoat.Click += new System.EventHandler(this.toolStripButton_Thoat_Click);
             // 
             // frmDonVi
             // 

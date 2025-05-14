@@ -25,7 +25,9 @@ namespace STOCK
         public frmDonVi(tb_SYS_USER user, int right)
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Maximized;
+            //this.WindowState = FormWindowState.Maximized;
+            this.Size = new Size(1400, 624);
+            this.StartPosition = FormStartPosition.CenterScreen;
             _background();
             _location();
             _center();

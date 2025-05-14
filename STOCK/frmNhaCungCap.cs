@@ -23,7 +23,8 @@ namespace STOCK
         public frmNhaCungCap(tb_SYS_USER user, int right)
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Maximized;
+            this.Size = new Size(1250, 727);
+            this.StartPosition = FormStartPosition.CenterScreen;
             _user = user;
             _right = right;
         }
@@ -248,10 +249,10 @@ namespace STOCK
         }
         private void _center()
         {
-            int space1 = 180;
+            int space1 = 120;
 
             lb_ten.Top = 35;
-            lb_ten.Left = 80;
+            lb_ten.Left = 30;
 
             textBox_Ten.Top = lb_ten.Top - 3;
             textBox_Ten.Left = lb_ten.Right + 3;
