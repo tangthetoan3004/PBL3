@@ -94,7 +94,7 @@
     <Key>
       <PropertyRef Name="IDKH" />
     </Key>
-    <Property Name="IDKH" Type="int" Nullable="false" />
+    <Property Name="IDKH" Type="nvarchar" MaxLength="10" Nullable="false" />
     <Property Name="HOTEN" Type="nvarchar" MaxLength="50" />
     <Property Name="DIENTHOAI" Type="nvarchar" MaxLength="50" />
     <Property Name="EMAIL" Type="nvarchar" MaxLength="50" />

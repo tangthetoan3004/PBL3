@@ -1,4 +1,7 @@
 ﻿using BusinessLayer;
+using CrystalDecisions.CrystalReports.Engine;
+using CrystalDecisions.Shared;
+using CrystalDecisions.Windows.Forms;
 using DataLayer;
 using System;
 using System.Collections.Generic;
@@ -30,6 +33,7 @@ namespace STOCK
         int _right;
         CONGTY _cty;
         DONVI _dvi;
+        Guid pKhoa;
 
 
 
@@ -40,8 +44,6 @@ namespace STOCK
         List<obj_CHUNGTU_CT> lstChungTuCT;
         tb_SYS_SEQUENCE _tbs;
 
-        private bool allowTabChange = false;
-        private bool isTab2 = true;
         private void frmBanle_Load(object sender, EventArgs e)
         {
             this.Size = new Size(1202, 525);
@@ -86,6 +88,7 @@ namespace STOCK
                 {
                     if (item.THANHTIEN.HasValue && item.SOLUONGCT.HasValue && item.DONGIA.HasValue)
                     {
+                        item.CHIETKHAU = Convert.ToInt32(_s);
                         item.THANHTIEN = (item.DONGIA.Value * item.SOLUONGCT.Value) * (1 - chietKhau / 100);
                     }
                 }
@@ -157,6 +160,7 @@ namespace STOCK
                 obj_CHUNGTU_CT ct = new obj_CHUNGTU_CT();
                 obj_HANGHOA _hanghoa = new obj_HANGHOA();
                 _hanghoa = _hh.getItemFull(barcode);
+                ct.CHIETKHAU = Convert.ToInt32(_s);
                 ct.BARCODE = _hanghoa.BARCODE;
                 ct.TENHH = _hanghoa.TENHH;
                 ct.DVT = _hanghoa.DVT;
@@ -234,6 +238,7 @@ namespace STOCK
             ct.MADVI2 = "1";
            // ct.GHICHU = tb_ghichu.Text;
             ct.TRANGTHAI = 2;
+            ct.CHIETKHAU =Convert.ToInt32(_s);
             ct.SOLUONG = _SOLUONG;
             ct.TONGTIEN = _TONGTIEN;
             ct.UPDATED_BY = _user.IDUSER;
@@ -249,6 +254,8 @@ namespace STOCK
                 {
                     tb_CHUNGTU_CT ctct = new tb_CHUNGTU_CT();
                     ctct.KHOACT = Guid.NewGuid();
+                    ctct.CHIETKHAU = Convert.ToInt32(_s);
+
                     ctct.KHOA = ct.KHOA;
                     ctct.BARCODE = dataGridView2.Rows[i].Cells["BARCODE"].Value.ToString();
                     ctct.SOLUONGCT = Convert.ToInt32(dataGridView2.Rows[i].Cells["SOLUONGCT"].Value);
@@ -269,7 +276,7 @@ namespace STOCK
                 Chungtu_Info(ct);
                 var resultct = _chungtu.add(ct);
                 _seq.update(_tbs);
-
+                pKhoa = resultct.KHOA;
                 Chungtu_CT_Info(resultct);
             }
             catch (Exception ex)
@@ -294,7 +301,71 @@ namespace STOCK
         private void bt_trahang_Click(object sender, EventArgs e)
         {
             frmTrahang f = new frmTrahang(lstChungTuCT,dataGridView2);
-            f.ShowDialog();
+            f.ShowDialog();           
+        }
+
+        private void dataGridView2_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            _stt_main();
+            UpdateTongCongMain();
+        }
+        
+        private void XuatReport(string _reportName, string _tieude)
+        {
+            if (pKhoa != null)
+            {
+                Form frm = new Form();
+                CrystalReportViewer Crv = new CrystalReportViewer();
+                Crv.ShowGroupTreeButton = false;
+                Crv.ShowParameterPanelButton = false;
+                Crv.ToolPanelView = ToolPanelViewType.None;
+                TableLogOnInfo Thongtin;
+                ReportDocument doc = new ReportDocument();
+                doc.Load(System.Windows.Forms.Application.StartupPath + "\\Reports\\" + _reportName + @".rpt");
+                Thongtin = doc.Database.Tables[0].LogOnInfo;
+                // Thêm code kiểm tra này trước khi dùng
+
+                Thongtin.ConnectionInfo.ServerName = myFunctions._srv;
+                Thongtin.ConnectionInfo.DatabaseName = myFunctions._db;
+                //    Thongtin.ConnectionInfo.UserID = myFunctions._us;
+                //   Thongtin.ConnectionInfo.Password = myFunctions._pw;
+                Thongtin.ConnectionInfo.IntegratedSecurity = true;
+                doc.Database.Tables[0].ApplyLogOnInfo(Thongtin);
+                try
+                {
+                    doc.SetParameterValue("khoa", pKhoa.ToString());
+                    Crv.Dock = DockStyle.Fill;
+                    Crv.ReportSource = doc;
+                    frm.Controls.Add(Crv);
+                    Crv.Refresh();
+                    frm.Text = _tieude;
+                    frm.WindowState = FormWindowState.Maximized;
+                    frm.ShowDialog();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Lỗi: {ex.Message}\nChi tiết: {ex.InnerException?.Message}");
+                }
+
+
+            }
+            else
+            {
+                MessageBox.Show("Không có dữ liệu", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void bt_bill_Click(object sender, EventArgs e)
+        {
+            if(dataGridView2.RowCount == 0)
+            {
+                MessageBox.Show("Chi tiết đơn hàng không được rỗng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            luuthongtin();
+            XuatReport("PHIEU_BANLE_VP","Phiếu bán lẻ");
+            lstChungTuCT = new List<obj_CHUNGTU_CT>();
+            dataGridView2.DataSource = lstChungTuCT;
         }
     }
 }

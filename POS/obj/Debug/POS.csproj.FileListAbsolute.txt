@@ -40,3 +40,9 @@ E:\PBL3\QLKHOHANG\QLKHOHANG\POS\obj\Debug\POS.csproj.CoreCompileInputs.cache
 E:\PBL3\QLKHOHANG\QLKHOHANG\POS\obj\Debug\POS.csproj.Up2Date
 E:\PBL3\QLKHOHANG\QLKHOHANG\POS\obj\Debug\POS.exe
 E:\PBL3\QLKHOHANG\QLKHOHANG\POS\obj\Debug\POS.pdb
+E:\PBL3\QLKHOHANG\QLKHOHANG\POS\obj\Debug\POS.frmBanle.resources
+E:\PBL3\QLKHOHANG\QLKHOHANG\POS\obj\Debug\POS.frmChietkhau.resources
+E:\PBL3\QLKHOHANG\QLKHOHANG\POS\obj\Debug\POS.frmKetnoiDB.resources
+E:\PBL3\QLKHOHANG\QLKHOHANG\POS\obj\Debug\POS.frmLogin.resources
+E:\PBL3\QLKHOHANG\QLKHOHANG\POS\obj\Debug\POS.frmSetParam.resources
+E:\PBL3\QLKHOHANG\QLKHOHANG\POS\obj\Debug\POS.frmTrahang.resources

@@ -14,20 +14,22 @@ namespace BusinessLayer
         {
             db = Entities.CreateEntities();
         }
-        /*   public void update(int idUser, int rep_code, bool right)
-           {
-               tb_SYS_RIGHT_REP sRight = db.tb_SYS_RIGHT_REP.FirstOrDefault(x => x.IDUSER == idUser && x.REP_CODE == rep_code);
-               try
-               {
-                   sRight.USER_RIGHT = right;
-                   db.SaveChanges();
-
-               }
-               catch (Exception ex)
-               {
-                   throw new Exception("Lỗi: " + ex.Message);
-               }
-           }*/
+        public List<tb_SYS_RIGHT_REP> getlistByUser(int iduser)
+        {
+            SYS_GROUP sg = new SYS_GROUP();
+            var gr = sg.getGroupByMemBer(iduser);
+            if(gr == null)
+            {
+                return db.tb_SYS_RIGHT_REP.Where(p => p.IDUSER == iduser && p.USER_RIGHT == true).ToList();
+            }
+            else
+            {
+                List<tb_SYS_RIGHT_REP> lstByGroup = db.tb_SYS_RIGHT_REP.Where(p => p.IDUSER == gr.GROUP && p.USER_RIGHT == true).ToList();
+                List<tb_SYS_RIGHT_REP> lstByUser = db.tb_SYS_RIGHT_REP.Where(p => p.IDUSER == iduser && p.USER_RIGHT == true).ToList();
+                List<tb_SYS_RIGHT_REP> lstAll = lstByUser.Concat(lstByGroup).ToList();
+                return lstAll;
+            }
+        }
         public void update(int idUser, int rep_code, bool right)
         {
             try

@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|e:\\pbl3\\qlkhohang\\qlkhohang\\stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|e:\\pbl3\\qlkhohang\\qlkhohang\\stock\\frmprintbarcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmprintbarcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|e:\\pbl3\\qlkhohang\\qlkhohang\\usermanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|e:\\pbl3\\qlkhohang\\qlkhohang\\stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmprintbarcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmprintbarcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\obj_barcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\obj_barcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\datalayer\\tb_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\nhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\nhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,36 +43,212 @@
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmtonkhodvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtonkhodvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmxuatxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmxuatxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\uccontrol\\ucdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\uccontrol\\ucdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\uccontrol\\ucngay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\uccontrol\\ucngay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\uccontrol\\ucdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\uccontrol\\ucdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\datalayer\\khohang.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\khohang.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\datalayer\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmxuatnoibo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmxuatnoibo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmphieunhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmphieunhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\uccontrol\\uccongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\uccontrol\\uccongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\uccontrol\\uccongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\uccontrol\\uccongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\sys_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\sys_right_rep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_right_rep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmnhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\uccontrol\\ucngay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\uccontrol\\ucngay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmketnoidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmketnoidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmketnoidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmketnoidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\myfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\myfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\myfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\myfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\usermanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmtonkhodvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtonkhodvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmphieunhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmphieunhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\formxuatxu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -65,10 +257,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmcongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmcongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmnhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmnhapmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,18 +275,6 @@
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -111,24 +287,12 @@
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmrestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmcongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmcongty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -165,18 +329,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\datalayer\\khohang.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\khohang.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\datalayer\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapnb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmrestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -223,18 +375,6 @@
       "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtrahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmchietkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\obj_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\obj_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -245,14 +385,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\chungtu_ct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\chungtu_ct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\datalayer\\tb_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\myfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\myfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\usermanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -335,10 +467,6 @@
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmxuatnoibo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\usermanagement\\frmphanquyenchucnang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\frmphanquyenchucnang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -359,16 +487,8 @@
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhapmua.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\sys_param.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_param.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmsetparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\usermanagement\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -395,20 +515,12 @@
       "RelativeMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|solutionrelative:usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\sys_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\view_user_notin_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\view_user_notin_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\xuatxu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\xuatxu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\sys_right_rep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\sys_right_rep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{565D8831-7C5E-444D-A36C-DA5DBF864376}|USERMANAGEMENT\\USERMANAGEMENT.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\usermanagement\\frmphanquyenbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -455,10 +567,6 @@
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmnhomhh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\nhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\nhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\barcodeean13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\barcodeean13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -483,10 +591,6 @@
       "RelativeMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7488A032-BE8A-4610-A8AC-1C080E10A859}|POS\\POS.csproj|solutionrelative:pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\datalayer\\tb_dvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_dvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -497,7 +601,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 153,
+          "DockedWidth": 20,
           "SelectedChildIndex": 5,
           "Children": [
             {
@@ -522,48 +626,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmNhaCungCap.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhaCungCap.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmNhaCungCap.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhaCungCap.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmNhaCungCap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T05:52:49.038Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "frmTonkhoCty.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTonkhoCty.cs",
               "RelativeDocumentMoniker": "STOCK\\frmTonkhoCty.cs",
               "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTonkhoCty.cs [Design]",
               "RelativeToolTip": "STOCK\\frmTonkhoCty.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T11:08:47.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmTonkhoDvi.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTonkhoDvi.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmTonkhoDvi.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTonkhoDvi.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmTonkhoDvi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T03:57:47.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmXuatNoiBo.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmXuatNoiBo.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmXuatNoiBo.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmXuatNoiBo.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmXuatNoiBo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T08:45:04.082Z"
+              "WhenOpened": "2025-05-11T11:08:47.014Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -578,14 +649,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmPhieuNhapMua.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmPhieuNhapMua.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmPhieuNhapMua.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmPhieuNhapMua.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmPhieuNhapMua.cs [Design]",
+              "DocumentIndex": 16,
+              "Title": "ucDonvi.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucDonvi.cs",
+              "RelativeDocumentMoniker": "STOCK\\ucControl\\ucDonvi.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucDonvi.cs [Design]",
+              "RelativeToolTip": "STOCK\\ucControl\\ucDonvi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:23:32.546Z"
+              "WhenOpened": "2025-05-15T00:53:24.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ucDonvi.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucDonvi.cs",
+              "RelativeDocumentMoniker": "STOCK\\ucControl\\ucDonvi.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucDonvi.cs",
+              "RelativeToolTip": "STOCK\\ucControl\\ucDonvi.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:16:43.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmBaocao.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBaocao.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmBaocao.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBaocao.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmBaocao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T00:52:30.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmBaocao.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBaocao.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmBaocao.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBaocao.cs",
+              "RelativeToolTip": "STOCK\\frmBaocao.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:43:02.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ucNgay.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucNgay.cs",
+              "RelativeDocumentMoniker": "STOCK\\ucControl\\ucNgay.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucNgay.cs [Design]",
+              "RelativeToolTip": "STOCK\\ucControl\\ucNgay.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T00:53:37.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KHACHHANG.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\KHACHHANG.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\KHACHHANG.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\KHACHHANG.cs",
+              "RelativeToolTip": "BusinessLayer\\KHACHHANG.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:24:14.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmBanle.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBanle.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmBanle.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBanle.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmBanle.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:31:20.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmBanle.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBanle.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmBanle.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBanle.cs",
+              "RelativeToolTip": "STOCK\\frmBanle.cs",
+              "ViewState": "AgIAAFsBAAAAAAAAAAAAwPkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:31:54.703Z"
             },
             {
               "$type": "Document",
@@ -600,29 +752,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "formXuatxu.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\formXuatxu.cs",
-              "RelativeDocumentMoniker": "STOCK\\formXuatxu.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\formXuatxu.cs [Design]",
-              "RelativeToolTip": "STOCK\\formXuatxu.cs [Design]",
+              "DocumentIndex": 25,
+              "Title": "ucCongty.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucCongty.cs",
+              "RelativeDocumentMoniker": "STOCK\\ucControl\\ucCongty.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucCongty.cs",
+              "RelativeToolTip": "STOCK\\ucControl\\ucCongty.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAjwBoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T06:18:08.139Z"
+              "WhenOpened": "2025-05-15T01:24:35.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "frmCongTy.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmCongTy.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmCongTy.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmCongTy.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmCongTy.cs [Design]",
+              "DocumentIndex": 24,
+              "Title": "ucCongty.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucCongty.cs",
+              "RelativeDocumentMoniker": "STOCK\\ucControl\\ucCongty.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucCongty.cs [Design]",
+              "RelativeToolTip": "STOCK\\ucControl\\ucCongty.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T03:04:45.3Z"
+              "WhenOpened": "2025-05-15T00:53:13.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
+              "Title": "frmXuatNoiBo.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmXuatNoiBo.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmXuatNoiBo.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmXuatNoiBo.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmXuatNoiBo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:45:04.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "frmNhapmua.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhapmua.cs",
               "RelativeDocumentMoniker": "STOCK\\frmNhapmua.cs",
@@ -633,7 +797,189 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
+              "Title": "ucNgay.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucNgay.cs",
+              "RelativeDocumentMoniker": "STOCK\\ucControl\\ucNgay.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\ucControl\\ucNgay.cs",
+              "RelativeToolTip": "STOCK\\ucControl\\ucNgay.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:00:13.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmTrahang.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTrahang.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmTrahang.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTrahang.cs",
+              "RelativeToolTip": "STOCK\\frmTrahang.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwEwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:01:30.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frmTrahang.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTrahang.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmTrahang.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTrahang.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmTrahang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T16:47:38.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmLogin.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmLogin.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmLogin.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:09:09.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "frmChietkhau.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmChietkhau.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmChietkhau.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmChietkhau.cs",
+              "RelativeToolTip": "STOCK\\frmChietkhau.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T05:57:16.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmLogin.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmLogin.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmLogin.cs",
+              "RelativeToolTip": "STOCK\\frmLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:15:35.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "frmConnect.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmConnect.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmConnect.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmConnect.cs",
+              "RelativeToolTip": "STOCK\\frmConnect.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:27:01.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "frmSetParam.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmSetParam.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmSetParam.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmSetParam.cs",
+              "RelativeToolTip": "STOCK\\frmSetParam.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDwAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:50:13.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "frmConnect.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmConnect.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmConnect.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmConnect.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmConnect.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:24:45.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "frmSetParam.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmSetParam.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmSetParam.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmSetParam.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmSetParam.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:40:34.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "frmChietkhau.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmChietkhau.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmChietkhau.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmChietkhau.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmChietkhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T05:49:16.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "frmNhaCungCap.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhaCungCap.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhaCungCap.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhaCungCap.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmNhaCungCap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T05:52:49.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "frmTonkhoDvi.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTonkhoDvi.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmTonkhoDvi.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTonkhoDvi.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmTonkhoDvi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T03:57:47.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "frmPhieuNhapMua.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmPhieuNhapMua.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmPhieuNhapMua.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmPhieuNhapMua.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmPhieuNhapMua.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:23:32.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "formXuatxu.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\formXuatxu.cs",
+              "RelativeDocumentMoniker": "STOCK\\formXuatxu.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\formXuatxu.cs [Design]",
+              "RelativeToolTip": "STOCK\\formXuatxu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:18:08.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "frmCongTy.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmCongTy.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmCongTy.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmCongTy.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmCongTy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T03:04:45.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
               "Title": "frmNhapmua.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhapmua.cs",
               "RelativeDocumentMoniker": "STOCK\\frmNhapmua.cs",
@@ -645,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 65,
               "Title": "frmChangePassword.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmChangePassword.cs",
               "RelativeDocumentMoniker": "STOCK\\frmChangePassword.cs",
@@ -656,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 66,
               "Title": "frmHanghoa.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmHanghoa.cs",
               "RelativeDocumentMoniker": "STOCK\\frmHanghoa.cs",
@@ -667,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 67,
               "Title": "frmDVT.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmDVT.cs",
               "RelativeDocumentMoniker": "STOCK\\frmDVT.cs",
@@ -678,29 +1024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "frmChietkhau.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmChietkhau.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmChietkhau.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmChietkhau.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmChietkhau.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T05:49:16.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "frmBanle.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBanle.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmBanle.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBanle.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmBanle.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T04:31:20.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 68,
               "Title": "frmBackup.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBackup.cs",
               "RelativeDocumentMoniker": "STOCK\\frmBackup.cs",
@@ -711,7 +1035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 69,
               "Title": "frmNhomhh.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhomhh.cs",
               "RelativeDocumentMoniker": "STOCK\\frmNhomhh.cs",
@@ -722,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 70,
               "Title": "frmRestore.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmRestore.cs",
               "RelativeDocumentMoniker": "STOCK\\frmRestore.cs",
@@ -733,7 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 72,
               "Title": "frmDonVi.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmDonVi.cs",
               "RelativeDocumentMoniker": "STOCK\\frmDonVi.cs",
@@ -744,7 +1068,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 75,
               "Title": "frmCongTy.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmCongTy.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmCongTy.Designer.cs",
@@ -756,7 +1080,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 77,
               "Title": "frmXuatNoiBo.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmXuatNoiBo.cs",
               "RelativeDocumentMoniker": "STOCK\\frmXuatNoiBo.cs",
@@ -768,7 +1092,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 79,
               "Title": "PHIEU_NHAPMUA_NCC.rpt",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\PHIEU_NHAPMUA_NCC.rpt",
               "RelativeDocumentMoniker": "STOCK\\PHIEU_NHAPMUA_NCC.rpt",
@@ -779,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 89,
               "Title": "frmTonkhoCty.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTonkhoCty.cs",
               "RelativeDocumentMoniker": "STOCK\\frmTonkhoCty.cs",
@@ -791,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 96,
               "Title": "frmMain.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmMain.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\frmMain.cs",
@@ -799,12 +1123,11 @@
               "RelativeToolTip": "USERMANAGEMENT\\frmMain.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T04:19:08.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T04:19:08.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 97,
               "Title": "frmNhapNB.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhapNB.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmNhapNB.Designer.cs",
@@ -816,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 100,
               "Title": "frmBackup.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBackup.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmBackup.Designer.cs",
@@ -828,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 116,
               "Title": "frmPhanQuyenChucNang.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmPhanQuyenChucNang.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\frmPhanQuyenChucNang.cs",
@@ -840,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 120,
               "Title": "frmNhapmua.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhapmua.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmNhapmua.Designer.cs",
@@ -852,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 117,
               "Title": "frmPhanQuyenChucNang.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmPhanQuyenChucNang.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\frmPhanQuyenChucNang.cs",
@@ -862,7 +1185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 130,
               "Title": "frmPhanQuyenBaoCao.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmPhanQuyenBaoCao.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\frmPhanQuyenBaoCao.cs",
@@ -872,7 +1195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 134,
               "Title": "frmNhaCungCap.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhaCungCap.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmNhaCungCap.Designer.cs",
@@ -884,7 +1207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 136,
               "Title": "frmDVT.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmDVT.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmDVT.Designer.cs",
@@ -896,7 +1219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 137,
               "Title": "frmDanhMuc.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmDanhMuc.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmDanhMuc.Designer.cs",
@@ -908,7 +1231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 138,
               "Title": "formXuatxu.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\formXuatxu.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\formXuatxu.Designer.cs",
@@ -920,7 +1243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 140,
               "Title": "frmNhomhh.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhomhh.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmNhomhh.Designer.cs",
@@ -932,7 +1255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 141,
               "Title": "BARCODEEAN13.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\BARCODEEAN13.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\BARCODEEAN13.cs",
@@ -944,7 +1267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 142,
               "Title": "DONVITINH.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\DONVITINH.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\DONVITINH.cs",
@@ -956,7 +1279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 143,
               "Title": "CONGTY.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\CONGTY.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\CONGTY.cs",
@@ -969,36 +1292,122 @@
           ]
         },
         {
-          "DockedWidth": 247,
+          "DockedWidth": 380,
           "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 36,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\Program.cs",
               "RelativeDocumentMoniker": "STOCK\\Program.cs",
               "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\Program.cs",
               "RelativeToolTip": "STOCK\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T08:07:03.74Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmTrahang.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTrahang.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmTrahang.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTrahang.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmTrahang.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "HANGHOA.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\HANGHOA.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\HANGHOA.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\HANGHOA.cs",
+              "RelativeToolTip": "BusinessLayer\\HANGHOA.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAIIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T16:47:38.792Z"
+              "WhenOpened": "2025-04-25T12:21:45.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPrintBarcode.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmPrintBarcode.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmPrintBarcode.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmPrintBarcode.cs [Design]",
+              "RelativeToolTip": "STOCK\\frmPrintBarcode.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:14:30.671Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPrintBarcode.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmPrintBarcode.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmPrintBarcode.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmPrintBarcode.cs",
+              "RelativeToolTip": "STOCK\\frmPrintBarcode.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:15:03.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "obj_BARCODE.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\obj_BARCODE.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\obj_BARCODE.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\obj_BARCODE.cs",
+              "RelativeToolTip": "BusinessLayer\\obj_BARCODE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:37:26.45Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "tb_HANGHOA.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_HANGHOA.cs",
+              "RelativeDocumentMoniker": "DataLayer\\tb_HANGHOA.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_HANGHOA.cs",
+              "RelativeToolTip": "DataLayer\\tb_HANGHOA.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:19:04.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NHOMHH.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\NHOMHH.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\NHOMHH.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\NHOMHH.cs",
+              "RelativeToolTip": "BusinessLayer\\NHOMHH.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T07:26:01.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmNhapNB.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhapNB.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmNhapNB.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhapNB.cs",
+              "RelativeToolTip": "STOCK\\frmNhapNB.cs",
+              "ViewState": "AgIAAJ0BAAAAAAAAAAAswDAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:34:40.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DONVI.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\DONVI.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\DONVI.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\DONVI.cs",
+              "RelativeToolTip": "BusinessLayer\\DONVI.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:17:02.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "frmMain.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmMain.cs",
               "RelativeDocumentMoniker": "STOCK\\frmMain.cs",
@@ -1009,31 +1418,251 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
+              "Title": "KHOHANG.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\KHOHANG.edmx",
+              "RelativeDocumentMoniker": "DataLayer\\KHOHANG.edmx",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\KHOHANG.edmx [Diagram1]",
+              "RelativeToolTip": "DataLayer\\KHOHANG.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-15T05:28:02.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmMain.cs",
+              "RelativeDocumentMoniker": "STOCK\\frmMain.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmMain.cs",
+              "RelativeToolTip": "STOCK\\frmMain.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAwwPgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:44:55.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmTrahang.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmTrahang.cs",
+              "RelativeDocumentMoniker": "POS\\frmTrahang.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmTrahang.cs",
+              "RelativeToolTip": "POS\\frmTrahang.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:16:04.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SYS_RIGHT_REP.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_RIGHT_REP.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\SYS_RIGHT_REP.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_RIGHT_REP.cs",
+              "RelativeToolTip": "BusinessLayer\\SYS_RIGHT_REP.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:29:15.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SYS_REPORT.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_REPORT.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\SYS_REPORT.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_REPORT.cs",
+              "RelativeToolTip": "BusinessLayer\\SYS_REPORT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T06:40:08.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "frmBanle.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmBanle.cs",
+              "RelativeDocumentMoniker": "POS\\frmBanle.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmBanle.cs [Design]",
+              "RelativeToolTip": "POS\\frmBanle.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:01:29.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmBanle.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmBanle.cs",
+              "RelativeDocumentMoniker": "POS\\frmBanle.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmBanle.cs",
+              "RelativeToolTip": "POS\\frmBanle.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAwwC8BAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:04:54.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\Entities.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entities.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\Entities.cs",
+              "RelativeToolTip": "DataLayer\\Entities.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAA6wDkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T11:20:36.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmTrahang.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmTrahang.cs",
+              "RelativeDocumentMoniker": "POS\\frmTrahang.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmTrahang.cs [Design]",
+              "RelativeToolTip": "POS\\frmTrahang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:14:02.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmLogin.cs",
+              "RelativeDocumentMoniker": "POS\\frmLogin.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmLogin.cs [Design]",
+              "RelativeToolTip": "POS\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T22:25:37.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\Program.cs",
+              "RelativeDocumentMoniker": "POS\\Program.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\Program.cs",
+              "RelativeToolTip": "POS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:26:40.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "frmKetnoiDB.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmKetnoiDB.cs",
+              "RelativeDocumentMoniker": "POS\\frmKetnoiDB.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmKetnoiDB.cs",
+              "RelativeToolTip": "POS\\frmKetnoiDB.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswDQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:29:03.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmLogin.cs",
+              "RelativeDocumentMoniker": "POS\\frmLogin.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmLogin.cs",
+              "RelativeToolTip": "POS\\frmLogin.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T22:26:45.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "frmKetnoiDB.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmKetnoiDB.cs",
+              "RelativeDocumentMoniker": "POS\\frmKetnoiDB.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmKetnoiDB.cs [Design]",
+              "RelativeToolTip": "POS\\frmKetnoiDB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:26:55.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "frmSetParam.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmSetParam.cs",
+              "RelativeDocumentMoniker": "POS\\frmSetParam.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmSetParam.cs [Design]",
+              "RelativeToolTip": "POS\\frmSetParam.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:20:53.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "frmChietkhau.cs [Design]",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmChietkhau.cs",
+              "RelativeDocumentMoniker": "POS\\frmChietkhau.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmChietkhau.cs [Design]",
+              "RelativeToolTip": "POS\\frmChietkhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:18:02.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "frmChietkhau.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmChietkhau.cs",
+              "RelativeDocumentMoniker": "POS\\frmChietkhau.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmChietkhau.cs",
+              "RelativeToolTip": "POS\\frmChietkhau.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:18:42.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "frmSetParam.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmSetParam.cs",
+              "RelativeDocumentMoniker": "POS\\frmSetParam.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\frmSetParam.cs",
+              "RelativeToolTip": "POS\\frmSetParam.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwDwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:22:09.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "myFunctions.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\myFunctions.cs",
+              "RelativeDocumentMoniker": "POS\\myFunctions.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\myFunctions.cs",
+              "RelativeToolTip": "POS\\myFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:13:04.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "myFunctions.cs",
+              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\myFunctions.cs",
+              "RelativeDocumentMoniker": "STOCK\\myFunctions.cs",
+              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\myFunctions.cs",
+              "RelativeToolTip": "STOCK\\myFunctions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:34:05.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
               "Title": "frmMain.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmMain.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\frmMain.cs",
               "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmMain.cs [Design]",
               "RelativeToolTip": "USERMANAGEMENT\\frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:21:49.733Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-05T08:21:49.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmMain.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmMain.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmMain.cs",
-              "RelativeToolTip": "STOCK\\frmMain.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAowHMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:44:55.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 58,
               "Title": "frmNhaCungCap.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhaCungCap.cs",
               "RelativeDocumentMoniker": "STOCK\\frmNhaCungCap.cs",
@@ -1045,7 +1674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 60,
               "Title": "frmDanhMuc.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmDanhMuc.cs",
               "RelativeDocumentMoniker": "STOCK\\frmDanhMuc.cs",
@@ -1056,40 +1685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "frmConnect.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmConnect.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmConnect.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmConnect.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmConnect.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T10:24:45.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmLogin.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmLogin.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmLogin.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:09:09.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "frmSetParam.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmSetParam.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmSetParam.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmSetParam.cs [Design]",
-              "RelativeToolTip": "STOCK\\frmSetParam.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:40:34.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 71,
               "Title": "frmCongTy.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmCongTy.cs",
               "RelativeDocumentMoniker": "STOCK\\frmCongTy.cs",
@@ -1101,19 +1697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmLogin.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmLogin.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmLogin.cs",
-              "RelativeToolTip": "STOCK\\frmLogin.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwFUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:15:35.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 73,
               "Title": "frmDonVi.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmDonVi.cs",
               "RelativeDocumentMoniker": "STOCK\\frmDonVi.cs",
@@ -1125,7 +1709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 81,
               "Title": "KHOHANG.Context.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\KHOHANG.Context.cs",
               "RelativeDocumentMoniker": "DataLayer\\KHOHANG.Context.cs",
@@ -1137,7 +1721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 76,
               "Title": "errExport.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\errExport.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\errExport.cs",
@@ -1149,7 +1733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 80,
               "Title": "connect.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\connect.cs",
               "RelativeDocumentMoniker": "DataLayer\\connect.cs",
@@ -1161,7 +1745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 74,
               "Title": "frmDonVi.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmDonVi.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmDonVi.Designer.cs",
@@ -1173,7 +1757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 78,
               "Title": "obj_TONKHO.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\obj_TONKHO.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\obj_TONKHO.cs",
@@ -1185,43 +1769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Entities.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\Entities.cs",
-              "RelativeDocumentMoniker": "DataLayer\\Entities.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\Entities.cs",
-              "RelativeToolTip": "DataLayer\\Entities.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAA8wDkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T11:20:36.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "frmNhapNB.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhapNB.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmNhapNB.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhapNB.cs",
-              "RelativeToolTip": "STOCK\\frmNhapNB.cs",
-              "ViewState": "AgIAAOkBAAAAAAAAAAAwwFgCAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T17:34:40.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "frmBanle.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBanle.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmBanle.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBanle.cs",
-              "RelativeToolTip": "STOCK\\frmBanle.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAjwGMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T04:31:54.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 82,
               "Title": "frmRestore.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmRestore.cs",
               "RelativeDocumentMoniker": "STOCK\\frmRestore.cs",
@@ -1233,7 +1781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 83,
               "Title": "frmBackup.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmBackup.cs",
               "RelativeDocumentMoniker": "STOCK\\frmBackup.cs",
@@ -1245,7 +1793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 84,
               "Title": "frmXuatxi.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmXuatxi.cs",
               "RelativeDocumentMoniker": "STOCK\\frmXuatxi.cs",
@@ -1257,7 +1805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 85,
               "Title": "frmHanghoa.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmHanghoa.cs",
               "RelativeDocumentMoniker": "STOCK\\frmHanghoa.cs",
@@ -1269,7 +1817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 86,
               "Title": "frmNhomhh.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmNhomhh.cs",
               "RelativeDocumentMoniker": "STOCK\\frmNhomhh.cs",
@@ -1281,7 +1829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 87,
               "Title": "formXuatxu.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\formXuatxu.cs",
               "RelativeDocumentMoniker": "STOCK\\formXuatxu.cs",
@@ -1293,7 +1841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 88,
               "Title": "frmDVT.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmDVT.cs",
               "RelativeDocumentMoniker": "STOCK\\frmDVT.cs",
@@ -1305,7 +1853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 90,
               "Title": "frmTonkhoDvi.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTonkhoDvi.cs",
               "RelativeDocumentMoniker": "STOCK\\frmTonkhoDvi.cs",
@@ -1317,7 +1865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 91,
               "Title": "TONKHO.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\TONKHO.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\TONKHO.cs",
@@ -1329,7 +1877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 92,
               "Title": "App.config",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\App.config",
               "RelativeDocumentMoniker": "DataLayer\\App.config",
@@ -1341,43 +1889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "frmTrahang.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTrahang.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmTrahang.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTrahang.cs",
-              "RelativeToolTip": "STOCK\\frmTrahang.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T02:01:30.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "frmChietkhau.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmChietkhau.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmChietkhau.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmChietkhau.cs",
-              "RelativeToolTip": "STOCK\\frmChietkhau.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAgwCAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T05:57:16.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "HANGHOA.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\HANGHOA.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\HANGHOA.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\HANGHOA.cs",
-              "RelativeToolTip": "BusinessLayer\\HANGHOA.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAqwAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T12:21:45.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 95,
               "Title": "CHUNGTU_CT.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\CHUNGTU_CT.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\CHUNGTU_CT.cs",
@@ -1389,7 +1901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 93,
               "Title": "obj_HANGHOA.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\obj_HANGHOA.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\obj_HANGHOA.cs",
@@ -1401,7 +1913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 94,
               "Title": "NHACUNGCAP.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\NHACUNGCAP.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\NHACUNGCAP.cs",
@@ -1413,31 +1925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "tb_HANGHOA.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_HANGHOA.cs",
-              "RelativeDocumentMoniker": "DataLayer\\tb_HANGHOA.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_HANGHOA.cs",
-              "RelativeToolTip": "DataLayer\\tb_HANGHOA.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T02:19:04.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "myFunctions.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\myFunctions.cs",
-              "RelativeDocumentMoniker": "STOCK\\myFunctions.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\myFunctions.cs",
-              "RelativeToolTip": "STOCK\\myFunctions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:34:05.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 98,
               "Title": "App.config",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\App.config",
               "RelativeDocumentMoniker": "STOCK\\App.config",
@@ -1449,7 +1937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 99,
               "Title": "packages.config",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\packages.config",
               "RelativeDocumentMoniker": "STOCK\\packages.config",
@@ -1461,7 +1949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 102,
               "Title": "tb_NHACUNGCAP.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_NHACUNGCAP.cs",
               "RelativeDocumentMoniker": "DataLayer\\tb_NHACUNGCAP.cs",
@@ -1473,7 +1961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 101,
               "Title": "obj_CHUNGTU_CT.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\obj_CHUNGTU_CT.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\obj_CHUNGTU_CT.cs",
@@ -1485,7 +1973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 103,
               "Title": "tb_NHOMHH.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_NHOMHH.cs",
               "RelativeDocumentMoniker": "DataLayer\\tb_NHOMHH.cs",
@@ -1497,7 +1985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 104,
               "Title": "SYS_USER.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_USER.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\SYS_USER.cs",
@@ -1509,7 +1997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 105,
               "Title": "frmChangePassword.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmChangePassword.cs",
               "RelativeDocumentMoniker": "STOCK\\frmChangePassword.cs",
@@ -1521,7 +2009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 110,
               "Title": "tb_CONGTY.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_CONGTY.cs",
               "RelativeDocumentMoniker": "DataLayer\\tb_CONGTY.cs",
@@ -1533,7 +2021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 109,
               "Title": "tb_CHUNGTU.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_CHUNGTU.cs",
               "RelativeDocumentMoniker": "DataLayer\\tb_CHUNGTU.cs",
@@ -1545,7 +2033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 108,
               "Title": "KHOHANG.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\KHOHANG.cs",
               "RelativeDocumentMoniker": "DataLayer\\KHOHANG.cs",
@@ -1557,7 +2045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 107,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "DataLayer\\Properties\\AssemblyInfo.cs",
@@ -1569,7 +2057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 106,
               "Title": "SYS_RIGHT.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_RIGHT.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\SYS_RIGHT.cs",
@@ -1581,7 +2069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 112,
               "Title": "KHOHANG.edmx.diagram",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\KHOHANG.edmx.diagram",
               "RelativeDocumentMoniker": "DataLayer\\KHOHANG.edmx.diagram",
@@ -1593,7 +2081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 113,
               "Title": "SYS_SEQUENCE.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_SEQUENCE.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\SYS_SEQUENCE.cs",
@@ -1605,7 +2093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 111,
               "Title": "Encryptor.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\Encryptor.cs",
               "RelativeDocumentMoniker": "DataLayer\\Encryptor.cs",
@@ -1617,7 +2105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 114,
               "Title": "CHUNGTU.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\CHUNGTU.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\CHUNGTU.cs",
@@ -1629,7 +2117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 115,
               "Title": "frmXuatNoiBo.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmXuatNoiBo.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmXuatNoiBo.Designer.cs",
@@ -1641,19 +2129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "DONVI.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\DONVI.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\DONVI.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\DONVI.cs",
-              "RelativeToolTip": "BusinessLayer\\DONVI.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAwwB0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T07:17:02.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 119,
               "Title": "SYS_GROUP.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_GROUP.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\SYS_GROUP.cs",
@@ -1665,7 +2141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 118,
               "Title": "SYS_FUNC.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_FUNC.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\SYS_FUNC.cs",
@@ -1677,19 +2153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
-              "Title": "frmConnect.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmConnect.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmConnect.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmConnect.cs",
-              "RelativeToolTip": "STOCK\\frmConnect.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAA/wEgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T10:27:01.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 121,
               "Title": "SYS_PARAM.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_PARAM.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\SYS_PARAM.cs",
@@ -1701,19 +2165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "frmSetParam.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmSetParam.cs",
-              "RelativeDocumentMoniker": "STOCK\\frmSetParam.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmSetParam.cs",
-              "RelativeToolTip": "STOCK\\frmSetParam.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:50:13.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 122,
               "Title": "frmUser.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmUser.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\frmUser.cs",
@@ -1725,7 +2177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 123,
               "Title": "frmUser.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmUser.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\frmUser.cs",
@@ -1735,7 +2187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 124,
               "Title": "frmShowGroup.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmShowGroup.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\frmShowGroup.cs",
@@ -1747,7 +2199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 125,
               "Title": "frmShowGroup.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmShowGroup.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\frmShowGroup.cs",
@@ -1757,7 +2209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 127,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\Program.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\Program.cs",
@@ -1769,19 +2221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
-              "Title": "SYS_REPORT.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_REPORT.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\SYS_REPORT.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_REPORT.cs",
-              "RelativeToolTip": "BusinessLayer\\SYS_REPORT.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:40:08.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 126,
               "Title": "frmGroup.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\USERMANAGEMENT\\frmGroup.cs",
               "RelativeDocumentMoniker": "USERMANAGEMENT\\frmGroup.cs",
@@ -1791,7 +2231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 128,
               "Title": "VIEW_USER_NOTIN_GROUP.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\VIEW_USER_NOTIN_GROUP.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\VIEW_USER_NOTIN_GROUP.cs",
@@ -1803,19 +2243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
-              "Title": "SYS_RIGHT_REP.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_RIGHT_REP.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\SYS_RIGHT_REP.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\SYS_RIGHT_REP.cs",
-              "RelativeToolTip": "BusinessLayer\\SYS_RIGHT_REP.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:29:15.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 129,
               "Title": "XUATXU.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\XUATXU.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\XUATXU.cs",
@@ -1827,7 +2255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 132,
               "Title": "VIEW_REP_SYS_RIGHT_REP.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\VIEW_REP_SYS_RIGHT_REP.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\VIEW_REP_SYS_RIGHT_REP.cs",
@@ -1839,7 +2267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 131,
               "Title": "VIEW_USER_IN_GROUP.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\VIEW_USER_IN_GROUP.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\VIEW_USER_IN_GROUP.cs",
@@ -1851,7 +2279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 133,
               "Title": "frmDanhMuc.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmDanhMuc.cs",
               "RelativeDocumentMoniker": "STOCK\\frmDanhMuc.cs",
@@ -1863,7 +2291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 135,
               "Title": "frmHanghoa.Designer.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmHanghoa.Designer.cs",
               "RelativeDocumentMoniker": "STOCK\\frmHanghoa.Designer.cs",
@@ -1875,7 +2303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 139,
               "Title": "tb_CHUNGTU_CT.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_CHUNGTU_CT.cs",
               "RelativeDocumentMoniker": "DataLayer\\tb_CHUNGTU_CT.cs",
@@ -1887,19 +2315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
-              "Title": "NHOMHH.cs",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\NHOMHH.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\NHOMHH.cs",
-              "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\NHOMHH.cs",
-              "RelativeToolTip": "BusinessLayer\\NHOMHH.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T07:26:01.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 144,
               "Title": "tb_DONVI.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_DONVI.cs",
               "RelativeDocumentMoniker": "DataLayer\\tb_DONVI.cs",
@@ -1911,7 +2327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 145,
               "Title": "tb_SYS_FUNC.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_SYS_FUNC.cs",
               "RelativeDocumentMoniker": "DataLayer\\tb_SYS_FUNC.cs",
@@ -1923,7 +2339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 146,
               "Title": "App.config",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\App.config",
               "RelativeDocumentMoniker": "BusinessLayer\\App.config",
@@ -1935,17 +2351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\POS\\Form1.cs",
-              "RelativeDocumentMoniker": "POS\\Form1.cs",
-              "ToolTip": "D:\\.NET\\VS2022\\QLKHOHANG\\POS\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T07:58:06.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 147,
               "Title": "tb_DVT.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_DVT.cs",
               "RelativeDocumentMoniker": "DataLayer\\tb_DVT.cs",

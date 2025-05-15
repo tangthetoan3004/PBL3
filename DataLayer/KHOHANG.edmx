@@ -99,7 +99,7 @@
           <Key>
             <PropertyRef Name="IDKH" />
           </Key>
-          <Property Name="IDKH" Type="int" Nullable="false" />
+          <Property Name="IDKH" Type="nvarchar" MaxLength="10" Nullable="false" />
           <Property Name="HOTEN" Type="nvarchar" MaxLength="50" />
           <Property Name="DIENTHOAI" Type="nvarchar" MaxLength="50" />
           <Property Name="EMAIL" Type="nvarchar" MaxLength="50" />
@@ -411,8 +411,8 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
           <EntitySet Name="V_USER_IN_GROUP" EntityType="QUANLY_KHOHANGModel.V_USER_IN_GROUP" />
           <EntitySet Name="V_USER_NOTIN_GROUP" EntityType="QUANLY_KHOHANGModel.V_USER_NOTIN_GROUP" />
           <EntitySet Name="tb_CHUNGTU_CT" EntityType="QUANLY_KHOHANGModel.tb_CHUNGTU_CT" />
-          <EntitySet Name="tb_KHACHHANG" EntityType="QUANLY_KHOHANGModel.tb_KHACHHANG" />
           <EntitySet Name="tb_CHUNGTU" EntityType="QUANLY_KHOHANGModel.tb_CHUNGTU" />
+          <EntitySet Name="tb_KHACHHANG" EntityType="QUANLY_KHOHANGModel.tb_KHACHHANG" />
           </EntityContainer>
         <EntityType Name="tb_CONGTY">
           <Key>
@@ -662,17 +662,6 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
           <Property Name="THANHTIEN" Type="Double" />
           <Property Name="NGAY" Type="DateTime" Precision="3" />
         </EntityType>
-        <EntityType Name="tb_KHACHHANG">
-          <Key>
-            <PropertyRef Name="IDKH" />
-          </Key>
-          <Property Name="IDKH" Type="Int32" Nullable="false" />
-          <Property Name="HOTEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="DIENTHOAI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="DIACHI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="MST" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-        </EntityType>
         <EntityType Name="tb_CHUNGTU">
           <Key>
             <PropertyRef Name="KHOA" />
@@ -697,6 +686,17 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
           <Property Name="UPDATED_BY" Type="Int32" />
           <Property Name="DELETED_DATE" Type="DateTime" Precision="3" />
           <Property Name="DELETED_BY" Type="Int32" />
+        </EntityType>
+        <EntityType Name="tb_KHACHHANG">
+          <Key>
+            <PropertyRef Name="IDKH" />
+          </Key>
+          <Property Name="IDKH" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="HOTEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DIENTHOAI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DIACHI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MST" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
         </Schema>
     </edmx:ConceptualModels>
@@ -964,18 +964,6 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="tb_KHACHHANG">
-            <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_KHACHHANG">
-              <MappingFragment StoreEntitySet="tb_KHACHHANG">
-                <ScalarProperty Name="MST" ColumnName="MST" />
-                <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
-                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
-                <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
-                <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
-                <ScalarProperty Name="IDKH" ColumnName="IDKH" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="tb_CHUNGTU">
             <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_CHUNGTU">
               <MappingFragment StoreEntitySet="tb_CHUNGTU">
@@ -999,6 +987,18 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
                 <ScalarProperty Name="SCT" ColumnName="SCT" />
                 <ScalarProperty Name="SCT2" ColumnName="SCT2" />
                 <ScalarProperty Name="KHOA" ColumnName="KHOA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_KHACHHANG">
+            <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_KHACHHANG">
+              <MappingFragment StoreEntitySet="tb_KHACHHANG">
+                <ScalarProperty Name="MST" ColumnName="MST" />
+                <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
+                <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+                <ScalarProperty Name="IDKH" ColumnName="IDKH" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

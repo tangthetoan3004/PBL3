@@ -31,16 +31,25 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNhapmua));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton_Them = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Sua = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Xoa = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Luu = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Boqua = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Export = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_In = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_quaylai = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.pn_tong1 = new System.Windows.Forms.Panel();
@@ -59,6 +68,8 @@
             this.GHICHU = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TRANGTHAIDS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.xóaDòngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xóaTấtCảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lb_donvi = new System.Windows.Forms.Label();
             this.lb_congty = new System.Windows.Forms.Label();
@@ -97,17 +108,6 @@
             this.cbb_nhacc = new System.Windows.Forms.ComboBox();
             this.dtp = new System.Windows.Forms.DateTimePicker();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.xóaDòngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.xóaTấtCảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripButton_Them = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Sua = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Xoa = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Luu = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Boqua = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Export = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_In = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_quaylai = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -141,6 +141,103 @@
             this.toolStrip1.Size = new System.Drawing.Size(1383, 55);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripButton_Them
+            // 
+            this.toolStripButton_Them.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Them.Image = global::STOCK.Properties.Resources.plus;
+            this.toolStripButton_Them.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Them.Name = "toolStripButton_Them";
+            this.toolStripButton_Them.Size = new System.Drawing.Size(64, 52);
+            this.toolStripButton_Them.Text = "Thêm";
+            this.toolStripButton_Them.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Them.Click += new System.EventHandler(this.toolStripButton_Them_Click);
+            // 
+            // toolStripButton_Sua
+            // 
+            this.toolStripButton_Sua.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Sua.Image = global::STOCK.Properties.Resources.update;
+            this.toolStripButton_Sua.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Sua.Name = "toolStripButton_Sua";
+            this.toolStripButton_Sua.Size = new System.Drawing.Size(49, 52);
+            this.toolStripButton_Sua.Text = "Sửa";
+            this.toolStripButton_Sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Sua.Click += new System.EventHandler(this.toolStripButton_Sua_Click);
+            // 
+            // toolStripButton_Xoa
+            // 
+            this.toolStripButton_Xoa.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Xoa.Image = global::STOCK.Properties.Resources.trash;
+            this.toolStripButton_Xoa.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Xoa.Name = "toolStripButton_Xoa";
+            this.toolStripButton_Xoa.Size = new System.Drawing.Size(50, 52);
+            this.toolStripButton_Xoa.Text = "Xóa";
+            this.toolStripButton_Xoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Xoa.Click += new System.EventHandler(this.toolStripButton_Xoa_Click);
+            // 
+            // toolStripButton_Luu
+            // 
+            this.toolStripButton_Luu.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Luu.Image = global::STOCK.Properties.Resources.diskette;
+            this.toolStripButton_Luu.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Luu.Name = "toolStripButton_Luu";
+            this.toolStripButton_Luu.Size = new System.Drawing.Size(48, 52);
+            this.toolStripButton_Luu.Text = "Lưu";
+            this.toolStripButton_Luu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Luu.Click += new System.EventHandler(this.toolStripButton_Luu_Click);
+            // 
+            // toolStripButton_Boqua
+            // 
+            this.toolStripButton_Boqua.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Boqua.Image = global::STOCK.Properties.Resources.fast_forward_button;
+            this.toolStripButton_Boqua.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Boqua.Name = "toolStripButton_Boqua";
+            this.toolStripButton_Boqua.Size = new System.Drawing.Size(77, 52);
+            this.toolStripButton_Boqua.Text = "Bỏ qua";
+            this.toolStripButton_Boqua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Boqua.Click += new System.EventHandler(this.toolStripButton_Boqua_Click);
+            // 
+            // toolStripButton_Export
+            // 
+            this.toolStripButton_Export.Image = global::STOCK.Properties.Resources.excel;
+            this.toolStripButton_Export.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Export.Name = "toolStripButton_Export";
+            this.toolStripButton_Export.Size = new System.Drawing.Size(73, 52);
+            this.toolStripButton_Export.Text = "Export";
+            this.toolStripButton_Export.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Export.Click += new System.EventHandler(this.toolStripButton_Export_Click);
+            // 
+            // toolStripButton_In
+            // 
+            this.toolStripButton_In.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_In.Image = global::STOCK.Properties.Resources.printer;
+            this.toolStripButton_In.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_In.Name = "toolStripButton_In";
+            this.toolStripButton_In.Size = new System.Drawing.Size(32, 52);
+            this.toolStripButton_In.Text = "In";
+            this.toolStripButton_In.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_In.Click += new System.EventHandler(this.toolStripButton_In_Click);
+            // 
+            // toolStripButton_quaylai
+            // 
+            this.toolStripButton_quaylai.Image = global::STOCK.Properties.Resources.undo;
+            this.toolStripButton_quaylai.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_quaylai.Name = "toolStripButton_quaylai";
+            this.toolStripButton_quaylai.Size = new System.Drawing.Size(87, 52);
+            this.toolStripButton_quaylai.Text = "Quay lại";
+            this.toolStripButton_quaylai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_quaylai.Click += new System.EventHandler(this.toolStripButton_quaylai_Click);
+            // 
+            // toolStripButton_Thoat
+            // 
+            this.toolStripButton_Thoat.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Thoat.Image = global::STOCK.Properties.Resources.exit;
+            this.toolStripButton_Thoat.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Thoat.Name = "toolStripButton_Thoat";
+            this.toolStripButton_Thoat.Size = new System.Drawing.Size(66, 52);
+            this.toolStripButton_Thoat.Text = "Thoát";
+            this.toolStripButton_Thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Thoat.Click += new System.EventHandler(this.toolStripButton_Thoat_Click);
             // 
             // tabControl1
             // 
@@ -262,14 +359,14 @@
             this.GHICHU,
             this.TRANGTHAIDS});
             this.dataGridView1.ContextMenuStrip = this.contextMenuStrip1;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView1.Location = new System.Drawing.Point(3, 207);
             this.dataGridView1.Name = "dataGridView1";
@@ -307,9 +404,9 @@
             // NGAY
             // 
             this.NGAY.DataPropertyName = "NGAY";
-            dataGridViewCellStyle21.Format = "d";
-            dataGridViewCellStyle21.NullValue = null;
-            this.NGAY.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle3.Format = "d";
+            dataGridViewCellStyle3.NullValue = null;
+            this.NGAY.DefaultCellStyle = dataGridViewCellStyle3;
             this.NGAY.HeaderText = "NGÀY";
             this.NGAY.MinimumWidth = 6;
             this.NGAY.Name = "NGAY";
@@ -326,9 +423,9 @@
             // TONGTIEN
             // 
             this.TONGTIEN.DataPropertyName = "TONGTIEN";
-            dataGridViewCellStyle26.Format = "N0";
-            dataGridViewCellStyle26.NullValue = null;
-            this.TONGTIEN.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle4.Format = "N0";
+            dataGridViewCellStyle4.NullValue = null;
+            this.TONGTIEN.DefaultCellStyle = dataGridViewCellStyle4;
             this.TONGTIEN.HeaderText = "TỔNG TIỀN";
             this.TONGTIEN.MinimumWidth = 6;
             this.TONGTIEN.Name = "TONGTIEN";
@@ -358,6 +455,22 @@
             this.xóaTấtCảToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(150, 56);
+            // 
+            // xóaDòngToolStripMenuItem
+            // 
+            this.xóaDòngToolStripMenuItem.Image = global::STOCK.Properties.Resources.eraser;
+            this.xóaDòngToolStripMenuItem.Name = "xóaDòngToolStripMenuItem";
+            this.xóaDòngToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.xóaDòngToolStripMenuItem.Text = "Xóa dòng";
+            this.xóaDòngToolStripMenuItem.Click += new System.EventHandler(this.xóaDòngToolStripMenuItem_Click);
+            // 
+            // xóaTấtCảToolStripMenuItem
+            // 
+            this.xóaTấtCảToolStripMenuItem.Image = global::STOCK.Properties.Resources.trash1;
+            this.xóaTấtCảToolStripMenuItem.Name = "xóaTấtCảToolStripMenuItem";
+            this.xóaTấtCảToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.xóaTấtCảToolStripMenuItem.Text = "Xóa tất cả";
+            this.xóaTấtCảToolStripMenuItem.Click += new System.EventHandler(this.xóaTấtCảToolStripMenuItem_Click);
             // 
             // panel1
             // 
@@ -422,10 +535,11 @@
             // 
             this.cbb_Donvi.BackColor = System.Drawing.Color.LightGray;
             this.cbb_Donvi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_Donvi.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_Donvi.FormattingEnabled = true;
             this.cbb_Donvi.Location = new System.Drawing.Point(308, 139);
             this.cbb_Donvi.Name = "cbb_Donvi";
-            this.cbb_Donvi.Size = new System.Drawing.Size(677, 31);
+            this.cbb_Donvi.Size = new System.Drawing.Size(677, 33);
             this.cbb_Donvi.TabIndex = 4;
             this.cbb_Donvi.SelectedIndexChanged += new System.EventHandler(this.cbb_Donvi_SelectedIndexChanged);
             // 
@@ -433,10 +547,11 @@
             // 
             this.cbb_Congty.BackColor = System.Drawing.Color.LightGray;
             this.cbb_Congty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_Congty.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_Congty.FormattingEnabled = true;
             this.cbb_Congty.Location = new System.Drawing.Point(308, 77);
             this.cbb_Congty.Name = "cbb_Congty";
-            this.cbb_Congty.Size = new System.Drawing.Size(677, 31);
+            this.cbb_Congty.Size = new System.Drawing.Size(677, 33);
             this.cbb_Congty.TabIndex = 3;
             this.cbb_Congty.SelectedIndexChanged += new System.EventHandler(this.cbb_Congty_SelectedIndexChanged);
             // 
@@ -568,14 +683,14 @@
             this.DONGIA,
             this.THANHTIEN});
             this.dataGridView2.ContextMenuStrip = this.contextMenuStrip1;
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView2.Location = new System.Drawing.Point(3, 224);
             this.dataGridView2.Name = "dataGridView2";
@@ -631,9 +746,9 @@
             // DONGIA
             // 
             this.DONGIA.DataPropertyName = "DONGIA";
-            dataGridViewCellStyle25.Format = "N0";
-            dataGridViewCellStyle25.NullValue = null;
-            this.DONGIA.DefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle8.Format = "N0";
+            dataGridViewCellStyle8.NullValue = null;
+            this.DONGIA.DefaultCellStyle = dataGridViewCellStyle8;
             this.DONGIA.HeaderText = "ĐƠN GIÁ";
             this.DONGIA.MinimumWidth = 6;
             this.DONGIA.Name = "DONGIA";
@@ -642,9 +757,9 @@
             // THANHTIEN
             // 
             this.THANHTIEN.DataPropertyName = "THANHTIEN";
-            dataGridViewCellStyle28.Format = "N0";
-            dataGridViewCellStyle28.NullValue = null;
-            this.THANHTIEN.DefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle9.Format = "N0";
+            dataGridViewCellStyle9.NullValue = null;
+            this.THANHTIEN.DefaultCellStyle = dataGridViewCellStyle9;
             this.THANHTIEN.HeaderText = "THÀNH TIỀN";
             this.THANHTIEN.MinimumWidth = 6;
             this.THANHTIEN.Name = "THANHTIEN";
@@ -802,119 +917,6 @@
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList1.Images.SetKeyName(0, "clear.png");
-            // 
-            // xóaDòngToolStripMenuItem
-            // 
-            this.xóaDòngToolStripMenuItem.Image = global::STOCK.Properties.Resources.eraser;
-            this.xóaDòngToolStripMenuItem.Name = "xóaDòngToolStripMenuItem";
-            this.xóaDòngToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
-            this.xóaDòngToolStripMenuItem.Text = "Xóa dòng";
-            this.xóaDòngToolStripMenuItem.Click += new System.EventHandler(this.xóaDòngToolStripMenuItem_Click);
-            // 
-            // xóaTấtCảToolStripMenuItem
-            // 
-            this.xóaTấtCảToolStripMenuItem.Image = global::STOCK.Properties.Resources.trash1;
-            this.xóaTấtCảToolStripMenuItem.Name = "xóaTấtCảToolStripMenuItem";
-            this.xóaTấtCảToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
-            this.xóaTấtCảToolStripMenuItem.Text = "Xóa tất cả";
-            this.xóaTấtCảToolStripMenuItem.Click += new System.EventHandler(this.xóaTấtCảToolStripMenuItem_Click);
-            // 
-            // toolStripButton_Them
-            // 
-            this.toolStripButton_Them.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Them.Image = global::STOCK.Properties.Resources.plus;
-            this.toolStripButton_Them.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Them.Name = "toolStripButton_Them";
-            this.toolStripButton_Them.Size = new System.Drawing.Size(64, 52);
-            this.toolStripButton_Them.Text = "Thêm";
-            this.toolStripButton_Them.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Them.Click += new System.EventHandler(this.toolStripButton_Them_Click);
-            // 
-            // toolStripButton_Sua
-            // 
-            this.toolStripButton_Sua.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Sua.Image = global::STOCK.Properties.Resources.update;
-            this.toolStripButton_Sua.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Sua.Name = "toolStripButton_Sua";
-            this.toolStripButton_Sua.Size = new System.Drawing.Size(49, 52);
-            this.toolStripButton_Sua.Text = "Sửa";
-            this.toolStripButton_Sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Sua.Click += new System.EventHandler(this.toolStripButton_Sua_Click);
-            // 
-            // toolStripButton_Xoa
-            // 
-            this.toolStripButton_Xoa.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Xoa.Image = global::STOCK.Properties.Resources.trash;
-            this.toolStripButton_Xoa.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Xoa.Name = "toolStripButton_Xoa";
-            this.toolStripButton_Xoa.Size = new System.Drawing.Size(50, 52);
-            this.toolStripButton_Xoa.Text = "Xóa";
-            this.toolStripButton_Xoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Xoa.Click += new System.EventHandler(this.toolStripButton_Xoa_Click);
-            // 
-            // toolStripButton_Luu
-            // 
-            this.toolStripButton_Luu.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Luu.Image = global::STOCK.Properties.Resources.diskette;
-            this.toolStripButton_Luu.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Luu.Name = "toolStripButton_Luu";
-            this.toolStripButton_Luu.Size = new System.Drawing.Size(48, 52);
-            this.toolStripButton_Luu.Text = "Lưu";
-            this.toolStripButton_Luu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Luu.Click += new System.EventHandler(this.toolStripButton_Luu_Click);
-            // 
-            // toolStripButton_Boqua
-            // 
-            this.toolStripButton_Boqua.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Boqua.Image = global::STOCK.Properties.Resources.fast_forward_button;
-            this.toolStripButton_Boqua.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Boqua.Name = "toolStripButton_Boqua";
-            this.toolStripButton_Boqua.Size = new System.Drawing.Size(77, 52);
-            this.toolStripButton_Boqua.Text = "Bỏ qua";
-            this.toolStripButton_Boqua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Boqua.Click += new System.EventHandler(this.toolStripButton_Boqua_Click);
-            // 
-            // toolStripButton_Export
-            // 
-            this.toolStripButton_Export.Image = global::STOCK.Properties.Resources.excel;
-            this.toolStripButton_Export.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Export.Name = "toolStripButton_Export";
-            this.toolStripButton_Export.Size = new System.Drawing.Size(73, 52);
-            this.toolStripButton_Export.Text = "Export";
-            this.toolStripButton_Export.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Export.Click += new System.EventHandler(this.toolStripButton_Export_Click);
-            // 
-            // toolStripButton_In
-            // 
-            this.toolStripButton_In.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_In.Image = global::STOCK.Properties.Resources.printer;
-            this.toolStripButton_In.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_In.Name = "toolStripButton_In";
-            this.toolStripButton_In.Size = new System.Drawing.Size(32, 52);
-            this.toolStripButton_In.Text = "In";
-            this.toolStripButton_In.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_In.Click += new System.EventHandler(this.toolStripButton_In_Click);
-            // 
-            // toolStripButton_quaylai
-            // 
-            this.toolStripButton_quaylai.Image = global::STOCK.Properties.Resources.undo;
-            this.toolStripButton_quaylai.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_quaylai.Name = "toolStripButton_quaylai";
-            this.toolStripButton_quaylai.Size = new System.Drawing.Size(87, 52);
-            this.toolStripButton_quaylai.Text = "Quay lại";
-            this.toolStripButton_quaylai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_quaylai.Click += new System.EventHandler(this.toolStripButton_quaylai_Click);
-            // 
-            // toolStripButton_Thoat
-            // 
-            this.toolStripButton_Thoat.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Thoat.Image = global::STOCK.Properties.Resources.exit;
-            this.toolStripButton_Thoat.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Thoat.Name = "toolStripButton_Thoat";
-            this.toolStripButton_Thoat.Size = new System.Drawing.Size(66, 52);
-            this.toolStripButton_Thoat.Text = "Thoát";
-            this.toolStripButton_Thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Thoat.Click += new System.EventHandler(this.toolStripButton_Thoat_Click);
             // 
             // frmNhapmua
             // 

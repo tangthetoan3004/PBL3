@@ -236,5 +236,17 @@ namespace STOCK
             label2.Left = (panel2.ClientSize.Width - label2.Width) / 2;
             label2.Top = label1.Bottom + 10;
         }
+
+        private void toolStripButton_Baocao_Click(object sender, EventArgs e)
+        {
+            frmBaocao frmBaocao = new frmBaocao(_user);
+            frmBaocao.Show();
+        }
+
+        private void toolStripButton_Barcode_Click(object sender, EventArgs e)
+        {
+            frmPrintBarcode f = new frmPrintBarcode();
+            f.Show();
+        }
     }
 }

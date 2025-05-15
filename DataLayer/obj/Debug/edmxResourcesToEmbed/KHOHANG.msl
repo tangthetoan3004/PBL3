@@ -261,18 +261,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="tb_KHACHHANG">
-      <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_KHACHHANG">
-        <MappingFragment StoreEntitySet="tb_KHACHHANG">
-          <ScalarProperty Name="MST" ColumnName="MST" />
-          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
-          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
-          <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
-          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
-          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="tb_CHUNGTU">
       <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_CHUNGTU">
         <MappingFragment StoreEntitySet="tb_CHUNGTU">
@@ -296,6 +284,18 @@
           <ScalarProperty Name="SCT" ColumnName="SCT" />
           <ScalarProperty Name="SCT2" ColumnName="SCT2" />
           <ScalarProperty Name="KHOA" ColumnName="KHOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_KHACHHANG">
+      <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_KHACHHANG">
+        <MappingFragment StoreEntitySet="tb_KHACHHANG">
+          <ScalarProperty Name="MST" ColumnName="MST" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
+          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+          <ScalarProperty Name="IDKH" ColumnName="IDKH" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

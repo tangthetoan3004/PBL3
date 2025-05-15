@@ -31,16 +31,16 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton_Hethong = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Baocao = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Tonkho = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.toolStripButton_Barcode = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Baocao = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Tonkho = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -55,7 +55,7 @@
             this.toolStrip1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton_Hethong,
+            this.toolStripButton_Barcode,
             this.toolStripButton_Baocao,
             this.toolStripButton_Tonkho,
             this.toolStripButton_Thoat});
@@ -64,51 +64,6 @@
             this.toolStrip1.Size = new System.Drawing.Size(1370, 55);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButton_Hethong
-            // 
-            this.toolStripButton_Hethong.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Hethong.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButton_Hethong.Image = global::STOCK.Properties.Resources.content_management_system;
-            this.toolStripButton_Hethong.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Hethong.Name = "toolStripButton_Hethong";
-            this.toolStripButton_Hethong.Size = new System.Drawing.Size(98, 52);
-            this.toolStripButton_Hethong.Text = "Hệ thống";
-            this.toolStripButton_Hethong.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // toolStripButton_Baocao
-            // 
-            this.toolStripButton_Baocao.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Baocao.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButton_Baocao.Image = global::STOCK.Properties.Resources.report;
-            this.toolStripButton_Baocao.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Baocao.Name = "toolStripButton_Baocao";
-            this.toolStripButton_Baocao.Size = new System.Drawing.Size(85, 52);
-            this.toolStripButton_Baocao.Text = "Báo cáo";
-            this.toolStripButton_Baocao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // toolStripButton_Tonkho
-            // 
-            this.toolStripButton_Tonkho.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButton_Tonkho.Image = global::STOCK.Properties.Resources.warehouse;
-            this.toolStripButton_Tonkho.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Tonkho.Name = "toolStripButton_Tonkho";
-            this.toolStripButton_Tonkho.Size = new System.Drawing.Size(87, 52);
-            this.toolStripButton_Tonkho.Text = "Tồn kho";
-            this.toolStripButton_Tonkho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Tonkho.Click += new System.EventHandler(this.toolStripButton_Tonkho_Click);
-            // 
-            // toolStripButton_Thoat
-            // 
-            this.toolStripButton_Thoat.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Thoat.ForeColor = System.Drawing.Color.Black;
-            this.toolStripButton_Thoat.Image = global::STOCK.Properties.Resources._switch;
-            this.toolStripButton_Thoat.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Thoat.Name = "toolStripButton_Thoat";
-            this.toolStripButton_Thoat.Size = new System.Drawing.Size(66, 52);
-            this.toolStripButton_Thoat.Text = "Thoát";
-            this.toolStripButton_Thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Thoat.Click += new System.EventHandler(this.toolStripButton_Thoat_Click);
             // 
             // splitContainer1
             // 
@@ -147,12 +102,18 @@
             this.panel2.TabIndex = 0;
             this.panel2.Resize += new System.EventHandler(this.panel2_Resize);
             // 
-            // imageList1
+            // label2
             // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "arrow-down-sign-to-navigate.png");
-            this.imageList1.Images.SetKeyName(1, "right-arrow.png");
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DarkGreen;
+            this.label2.Location = new System.Drawing.Point(342, 136);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(448, 51);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "QUẢN LÝ BÁN HÀNG";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label1
             // 
@@ -167,18 +128,59 @@
             this.label1.Text = "PHẦN MỀM QUẢN LÝ KHO HÀNG";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label2
+            // imageList1
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label2.Location = new System.Drawing.Point(342, 136);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(448, 51);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "QUẢN LÝ BÁN HÀNG";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "arrow-down-sign-to-navigate.png");
+            this.imageList1.Images.SetKeyName(1, "right-arrow.png");
+            // 
+            // toolStripButton_Barcode
+            // 
+            this.toolStripButton_Barcode.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Barcode.ForeColor = System.Drawing.Color.Black;
+            this.toolStripButton_Barcode.Image = global::STOCK.Properties.Resources.bar_code;
+            this.toolStripButton_Barcode.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Barcode.Name = "toolStripButton_Barcode";
+            this.toolStripButton_Barcode.Size = new System.Drawing.Size(87, 52);
+            this.toolStripButton_Barcode.Text = "Barcode";
+            this.toolStripButton_Barcode.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Barcode.Click += new System.EventHandler(this.toolStripButton_Barcode_Click);
+            // 
+            // toolStripButton_Baocao
+            // 
+            this.toolStripButton_Baocao.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Baocao.ForeColor = System.Drawing.Color.Black;
+            this.toolStripButton_Baocao.Image = global::STOCK.Properties.Resources.report;
+            this.toolStripButton_Baocao.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Baocao.Name = "toolStripButton_Baocao";
+            this.toolStripButton_Baocao.Size = new System.Drawing.Size(85, 52);
+            this.toolStripButton_Baocao.Text = "Báo cáo";
+            this.toolStripButton_Baocao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Baocao.Click += new System.EventHandler(this.toolStripButton_Baocao_Click);
+            // 
+            // toolStripButton_Tonkho
+            // 
+            this.toolStripButton_Tonkho.ForeColor = System.Drawing.Color.Black;
+            this.toolStripButton_Tonkho.Image = global::STOCK.Properties.Resources.warehouse;
+            this.toolStripButton_Tonkho.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Tonkho.Name = "toolStripButton_Tonkho";
+            this.toolStripButton_Tonkho.Size = new System.Drawing.Size(87, 52);
+            this.toolStripButton_Tonkho.Text = "Tồn kho";
+            this.toolStripButton_Tonkho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Tonkho.Click += new System.EventHandler(this.toolStripButton_Tonkho_Click);
+            // 
+            // toolStripButton_Thoat
+            // 
+            this.toolStripButton_Thoat.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Thoat.ForeColor = System.Drawing.Color.Black;
+            this.toolStripButton_Thoat.Image = global::STOCK.Properties.Resources._switch;
+            this.toolStripButton_Thoat.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Thoat.Name = "toolStripButton_Thoat";
+            this.toolStripButton_Thoat.Size = new System.Drawing.Size(66, 52);
+            this.toolStripButton_Thoat.Text = "Thoát";
+            this.toolStripButton_Thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Thoat.Click += new System.EventHandler(this.toolStripButton_Thoat_Click);
             // 
             // frmMain
             // 
@@ -206,7 +208,7 @@
         #endregion
 
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButton_Hethong;
+        private System.Windows.Forms.ToolStripButton toolStripButton_Barcode;
         private System.Windows.Forms.ToolStripButton toolStripButton_Baocao;
         private System.Windows.Forms.ToolStripButton toolStripButton_Tonkho;
         private System.Windows.Forms.ToolStripButton toolStripButton_Thoat;

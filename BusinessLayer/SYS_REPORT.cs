@@ -22,7 +22,7 @@ namespace BusinessLayer
         {
             return db.tb_SYS_REPORT.ToList();
         }
-        public List<tb_SYS_REPORT> getListByRight(List<tb_SYS_REPORT> lst)
+        public List<tb_SYS_REPORT> getListByRight(List<tb_SYS_RIGHT_REP> lst)
         {
             List<int> rep = lst.Select(p => p.REP_CODE).ToList();
             return db.tb_SYS_REPORT.Where(p => rep.Contains(p.REP_CODE)).OrderBy(p => p.REP_CODE).ToList();

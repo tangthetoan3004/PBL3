@@ -50,7 +50,6 @@ namespace STOCK
                 try
                 {
                     con.Open();
-                  //  Application.Run(new MainForm());
                 }
                 catch
                 {
@@ -59,7 +58,6 @@ namespace STOCK
                 }
                 con.Close();
                 fs.Close();
-                //Application.Run(new MainForm());
                 if(File.Exists("sysparam.ini"))
                 {
                     Application.Run(new frmLogin());

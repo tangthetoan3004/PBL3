@@ -65,6 +65,7 @@
     <Compile Include="KHACHHANG.cs" />
     <Compile Include="NHACUNGCAP.cs" />
     <Compile Include="NHOMHH.cs" />
+    <Compile Include="obj_BARCODE.cs" />
     <Compile Include="obj_CHUNGTU_CT.cs" />
     <Compile Include="obj_HANGHOA.cs" />
     <Compile Include="obj_TONKHO.cs" />

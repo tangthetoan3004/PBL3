@@ -468,10 +468,11 @@
             this.cbb_Donvi.BackColor = System.Drawing.Color.LightGray;
             this.cbb_Donvi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_Donvi.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbb_Donvi.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_Donvi.FormattingEnabled = true;
             this.cbb_Donvi.Location = new System.Drawing.Point(308, 139);
             this.cbb_Donvi.Name = "cbb_Donvi";
-            this.cbb_Donvi.Size = new System.Drawing.Size(677, 31);
+            this.cbb_Donvi.Size = new System.Drawing.Size(677, 33);
             this.cbb_Donvi.TabIndex = 4;
             this.cbb_Donvi.SelectedIndexChanged += new System.EventHandler(this.cbb_Donvi_SelectedIndexChanged);
             // 
@@ -480,10 +481,11 @@
             this.cbb_Congty.BackColor = System.Drawing.Color.LightGray;
             this.cbb_Congty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_Congty.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbb_Congty.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_Congty.FormattingEnabled = true;
             this.cbb_Congty.Location = new System.Drawing.Point(308, 77);
             this.cbb_Congty.Name = "cbb_Congty";
-            this.cbb_Congty.Size = new System.Drawing.Size(677, 31);
+            this.cbb_Congty.Size = new System.Drawing.Size(677, 33);
             this.cbb_Congty.TabIndex = 3;
             this.cbb_Congty.SelectedIndexChanged += new System.EventHandler(this.cbb_Congty_SelectedIndexChanged);
             // 

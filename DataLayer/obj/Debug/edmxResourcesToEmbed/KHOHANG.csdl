@@ -31,8 +31,8 @@
     <EntitySet Name="V_USER_IN_GROUP" EntityType="QUANLY_KHOHANGModel.V_USER_IN_GROUP" />
     <EntitySet Name="V_USER_NOTIN_GROUP" EntityType="QUANLY_KHOHANGModel.V_USER_NOTIN_GROUP" />
     <EntitySet Name="tb_CHUNGTU_CT" EntityType="QUANLY_KHOHANGModel.tb_CHUNGTU_CT" />
-    <EntitySet Name="tb_KHACHHANG" EntityType="QUANLY_KHOHANGModel.tb_KHACHHANG" />
     <EntitySet Name="tb_CHUNGTU" EntityType="QUANLY_KHOHANGModel.tb_CHUNGTU" />
+    <EntitySet Name="tb_KHACHHANG" EntityType="QUANLY_KHOHANGModel.tb_KHACHHANG" />
   </EntityContainer>
   <EntityType Name="tb_CONGTY">
     <Key>
@@ -282,17 +282,6 @@
     <Property Name="THANHTIEN" Type="Double" />
     <Property Name="NGAY" Type="DateTime" Precision="3" />
   </EntityType>
-  <EntityType Name="tb_KHACHHANG">
-    <Key>
-      <PropertyRef Name="IDKH" />
-    </Key>
-    <Property Name="IDKH" Type="Int32" Nullable="false" />
-    <Property Name="HOTEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="DIENTHOAI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="DIACHI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="MST" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-  </EntityType>
   <EntityType Name="tb_CHUNGTU">
     <Key>
       <PropertyRef Name="KHOA" />
@@ -317,5 +306,16 @@
     <Property Name="UPDATED_BY" Type="Int32" />
     <Property Name="DELETED_DATE" Type="DateTime" Precision="3" />
     <Property Name="DELETED_BY" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tb_KHACHHANG">
+    <Key>
+      <PropertyRef Name="IDKH" />
+    </Key>
+    <Property Name="IDKH" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="HOTEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DIENTHOAI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MST" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
 </Schema>

@@ -205,6 +205,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmConnect";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kết nối cơ sở dữ liệu";
             this.Load += new System.EventHandler(this.frmConnect_Load);
             this.flowLayoutPanel1.ResumeLayout(false);

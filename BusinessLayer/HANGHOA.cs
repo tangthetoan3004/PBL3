@@ -115,5 +115,22 @@ namespace BusinessLayer
                 }
             }
         }
+        public List<obj_BARCODE> getDanhMucInBarcode(int idNhom)
+        {
+            var lstDM = db.tb_HANGHOA.Where(p => p.IDNHOM == idNhom).ToList();
+            List<obj_BARCODE> lstbarcode = new List<obj_BARCODE>();
+            obj_BARCODE obj;
+            foreach(var item in lstDM)
+            {
+                obj = new obj_BARCODE();
+                obj.BARCODE = item.BARCODE;
+                obj.TENHH = item.TENHH;
+                obj.TENTAT = item.TENTAT;
+                obj.DONGIA = item.DONGIA;
+                obj.SOTEM = null;
+                lstbarcode.Add(obj);
+            }
+            return lstbarcode;
+        }
     }
 }

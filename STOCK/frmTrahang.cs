@@ -28,13 +28,32 @@ namespace STOCK
 
         private void button1_Click(object sender, EventArgs e)
         {
+            _trahang();
+        }
+        private void _trahang()
+        {
+            if(string.IsNullOrEmpty(tb_barcode.Text) && string.IsNullOrEmpty(tb_soluong.Text) || string.IsNullOrEmpty(tb_barcode.Text) || string.IsNullOrEmpty(tb_soluong.Text))
+            {
+                MessageBox.Show("Vui lòng nhập đủ thông tin", "Thiếu thông tin", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             obj_CHUNGTU_CT ct;
-            var item = _lst.FirstOrDefault(x => x.BARCODE == tb_barcode.Text);
+            var item = _lst.FirstOrDefault(x => x.BARCODE == tb_barcode.Text && x.SOLUONGCT > 0);
             if (item != null)
             {
-                if(item.SOLUONGCT < Convert.ToInt32(tb_soluong.Text))
+                if (item.SOLUONGCT < Convert.ToInt32(tb_soluong.Text) || Convert.ToInt32(tb_soluong.Text) <= 0)
                 {
                     MessageBox.Show("Số lượng trả không hợp lệ!");
+                    return;
+                }
+                int tongtra = (int)_lst.Where(x => x.BARCODE == tb_barcode.Text && x.SOLUONGCT < 0)
+                           .Sum(x => x.SOLUONGCT);
+                int soluongtra = Convert.ToInt32(tb_soluong.Text);
+                int soluongconlai = Convert.ToInt32(item.SOLUONGCT) + tongtra;
+                if (soluongconlai < soluongtra)
+                {
+                    MessageBox.Show($"Số lượng trả không hợp lệ! Chỉ còn {soluongconlai} sản phẩm có thể trả.");
+                    return;
                 }
                 ct = new obj_CHUNGTU_CT();
                 ct.BARCODE = item.BARCODE;
@@ -48,7 +67,25 @@ namespace STOCK
             }
             else
             {
-                MessageBox.Show("Mã hàng không tồn tại","Lỗi",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("Mã hàng không tồn tại", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void tb_barcode_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter) 
+            {
+                e.Handled = true; 
+                _trahang();
+            }
+        }
+
+        private void tb_soluong_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                _trahang();
             }
         }
     }

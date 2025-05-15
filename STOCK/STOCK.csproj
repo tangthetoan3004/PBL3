@@ -90,6 +90,12 @@
     <Compile Include="frmBanle.Designer.cs">
       <DependentUpon>frmBanle.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBaocao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaocao.Designer.cs">
+      <DependentUpon>frmBaocao.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmChangePassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +186,12 @@
     <Compile Include="frmPhieuNhapMua.Designer.cs">
       <DependentUpon>frmPhieuNhapMua.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPrintBarcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintBarcode.Designer.cs">
+      <DependentUpon>frmPrintBarcode.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRestore.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -231,6 +243,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucControl\ucCongty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucControl\ucCongty.Designer.cs">
+      <DependentUpon>ucCongty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucControl\ucDonvi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucControl\ucDonvi.Designer.cs">
+      <DependentUpon>ucDonvi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucControl\ucNgay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucControl\ucNgay.Designer.cs">
+      <DependentUpon>ucNgay.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="formXuatxu.resx">
       <DependentUpon>formXuatxu.cs</DependentUpon>
     </EmbeddedResource>
@@ -239,6 +269,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmBanle.resx">
       <DependentUpon>frmBanle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaocao.resx">
+      <DependentUpon>frmBaocao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmChangePassword.resx">
       <DependentUpon>frmChangePassword.cs</DependentUpon>
@@ -285,6 +318,9 @@
     <EmbeddedResource Include="frmPhieuNhapMua.resx">
       <DependentUpon>frmPhieuNhapMua.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintBarcode.resx">
+      <DependentUpon>frmPrintBarcode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRestore.resx">
       <DependentUpon>frmRestore.cs</DependentUpon>
     </EmbeddedResource>
@@ -320,6 +356,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ucControl\ucCongty.resx">
+      <DependentUpon>ucCongty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucControl\ucDonvi.resx">
+      <DependentUpon>ucDonvi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucControl\ucNgay.resx">
+      <DependentUpon>ucNgay.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -41,23 +41,25 @@
             this.tb_barcode.Font = new System.Drawing.Font("Segoe UI", 23F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_barcode.Location = new System.Drawing.Point(97, 81);
             this.tb_barcode.Name = "tb_barcode";
-            this.tb_barcode.Size = new System.Drawing.Size(270, 58);
+            this.tb_barcode.Size = new System.Drawing.Size(280, 58);
             this.tb_barcode.TabIndex = 0;
+            this.tb_barcode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_barcode_KeyPress);
             // 
             // tb_soluong
             // 
             this.tb_soluong.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tb_soluong.Font = new System.Drawing.Font("Segoe UI", 23F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_soluong.Location = new System.Drawing.Point(373, 81);
+            this.tb_soluong.Location = new System.Drawing.Point(383, 81);
             this.tb_soluong.Name = "tb_soluong";
             this.tb_soluong.Size = new System.Drawing.Size(71, 58);
             this.tb_soluong.TabIndex = 1;
+            this.tb_soluong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_soluong_KeyPress);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(450, 81);
+            this.button1.Location = new System.Drawing.Point(460, 81);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(163, 58);
             this.button1.TabIndex = 2;

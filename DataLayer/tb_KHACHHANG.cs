@@ -14,7 +14,7 @@ namespace DataLayer
     
     public partial class tb_KHACHHANG
     {
-        public int IDKH { get; set; }
+        public string IDKH { get; set; }
         public string HOTEN { get; set; }
         public string DIENTHOAI { get; set; }
         public string EMAIL { get; set; }
