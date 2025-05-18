@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmprintbarcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|e:\\pbl3\\qlkhohang\\qlkhohang\\stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\stock\\frmprintbarcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmprintbarcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\datalayer\\tb_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B863261D-040E-486E-A21A-3F61BE59B4C2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tb_hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|e:\\pbl3\\qlkhohang\\qlkhohang\\stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9CBB77C-5F3A-4B67-A5CC-209742F74320}|STOCK\\STOCK.csproj|solutionrelative:stock\\frmtonkhocty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{027537B8-97C3-41AC-87F3-54E1B46DF1C0}|BusinessLayer\\BusinessLayer.csproj|E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\businesslayer\\nhomhh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -626,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "frmTonkhoCty.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmTonkhoCty.cs",
               "RelativeDocumentMoniker": "STOCK\\frmTonkhoCty.cs",
@@ -1310,7 +1310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HANGHOA.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\HANGHOA.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\HANGHOA.cs",
@@ -1318,12 +1318,11 @@
               "RelativeToolTip": "BusinessLayer\\HANGHOA.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAAAIIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T12:21:45.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T12:21:45.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmPrintBarcode.cs [Design]",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmPrintBarcode.cs",
               "RelativeDocumentMoniker": "STOCK\\frmPrintBarcode.cs",
@@ -1341,14 +1340,14 @@
               "RelativeDocumentMoniker": "STOCK\\frmPrintBarcode.cs",
               "ToolTip": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\STOCK\\frmPrintBarcode.cs",
               "RelativeToolTip": "STOCK\\frmPrintBarcode.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T11:15:03.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "obj_BARCODE.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\BusinessLayer\\obj_BARCODE.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\obj_BARCODE.cs",
@@ -1356,12 +1355,11 @@
               "RelativeToolTip": "BusinessLayer\\obj_BARCODE.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:37:26.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T11:37:26.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "tb_HANGHOA.cs",
               "DocumentMoniker": "E:\\PBL3\\QLKHOHANG\\QLKHOHANG\\DataLayer\\tb_HANGHOA.cs",
               "RelativeDocumentMoniker": "DataLayer\\tb_HANGHOA.cs",
@@ -1369,8 +1367,7 @@
               "RelativeToolTip": "DataLayer\\tb_HANGHOA.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAkwBQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T02:19:04.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T02:19:04.066Z"
             },
             {
               "$type": "Document",
@@ -1888,8 +1885,7 @@
               "RelativeToolTip": "DataLayer\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAADoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-14T14:14:22.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T14:14:22.253Z"
             },
             {
               "$type": "Document",
@@ -1937,8 +1933,7 @@
               "RelativeToolTip": "STOCK\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-10T15:23:51.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T15:23:51.609Z"
             },
             {
               "$type": "Document",
@@ -2352,8 +2347,7 @@
               "RelativeToolTip": "BusinessLayer\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-14T14:15:24.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T14:15:24.504Z"
             },
             {
               "$type": "Document",
