@@ -188,6 +188,7 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1661, 629);
             this.tabControl1.TabIndex = 4;
+            this.tabControl1.TabStop = false;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             this.tabControl1.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tabControl1_Selecting);
             // 
@@ -230,6 +231,7 @@
             this.tb_tongtien.Name = "tb_tongtien";
             this.tb_tongtien.Size = new System.Drawing.Size(250, 32);
             this.tb_tongtien.TabIndex = 17;
+            this.tb_tongtien.TabStop = false;
             // 
             // lb_tongtien
             // 
@@ -260,6 +262,7 @@
             this.tb_soluong1.Name = "tb_soluong1";
             this.tb_soluong1.Size = new System.Drawing.Size(150, 32);
             this.tb_soluong1.TabIndex = 14;
+            this.tb_soluong1.TabStop = false;
             // 
             // lb_tong
             // 
@@ -313,7 +316,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1647, 332);
             this.dataGridView1.TabIndex = 2;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.TabStop = false;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             this.dataGridView1.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting);
             this.dataGridView1.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dataGridView1_CellPainting);
@@ -337,7 +340,7 @@
             // SCT2
             // 
             this.SCT2.DataPropertyName = "SCT2";
-            this.SCT2.HeaderText = " SỐ PHIẾU NHẬP";
+            this.SCT2.HeaderText = "SỐ PHIẾU NHẬP";
             this.SCT2.MinimumWidth = 6;
             this.SCT2.Name = "SCT2";
             this.SCT2.Width = 175;
@@ -375,7 +378,7 @@
             this.SOLUONG.HeaderText = "SỐ LƯỢNG";
             this.SOLUONG.MinimumWidth = 6;
             this.SOLUONG.Name = "SOLUONG";
-            this.SOLUONG.Width = 50;
+            this.SOLUONG.Width = 80;
             // 
             // TONGTIEN
             // 
@@ -394,7 +397,7 @@
             this.GHICHU.HeaderText = "GHI CHÚ";
             this.GHICHU.MinimumWidth = 6;
             this.GHICHU.Name = "GHICHU";
-            this.GHICHU.Width = 350;
+            this.GHICHU.Width = 300;
             // 
             // TRANGTHAIDS
             // 
@@ -473,8 +476,7 @@
             this.cbb_Donvi.Location = new System.Drawing.Point(308, 139);
             this.cbb_Donvi.Name = "cbb_Donvi";
             this.cbb_Donvi.Size = new System.Drawing.Size(677, 33);
-            this.cbb_Donvi.TabIndex = 4;
-            this.cbb_Donvi.SelectedIndexChanged += new System.EventHandler(this.cbb_Donvi_SelectedIndexChanged);
+            this.cbb_Donvi.TabIndex = 3;
             // 
             // cbb_Congty
             // 
@@ -486,28 +488,31 @@
             this.cbb_Congty.Location = new System.Drawing.Point(308, 77);
             this.cbb_Congty.Name = "cbb_Congty";
             this.cbb_Congty.Size = new System.Drawing.Size(677, 33);
-            this.cbb_Congty.TabIndex = 3;
-            this.cbb_Congty.SelectedIndexChanged += new System.EventHandler(this.cbb_Congty_SelectedIndexChanged);
+            this.cbb_Congty.TabIndex = 2;
             // 
             // dtp2
             // 
             this.dtp2.CalendarMonthBackground = System.Drawing.Color.LightGray;
+            this.dtp2.Checked = false;
             this.dtp2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp2.Location = new System.Drawing.Point(785, 26);
             this.dtp2.Name = "dtp2";
             this.dtp2.Size = new System.Drawing.Size(225, 32);
-            this.dtp2.TabIndex = 2;
+            this.dtp2.TabIndex = 1;
+            this.dtp2.ValueChanged += new System.EventHandler(this.dtp2_ValueChanged);
             // 
             // dtp1
             // 
             this.dtp1.CalendarMonthBackground = System.Drawing.Color.LightGray;
+            this.dtp1.Checked = false;
             this.dtp1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp1.Location = new System.Drawing.Point(308, 26);
             this.dtp1.Name = "dtp1";
             this.dtp1.Size = new System.Drawing.Size(225, 32);
-            this.dtp1.TabIndex = 1;
+            this.dtp1.TabIndex = 0;
+            this.dtp1.ValueChanged += new System.EventHandler(this.dtp1_ValueChanged);
             // 
             // tabPage2
             // 
@@ -547,6 +552,7 @@
             this.tb_tongtienct.Name = "tb_tongtienct";
             this.tb_tongtienct.Size = new System.Drawing.Size(250, 32);
             this.tb_tongtienct.TabIndex = 17;
+            this.tb_tongtienct.TabStop = false;
             // 
             // lb_tongtienct
             // 
@@ -577,6 +583,7 @@
             this.tb_soluongct.Name = "tb_soluongct";
             this.tb_soluongct.Size = new System.Drawing.Size(150, 32);
             this.tb_soluongct.TabIndex = 14;
+            this.tb_soluongct.TabStop = false;
             // 
             // lb_tong2
             // 
@@ -628,7 +635,7 @@
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(1647, 310);
             this.dataGridView2.TabIndex = 4;
-            this.dataGridView2.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView2_CellFormatting);
+            this.dataGridView2.TabStop = false;
             // 
             // STT
             // 
@@ -728,7 +735,7 @@
             this.txtSoPhieuNhap.Location = new System.Drawing.Point(1095, 28);
             this.txtSoPhieuNhap.Name = "txtSoPhieuNhap";
             this.txtSoPhieuNhap.Size = new System.Drawing.Size(225, 32);
-            this.txtSoPhieuNhap.TabIndex = 18;
+            this.txtSoPhieuNhap.TabIndex = 3;
             // 
             // lb_sophieunhap
             // 
@@ -753,12 +760,13 @@
             // dtNgayNhap
             // 
             this.dtNgayNhap.CalendarMonthBackground = System.Drawing.Color.LightGray;
+            this.dtNgayNhap.Checked = false;
             this.dtNgayNhap.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtNgayNhap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtNgayNhap.Location = new System.Drawing.Point(457, 27);
             this.dtNgayNhap.Name = "dtNgayNhap";
             this.dtNgayNhap.Size = new System.Drawing.Size(225, 32);
-            this.dtNgayNhap.TabIndex = 15;
+            this.dtNgayNhap.TabIndex = 1;
             // 
             // cbb_trangthai
             // 
@@ -769,7 +777,7 @@
             this.cbb_trangthai.Location = new System.Drawing.Point(1428, 28);
             this.cbb_trangthai.Name = "cbb_trangthai";
             this.cbb_trangthai.Size = new System.Drawing.Size(225, 33);
-            this.cbb_trangthai.TabIndex = 14;
+            this.cbb_trangthai.TabIndex = 4;
             // 
             // tb_sophieu
             // 
@@ -779,7 +787,7 @@
             this.tb_sophieu.Location = new System.Drawing.Point(775, 28);
             this.tb_sophieu.Name = "tb_sophieu";
             this.tb_sophieu.Size = new System.Drawing.Size(225, 32);
-            this.tb_sophieu.TabIndex = 13;
+            this.tb_sophieu.TabIndex = 2;
             // 
             // tb_ghichu
             // 
@@ -790,7 +798,7 @@
             this.tb_ghichu.Multiline = true;
             this.tb_ghichu.Name = "tb_ghichu";
             this.tb_ghichu.Size = new System.Drawing.Size(1450, 63);
-            this.tb_ghichu.TabIndex = 12;
+            this.tb_ghichu.TabIndex = 7;
             // 
             // lb_ghichu
             // 
@@ -861,7 +869,7 @@
             this.cbb_donvixuat.Location = new System.Drawing.Point(103, 81);
             this.cbb_donvixuat.Name = "cbb_donvixuat";
             this.cbb_donvixuat.Size = new System.Drawing.Size(672, 33);
-            this.cbb_donvixuat.TabIndex = 4;
+            this.cbb_donvixuat.TabIndex = 5;
             // 
             // cbb_donvinhap
             // 
@@ -873,17 +881,18 @@
             this.cbb_donvinhap.Location = new System.Drawing.Point(828, 80);
             this.cbb_donvinhap.Name = "cbb_donvinhap";
             this.cbb_donvinhap.Size = new System.Drawing.Size(677, 33);
-            this.cbb_donvinhap.TabIndex = 3;
+            this.cbb_donvinhap.TabIndex = 6;
             // 
             // dtp
             // 
             this.dtp.CalendarMonthBackground = System.Drawing.Color.LightGray;
+            this.dtp.Checked = false;
             this.dtp.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp.Location = new System.Drawing.Point(121, 27);
             this.dtp.Name = "dtp";
             this.dtp.Size = new System.Drawing.Size(225, 32);
-            this.dtp.TabIndex = 1;
+            this.dtp.TabIndex = 0;
             // 
             // imageList1
             // 
@@ -978,6 +987,7 @@
         private System.Windows.Forms.Label lb_ngaynhap;
         private System.Windows.Forms.DateTimePicker dtNgayNhap;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.ToolStripButton toolStripButton_quaylai;
         private System.Windows.Forms.DataGridViewTextBoxColumn STT1;
         private System.Windows.Forms.DataGridViewTextBoxColumn DELETED_BY;
         private System.Windows.Forms.DataGridViewTextBoxColumn SCT2;
@@ -988,6 +998,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TONGTIEN;
         private System.Windows.Forms.DataGridViewTextBoxColumn GHICHU;
         private System.Windows.Forms.DataGridViewTextBoxColumn TRANGTHAIDS;
-        private System.Windows.Forms.ToolStripButton toolStripButton_quaylai;
     }
 }

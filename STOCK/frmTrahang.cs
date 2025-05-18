@@ -88,5 +88,10 @@ namespace STOCK
                 _trahang();
             }
         }
+
+        private void frmTrahang_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -42,10 +42,12 @@
             this.bt_find = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.BARCODE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IMAGE = new System.Windows.Forms.DataGridViewImageColumn();
             this.TENHH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TENTAT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DONGIA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SOTEM = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.linqInstantFeedbackSource1 = new DevExpress.Data.Linq.LinqInstantFeedbackSource();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -68,12 +70,13 @@
             // 
             // toolStripButton_Export
             // 
-            this.toolStripButton_Export.Image = global::STOCK.Properties.Resources.excel;
+            this.toolStripButton_Export.Image = global::STOCK.Properties.Resources.printer;
             this.toolStripButton_Export.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton_Export.Name = "toolStripButton_Export";
-            this.toolStripButton_Export.Size = new System.Drawing.Size(73, 52);
-            this.toolStripButton_Export.Text = "Export";
+            this.toolStripButton_Export.Size = new System.Drawing.Size(57, 52);
+            this.toolStripButton_Export.Text = "Print";
             this.toolStripButton_Export.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Export.Click += new System.EventHandler(this.toolStripButton_Export_Click);
             // 
             // toolStripButton_Thoat
             // 
@@ -109,7 +112,7 @@
             this.cbb_nhom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbb_nhom.Name = "cbb_nhom";
             this.cbb_nhom.Size = new System.Drawing.Size(596, 33);
-            this.cbb_nhom.TabIndex = 3;
+            this.cbb_nhom.TabIndex = 0;
             this.cbb_nhom.SelectedIndexChanged += new System.EventHandler(this.cbb_nhom_SelectedIndexChanged);
             // 
             // lb_nhom
@@ -144,7 +147,8 @@
             this.tb_find.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_find.Name = "tb_find";
             this.tb_find.Size = new System.Drawing.Size(414, 27);
-            this.tb_find.TabIndex = 6;
+            this.tb_find.TabIndex = 1;
+            this.tb_find.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_find_KeyPress);
             // 
             // bt_find
             // 
@@ -153,9 +157,10 @@
             this.bt_find.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bt_find.Name = "bt_find";
             this.bt_find.Size = new System.Drawing.Size(92, 30);
-            this.bt_find.TabIndex = 5;
+            this.bt_find.TabIndex = 2;
             this.bt_find.Text = "Find";
             this.bt_find.UseVisualStyleBackColor = true;
+            this.bt_find.Click += new System.EventHandler(this.bt_find_Click);
             // 
             // dataGridView1
             // 
@@ -174,6 +179,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.BARCODE,
+            this.IMAGE,
             this.TENHH,
             this.TENTAT,
             this.DONGIA,
@@ -193,6 +199,8 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1047, 442);
             this.dataGridView1.TabIndex = 9;
+            this.dataGridView1.TabStop = false;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // BARCODE
             // 
@@ -201,6 +209,16 @@
             this.BARCODE.MinimumWidth = 8;
             this.BARCODE.Name = "BARCODE";
             this.BARCODE.Width = 175;
+            // 
+            // IMAGE
+            // 
+            this.IMAGE.HeaderText = "IMAGE";
+            this.IMAGE.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch;
+            this.IMAGE.MinimumWidth = 6;
+            this.IMAGE.Name = "IMAGE";
+            this.IMAGE.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.IMAGE.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.IMAGE.Width = 125;
             // 
             // TENHH
             // 
@@ -220,7 +238,7 @@
             // 
             // DONGIA
             // 
-            this.DONGIA.DataPropertyName = "TRIGIA";
+            this.DONGIA.DataPropertyName = "DONGIA";
             this.DONGIA.HeaderText = "ĐƠN GIÁ";
             this.DONGIA.MinimumWidth = 8;
             this.DONGIA.Name = "DONGIA";
@@ -228,6 +246,7 @@
             // 
             // SOTEM
             // 
+            this.SOTEM.DataPropertyName = "SOTEM";
             this.SOTEM.HeaderText = "SỐ TEM";
             this.SOTEM.MinimumWidth = 6;
             this.SOTEM.Name = "SOTEM";
@@ -271,9 +290,11 @@
         private System.Windows.Forms.Button bt_find;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn BARCODE;
+        private System.Windows.Forms.DataGridViewImageColumn IMAGE;
         private System.Windows.Forms.DataGridViewTextBoxColumn TENHH;
         private System.Windows.Forms.DataGridViewTextBoxColumn TENTAT;
         private System.Windows.Forms.DataGridViewTextBoxColumn DONGIA;
         private System.Windows.Forms.DataGridViewTextBoxColumn SOTEM;
+        private DevExpress.Data.Linq.LinqInstantFeedbackSource linqInstantFeedbackSource1;
     }
 }

@@ -22,6 +22,10 @@ namespace POS
 
         private void bt_capnhat_Click(object sender, EventArgs e)
         {
+            _chietkhau();
+        }
+        private void _chietkhau()
+        {
             if (double.TryParse(tb_chietkhau.Text, out double chietKhau))
             {
                 d?.Invoke(chietKhau);
@@ -38,6 +42,15 @@ namespace POS
             lb_chietkhau.Left = 20;
             tb_chietkhau.Left = lb_chietkhau.Right + 3;
             bt_capnhat.Left = tb_chietkhau.Right + 5;
+        }
+
+        private void tb_chietkhau_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                _chietkhau();
+            }
         }
     }
 }

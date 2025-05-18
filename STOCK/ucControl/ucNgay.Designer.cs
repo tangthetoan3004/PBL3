@@ -63,6 +63,7 @@
             this.dtp2.Name = "dtp2";
             this.dtp2.Size = new System.Drawing.Size(150, 32);
             this.dtp2.TabIndex = 8;
+            this.dtp2.ValueChanged += new System.EventHandler(this.dtp2_ValueChanged);
             // 
             // dtp1
             // 
@@ -73,6 +74,7 @@
             this.dtp1.Name = "dtp1";
             this.dtp1.Size = new System.Drawing.Size(150, 32);
             this.dtp1.TabIndex = 7;
+            this.dtp1.ValueChanged += new System.EventHandler(this.dtp1_ValueChanged);
             // 
             // ucNgay
             // 

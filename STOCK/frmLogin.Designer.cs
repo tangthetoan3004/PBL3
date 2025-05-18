@@ -47,7 +47,8 @@
             this.txtUserName.Location = new System.Drawing.Point(159, 115);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(344, 34);
-            this.txtUserName.TabIndex = 1;
+            this.txtUserName.TabIndex = 0;
+            this.txtUserName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUserName_KeyPress);
             // 
             // label1
             // 
@@ -89,7 +90,8 @@
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(344, 34);
-            this.txtPass.TabIndex = 5;
+            this.txtPass.TabIndex = 1;
+            this.txtPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPass_KeyPress);
             // 
             // btnThoat
             // 
@@ -98,10 +100,11 @@
             this.btnThoat.Location = new System.Drawing.Point(346, 249);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(157, 43);
-            this.btnThoat.TabIndex = 6;
+            this.btnThoat.TabIndex = 3;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            this.btnThoat.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnThoat_KeyPress);
             // 
             // btnDangNhap
             // 
@@ -110,10 +113,11 @@
             this.btnDangNhap.Location = new System.Drawing.Point(96, 249);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(157, 43);
-            this.btnDangNhap.TabIndex = 7;
+            this.btnDangNhap.TabIndex = 2;
             this.btnDangNhap.Text = "Đăng nhập ";
             this.btnDangNhap.UseVisualStyleBackColor = false;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
+            this.btnDangNhap.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnDangNhap_KeyPress);
             // 
             // lb_saidangnhap
             // 

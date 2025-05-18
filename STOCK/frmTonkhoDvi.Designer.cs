@@ -28,20 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton_Export = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bt_xem = new System.Windows.Forms.Button();
+            this.cbb_donvi = new System.Windows.Forms.ComboBox();
+            this.lb_donvi = new System.Windows.Forms.Label();
             this.cbb_congty = new System.Windows.Forms.ComboBox();
             this.dtp = new System.Windows.Forms.DateTimePicker();
             this.lb_congty = new System.Windows.Forms.Label();
             this.lb_dtp = new System.Windows.Forms.Label();
-            this.lb_donvi = new System.Windows.Forms.Label();
-            this.cbb_donvi = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tb_find = new System.Windows.Forms.TextBox();
             this.bt_find = new System.Windows.Forms.Button();
@@ -105,7 +104,6 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.cbb_donvi);
             this.panel1.Controls.Add(this.lb_donvi);
-            this.panel1.Controls.Add(this.bt_xem);
             this.panel1.Controls.Add(this.cbb_congty);
             this.panel1.Controls.Add(this.dtp);
             this.panel1.Controls.Add(this.lb_congty);
@@ -118,21 +116,32 @@
             this.panel1.TabIndex = 7;
             this.panel1.Resize += new System.EventHandler(this.panel1_Resize);
             // 
-            // bt_xem
+            // cbb_donvi
             // 
-            this.bt_xem.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_xem.Location = new System.Drawing.Point(1209, 10);
-            this.bt_xem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.bt_xem.Name = "bt_xem";
-            this.bt_xem.Size = new System.Drawing.Size(108, 82);
-            this.bt_xem.TabIndex = 4;
-            this.bt_xem.Text = "Xem";
-            this.bt_xem.UseVisualStyleBackColor = true;
-            this.bt_xem.Click += new System.EventHandler(this.bt_xem_Click);
+            this.cbb_donvi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_donvi.Enabled = false;
+            this.cbb_donvi.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_donvi.FormattingEnabled = true;
+            this.cbb_donvi.Location = new System.Drawing.Point(559, 60);
+            this.cbb_donvi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbb_donvi.Name = "cbb_donvi";
+            this.cbb_donvi.Size = new System.Drawing.Size(596, 33);
+            this.cbb_donvi.TabIndex = 6;
+            // 
+            // lb_donvi
+            // 
+            this.lb_donvi.AutoSize = true;
+            this.lb_donvi.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_donvi.Location = new System.Drawing.Point(365, 63);
+            this.lb_donvi.Name = "lb_donvi";
+            this.lb_donvi.Size = new System.Drawing.Size(66, 25);
+            this.lb_donvi.TabIndex = 5;
+            this.lb_donvi.Text = "Đơn vị";
             // 
             // cbb_congty
             // 
             this.cbb_congty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_congty.Enabled = false;
             this.cbb_congty.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_congty.FormattingEnabled = true;
             this.cbb_congty.Location = new System.Drawing.Point(559, 11);
@@ -140,7 +149,6 @@
             this.cbb_congty.Name = "cbb_congty";
             this.cbb_congty.Size = new System.Drawing.Size(596, 33);
             this.cbb_congty.TabIndex = 3;
-            this.cbb_congty.SelectedIndexChanged += new System.EventHandler(this.cbb_congty_SelectedIndexChanged);
             // 
             // dtp
             // 
@@ -150,7 +158,8 @@
             this.dtp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtp.Name = "dtp";
             this.dtp.Size = new System.Drawing.Size(195, 32);
-            this.dtp.TabIndex = 2;
+            this.dtp.TabIndex = 0;
+            this.dtp.ValueChanged += new System.EventHandler(this.dtp_ValueChanged);
             // 
             // lb_congty
             // 
@@ -171,28 +180,6 @@
             this.lb_dtp.Size = new System.Drawing.Size(85, 25);
             this.lb_dtp.TabIndex = 0;
             this.lb_dtp.Text = " Chọn kỳ";
-            // 
-            // lb_donvi
-            // 
-            this.lb_donvi.AutoSize = true;
-            this.lb_donvi.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_donvi.Location = new System.Drawing.Point(365, 63);
-            this.lb_donvi.Name = "lb_donvi";
-            this.lb_donvi.Size = new System.Drawing.Size(66, 25);
-            this.lb_donvi.TabIndex = 5;
-            this.lb_donvi.Text = "Đơn vị";
-            // 
-            // cbb_donvi
-            // 
-            this.cbb_donvi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbb_donvi.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbb_donvi.FormattingEnabled = true;
-            this.cbb_donvi.Location = new System.Drawing.Point(559, 60);
-            this.cbb_donvi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.cbb_donvi.Name = "cbb_donvi";
-            this.cbb_donvi.Size = new System.Drawing.Size(596, 33);
-            this.cbb_donvi.TabIndex = 6;
-            this.cbb_donvi.SelectedIndexChanged += new System.EventHandler(this.vbb_donvi_SelectedIndexChanged);
             // 
             // panel2
             // 
@@ -216,7 +203,8 @@
             this.tb_find.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_find.Name = "tb_find";
             this.tb_find.Size = new System.Drawing.Size(414, 27);
-            this.tb_find.TabIndex = 6;
+            this.tb_find.TabIndex = 1;
+            this.tb_find.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_find_KeyPress);
             // 
             // bt_find
             // 
@@ -225,7 +213,7 @@
             this.bt_find.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bt_find.Name = "bt_find";
             this.bt_find.Size = new System.Drawing.Size(92, 30);
-            this.bt_find.TabIndex = 5;
+            this.bt_find.TabIndex = 2;
             this.bt_find.Text = "Find";
             this.bt_find.UseVisualStyleBackColor = true;
             this.bt_find.Click += new System.EventHandler(this.bt_find_Click);
@@ -233,17 +221,17 @@
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightGray;
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.LightGray;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.BARCODE,
@@ -258,14 +246,14 @@
             this.LG_CUOI,
             this.DONGIA,
             this.TIEN_CUOI});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 227);
             this.dataGridView1.Name = "dataGridView1";
@@ -273,6 +261,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1403, 295);
             this.dataGridView1.TabIndex = 9;
+            this.dataGridView1.TabStop = false;
             // 
             // BARCODE
             // 
@@ -400,7 +389,6 @@
         private System.Windows.Forms.ToolStripButton toolStripButton_Export;
         private System.Windows.Forms.ToolStripButton toolStripButton_Thoat;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button bt_xem;
         private System.Windows.Forms.ComboBox cbb_congty;
         private System.Windows.Forms.DateTimePicker dtp;
         private System.Windows.Forms.Label lb_congty;

@@ -4,6 +4,7 @@ using DevExpress.Data.TreeList;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.Design;
 using System.Data;
 using System.Drawing;
 using System.IO;
@@ -35,16 +36,55 @@ namespace STOCK
             BinaryFormatter bf = new BinaryFormatter();
             FileStream fs = File.Open("sysparam.ini", FileMode.Open, FileAccess.Read);
             _sysParam = (SYS_PARAM)bf.Deserialize(fs);
-            fs.Close();
             myFunctions._macty = _sysParam.macty;
             myFunctions._madvi = _sysParam.madvi;
-            txtUserName.Text = "KChi";
-            txtPass.Text = "1";
+            fs.Close();
             lb_saidangnhap.Text = "";
             lb_saimk.Text = "";
+            if (myFunctions._madvi == "KHOMB1")
+            {
+                txtUserName.Text = "KChi";
+                txtPass.Text = "1";
+                return;
+            }
+            if (myFunctions._madvi == "KHOMB2")
+            {
+                txtUserName.Text = "TOAN";
+                txtPass.Text = "1";
+                return;
+            }
+            if (myFunctions._madvi == "KHODN1")
+            {
+                txtUserName.Text = "TOAN";
+                txtPass.Text = "1";
+                return;
+            }
+            if (myFunctions._madvi == "KHODN2")
+            {
+                txtUserName.Text = "NV";
+                txtPass.Text = "1";
+                return;
+            }
+            if (myFunctions._madvi == "CNKC")
+            {
+                txtUserName.Text = "CHI";
+                txtPass.Text = "1";
+                return;
+            }
+            if (myFunctions._madvi == "CNTT")
+            {
+                txtUserName.Text = "ADMIN";
+                txtPass.Text = "12345";
+                return;
+            }
         }
 
         private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            _kt();
+        }
+
+        private void _kt()
         {
             if (txtUserName.Text.Trim() == "" && txtPass.Text.Trim() == "")
             {
@@ -58,7 +98,8 @@ namespace STOCK
                     lb_saidangnhap.Text = "Tên đăng nhập không được để trống";
                     lb_saimk.Text = "";
                 }
-                else {
+                else
+                {
                     if (txtPass.Text.Trim() == "")
                     {
                         lb_saidangnhap.Text = "";
@@ -94,7 +135,6 @@ namespace STOCK
                 }
             }
         }
-
         private void btnThoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -103,6 +143,42 @@ namespace STOCK
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtUserName_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                _kt();
+            }
+        }
+
+        private void txtPass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                _kt();
+            }
+        }
+
+        private void btnDangNhap_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                _kt();
+            }
+        }
+
+        private void btnThoat_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                _kt();
+            }
         }
     }
 }

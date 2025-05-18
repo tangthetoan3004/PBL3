@@ -303,6 +303,10 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
           <Parameter Name="NAM" Type="int" Mode="InOut" />
           <Parameter Name="KY" Type="int" Mode="InOut" />
         </Function>
+        <Function Name="TINH_TONKHO_CONGTY" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NGAYC" Type="datetime" Mode="In" />
+          <Parameter Name="MACTY" Type="varchar" Mode="In" />
+        </Function>
         <Function Name="TINH_TONKHO_DONVI" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="NGAYC" Type="datetime" Mode="In" />
           <Parameter Name="MADVI" Type="varchar" Mode="In" />
@@ -391,7 +395,6 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
             <Parameter Name="NGAYC" Mode="In" Type="DateTime" />
             <Parameter Name="MADVI" Mode="In" Type="String" />
           </FunctionImport>
-          <EntitySet Name="tb_CONGTY" EntityType="QUANLY_KHOHANGModel.tb_CONGTY" />
           <EntitySet Name="tb_DONVI" EntityType="QUANLY_KHOHANGModel.tb_DONVI" />
           <EntitySet Name="tb_DVT" EntityType="QUANLY_KHOHANGModel.tb_DVT" />
           <EntitySet Name="tb_HANGHOA" EntityType="QUANLY_KHOHANGModel.tb_HANGHOA" />
@@ -413,19 +416,12 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
           <EntitySet Name="tb_CHUNGTU_CT" EntityType="QUANLY_KHOHANGModel.tb_CHUNGTU_CT" />
           <EntitySet Name="tb_CHUNGTU" EntityType="QUANLY_KHOHANGModel.tb_CHUNGTU" />
           <EntitySet Name="tb_KHACHHANG" EntityType="QUANLY_KHOHANGModel.tb_KHACHHANG" />
+          <EntitySet Name="tb_CONGTY" EntityType="QUANLY_KHOHANGModel.tb_CONGTY" />
+          <FunctionImport Name="TINH_TONKHO_CONGTY">
+            <Parameter Name="NGAYC" Mode="In" Type="DateTime" />
+            <Parameter Name="MACTY" Mode="In" Type="String" />
+          </FunctionImport>
           </EntityContainer>
-        <EntityType Name="tb_CONGTY">
-          <Key>
-            <PropertyRef Name="MACTY" />
-          </Key>
-          <Property Name="MACTY" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="TENCTY" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-          <Property Name="DIENTHOAI" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="FAX" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="DIACHI" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
-          <Property Name="DISABLED" Type="Boolean" />
-        </EntityType>
         <EntityType Name="tb_DONVI">
           <Key>
             <PropertyRef Name="MADV" />
@@ -698,6 +694,18 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
           <Property Name="DIACHI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="MST" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
+        <EntityType Name="tb_CONGTY">
+          <Key>
+            <PropertyRef Name="MACTY" />
+          </Key>
+          <Property Name="MACTY" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TENCTY" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="DIENTHOAI" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FAX" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="DIACHI" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DISABLED" Type="Boolean" />
+        </EntityType>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -706,19 +714,6 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
         <EntityContainerMapping StorageEntityContainer="QUANLY_KHOHANGModelStoreContainer" CdmEntityContainer="QUANLY_KHOHANGEntities">
           <FunctionImportMapping FunctionImportName="spNGAY_TINHTON" FunctionName="QUANLY_KHOHANGModel.Store.spNGAY_TINHTON" />
           <FunctionImportMapping FunctionImportName="TINH_TONKHO_DONVI" FunctionName="QUANLY_KHOHANGModel.Store.TINH_TONKHO_DONVI" />
-          <EntitySetMapping Name="tb_CONGTY">
-            <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_CONGTY">
-              <MappingFragment StoreEntitySet="tb_CONGTY">
-                <ScalarProperty Name="DISABLED" ColumnName="DISABLED" />
-                <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
-                <ScalarProperty Name="FAX" ColumnName="FAX" />
-                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
-                <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
-                <ScalarProperty Name="TENCTY" ColumnName="TENCTY" />
-                <ScalarProperty Name="MACTY" ColumnName="MACTY" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="tb_DONVI">
             <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_DONVI">
               <MappingFragment StoreEntitySet="tb_DONVI">
@@ -1002,6 +997,20 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="tb_CONGTY">
+            <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_CONGTY">
+              <MappingFragment StoreEntitySet="tb_CONGTY">
+                <ScalarProperty Name="DISABLED" ColumnName="DISABLED" />
+                <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+                <ScalarProperty Name="FAX" ColumnName="FAX" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
+                <ScalarProperty Name="TENCTY" ColumnName="TENCTY" />
+                <ScalarProperty Name="MACTY" ColumnName="MACTY" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="TINH_TONKHO_CONGTY" FunctionName="QUANLY_KHOHANGModel.Store.TINH_TONKHO_CONGTY" />
           </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

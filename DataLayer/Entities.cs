@@ -87,7 +87,18 @@ namespace DataLayer
 
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("TINH_TONKHO_DONVI", nGAYCParameter, mADVIParameter);
         }
+        public virtual int TINH_TONKHO_CONGTY(Nullable<System.DateTime> nGAYC, string mACTY)
+        {
+            var nGAYCParameter = nGAYC.HasValue ?
+                new ObjectParameter("NGAYC", nGAYC) :
+                new ObjectParameter("NGAYC", typeof(System.DateTime));
 
+            var mACTYParameter = mACTY != null ?
+                new ObjectParameter("MACTY", mACTY) :
+                new ObjectParameter("MACTY", typeof(string));
+
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("TINH_TONKHO_CONGTY", nGAYCParameter, mACTYParameter);
+        }
 
     }
 

@@ -30,18 +30,18 @@
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lstDanhSach = new System.Windows.Forms.ListBox();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.bt_thuchien = new System.Windows.Forms.Button();
             this.bt_dong = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lstDanhSach = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -71,6 +71,39 @@
             this.panel1.Size = new System.Drawing.Size(667, 436);
             this.panel1.TabIndex = 0;
             // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.bt_thuchien);
+            this.panel3.Controls.Add(this.bt_dong);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 332);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(663, 100);
+            this.panel3.TabIndex = 2;
+            // 
+            // bt_thuchien
+            // 
+            this.bt_thuchien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_thuchien.Location = new System.Drawing.Point(133, 32);
+            this.bt_thuchien.Name = "bt_thuchien";
+            this.bt_thuchien.Size = new System.Drawing.Size(139, 57);
+            this.bt_thuchien.TabIndex = 0;
+            this.bt_thuchien.Text = "Thực hiện";
+            this.bt_thuchien.UseVisualStyleBackColor = true;
+            this.bt_thuchien.Click += new System.EventHandler(this.bt_thuchien_Click);
+            // 
+            // bt_dong
+            // 
+            this.bt_dong.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_dong.Location = new System.Drawing.Point(374, 32);
+            this.bt_dong.Name = "bt_dong";
+            this.bt_dong.Size = new System.Drawing.Size(139, 57);
+            this.bt_dong.TabIndex = 1;
+            this.bt_dong.Text = "Đóng";
+            this.bt_dong.UseVisualStyleBackColor = true;
+            this.bt_dong.Click += new System.EventHandler(this.bt_dong_Click);
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.lstDanhSach);
@@ -93,39 +126,6 @@
             this.lstDanhSach.TabIndex = 0;
             this.lstDanhSach.SelectedIndexChanged += new System.EventHandler(this.lstDanhSach_SelectedIndexChanged);
             // 
-            // bt_thuchien
-            // 
-            this.bt_thuchien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_thuchien.Location = new System.Drawing.Point(133, 18);
-            this.bt_thuchien.Name = "bt_thuchien";
-            this.bt_thuchien.Size = new System.Drawing.Size(139, 57);
-            this.bt_thuchien.TabIndex = 0;
-            this.bt_thuchien.Text = "Thực hiện";
-            this.bt_thuchien.UseVisualStyleBackColor = true;
-            this.bt_thuchien.Click += new System.EventHandler(this.bt_thuchien_Click);
-            // 
-            // bt_dong
-            // 
-            this.bt_dong.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_dong.Location = new System.Drawing.Point(381, 18);
-            this.bt_dong.Name = "bt_dong";
-            this.bt_dong.Size = new System.Drawing.Size(139, 57);
-            this.bt_dong.TabIndex = 1;
-            this.bt_dong.Text = "Đóng";
-            this.bt_dong.UseVisualStyleBackColor = true;
-            this.bt_dong.Click += new System.EventHandler(this.bt_dong_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.bt_thuchien);
-            this.panel3.Controls.Add(this.bt_dong);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 332);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(663, 100);
-            this.panel3.TabIndex = 2;
-            // 
             // frmBaocao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -140,8 +140,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

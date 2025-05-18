@@ -23,18 +23,10 @@ namespace STOCK
         public frmNhapmua()
         {
             InitializeComponent();
-            panel1.BorderStyle = BorderStyle.FixedSingle;
-            this.WindowState = FormWindowState.Maximized;
-            tb_soluong1.ReadOnly = true;
-            tb_tongtien.ReadOnly = true;
-            tb_soluongct.ReadOnly = true;
-            tb_tongtienct.ReadOnly = true;
-            dataGridView1.ReadOnly = true;
         }
         public frmNhapmua(tb_SYS_USER user, int right)
         {
             InitializeComponent();
-            panel1.BorderStyle = BorderStyle.FixedSingle;
             this.WindowState = FormWindowState.Maximized;
             tb_soluong1.ReadOnly = true;
             tb_tongtien.ReadOnly = true;
@@ -84,7 +76,6 @@ namespace STOCK
             tb_sophieu.Enabled = t;
             tb_ghichu.Enabled = t;
             cbb_trangthai.Enabled = t;
-            cbb_donvi1.Enabled = t;
             cbb_nhacc.Enabled = t;
             dtp.Enabled = t;
         }
@@ -94,7 +85,6 @@ namespace STOCK
             tb_sophieu.Text = "";
             tb_ghichu.Text = "";
             dtp.Value = DateTime.Now;
-            cbb_donvi1.SelectedIndex = -1;
             cbb_nhacc.SelectedIndex = -1;
             cbb_trangthai.SelectedIndex = -1;
         }
@@ -122,20 +112,16 @@ namespace STOCK
             _bdChungtu.PositionChanged += _bdChungtu_PositionChanged;
 
             showHideControl(true);
-            _enableControl(false);
 
-            toolStripButton_quaylai.Enabled = false;
-
-            cbb_Congty.SelectedValue = "CT01";
+            toolStripButton_quaylai.Enabled = false;  
 
             loadCongty();
-            
+            cbb_Congty.SelectedValue = myFunctions._macty;
 
             trangthai = _TRANGTHAI.getList();
             cbb_trangthai.DataSource = trangthai;
             cbb_trangthai.DisplayMember = "_display";
             cbb_trangthai.ValueMember = "_value";
-
 
             loadDonvi(cbb_Congty.SelectedValue.ToString());
             loadNhacungcap();
@@ -178,10 +164,7 @@ namespace STOCK
 
         private void _bdChungtu_PositionChanged(object sender, EventArgs e)
         {
-            if (!_them)
-            {
-                xuatThongtin();
-            }
+            xuatThongtin();
         }
 
         private void loadCongty()
@@ -238,7 +221,7 @@ namespace STOCK
             tb_CHUNGTU ct = (tb_CHUNGTU)_bdChungtu.Current;
             if (ct != null)
             {
-                pKhoa = ct.KHOA;
+                _khoa = ct.KHOA;
                 dtp.Value = ct.NGAY.Value;
                 tb_sophieu.Text = ct.SCT;
                 tb_ghichu.Text = ct.GHICHU;
@@ -247,13 +230,15 @@ namespace STOCK
 
                 cbb_trangthai.SelectedValue = ct.TRANGTHAI;
 
-                if (ct.DELETED_BY != null && ct.DELETED_BY == 1)
+                if (ct.DELETED_BY != null && ct.DELETED_BY == _user.IDUSER)
                 {
                     toolStripButton_Xoa.Enabled = false;
+                    toolStripButton_Sua.Enabled = false;
                 }
                 else
                 {
                     toolStripButton_Xoa.Enabled = true;
+                    toolStripButton_Sua.Enabled = true;
                 }
                 _bdChungtuCT.DataSource = _chungtuct.getListByKhoaFull(ct.KHOA);
                 dataGridView2.DataSource = _bdChungtuCT;
@@ -288,7 +273,7 @@ namespace STOCK
             }
             else
             {
-                _bdChungtuCT.DataSource = _chungtuct.getListByKhoaFull(_khoa);
+                _bdChungtuCT.DataSource = _chungtuct.getListByKhoaFull(pKhoa);
                 dataGridView2.DataSource = _bdChungtuCT;
                 _visible2();
                 dataGridView2.ReadOnly = false;
@@ -321,20 +306,17 @@ namespace STOCK
                     MessageBox.Show("Vui lòng chọn một phiếu để sửa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-                if (ct.TRANGTHAI == 1)
-                {
-                    _them = false;
-                    _sua = true;
-                    showHideControl(false);
-                    _enableControl(true);
-                    allowTabChange = true;
-                    tabControl1.SelectedTab = tabPage2;
-                    allowTabChange = false;
-                    dataGridView2.AllowUserToAddRows = true;
-                    dataGridView2.ReadOnly = false;
-                    contextMenuStrip1.Enabled = true;
-                    isTab2 = true;
-                }
+                _them = false;
+                _sua = true;
+                showHideControl(false);
+                _enableControl(true);
+                allowTabChange = true;
+                tabControl1.SelectedTab = tabPage2;
+                allowTabChange = false;
+                dataGridView2.AllowUserToAddRows = true;
+                dataGridView2.ReadOnly = false;
+                contextMenuStrip1.Enabled = true;
+                isTab2 = true;
             }
             
         }
@@ -354,8 +336,9 @@ namespace STOCK
                     if (result == DialogResult.Yes)
                     {
                         tb_CHUNGTU ct = (tb_CHUNGTU)_bdChungtu.Current;
-                        int index = _bdChungtu.Position;
-                        _chungtu.delete(ct.KHOA, 1);
+                        _chungtu.delete(ct.KHOA, _user.IDUSER);
+                        toolStripButton_Sua.Enabled = false;
+                        toolStripButton_Xoa.Enabled = false;
                         dataGridView1.Refresh();
                         UpdateTongCongMain();
                     }
@@ -396,7 +379,6 @@ namespace STOCK
             _sua = false;
             showHideControl(true);
             clearControl();
-            _enableControl(false);
             contextMenuStrip1.Enabled = false;
             xuatThongtin();
             allowTabChange = true;
@@ -466,29 +448,6 @@ namespace STOCK
         {
             _center2();
         }
-
-        private void cbb_Congty_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            loadDonvi(cbb_Congty.SelectedValue.ToString());
-        }
-
-        private void cbb_Donvi_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if(cbb_Donvi.SelectedValue == null)
-                return;
-            _lsChungtu = _chungtu.getList(1, dtp1.Value, dtp2.Value.AddDays(1), cbb_Donvi.SelectedValue.ToString());
-            _bdChungtu.DataSource = _lsChungtu;
-            dataGridView1.DataSource = _bdChungtu;
-            _visible1();
-            UpdateTongCongMain(); 
-            loadDonvi1();
-            xuatThongtin();
-        }
-
-        private void cbb_donvi1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-        }
-
         private void Chungtu_Info(tb_CHUNGTU ct)
         {
             int _SOLUONG = 0;
@@ -640,10 +599,6 @@ namespace STOCK
             dataGridView1.Height = newHeight;
         }
 
-        private void frmNhapmua_Resize(object sender, EventArgs e)
-        {
-        }
-
         private void pn_tong2_Resize(object sender, EventArgs e)
         {
             lb_tong2.Top = 15;
@@ -669,11 +624,6 @@ namespace STOCK
             );
             int newHeight = pn_tong2.Top - panel2.Bottom;
             dataGridView2.Height = newHeight;
-        }
-
-        private void dataGridView2_CellValueChanged(object sender, DataGridViewCellEventArgs e)
-        {
-            
         }
 
         private void UpdateTongCong()
@@ -705,7 +655,7 @@ namespace STOCK
 
             foreach (tb_CHUNGTU ct in _lsChungtu)
             {
-                if (ct.DELETED_BY != 1)
+                if (ct.DELETED_BY != _user.IDUSER)
                 {
                     tongSL += ct.SOLUONG ?? 0;
                     tongTien += ct.TONGTIEN ?? 0;
@@ -726,6 +676,7 @@ namespace STOCK
             _stt_main();
             if(tabControl1.SelectedIndex == 1 && !_them && !_sua)
             {
+                _enableControl(false);
                 toolStripButton_quaylai.Enabled = true;
                 toolStripButton_Xoa.Enabled = false;
                 toolStripButton_Them.Enabled = false;
@@ -761,7 +712,7 @@ namespace STOCK
                 return;
             if (dataGridView1.Columns[e.ColumnIndex].Name == "DELETED_BY")
             {
-                if (e.Value != null && e.Value.ToString() == "1")
+                if (e.Value != null && e.Value.ToString() == Convert.ToString(_user.IDUSER))
                 {
                     using (SolidBrush whiteBrush = new SolidBrush(Color.White))
                     {
@@ -1059,32 +1010,13 @@ namespace STOCK
             tabControl1.SelectedTab = tabPage1;
             allowTabChange = false;
         }
-        private void releaseObject(object obj)
-        {
-            try
-            {
-                System.Runtime.InteropServices.Marshal.FinalReleaseComObject(obj);
-                obj = null;
-            }
-            catch (Exception ex)
-            {
-                obj = null;
-                MessageBox.Show("Exception Occured while releasing object " + ex.Message);
-            }
-            finally
-            {
-                GC.Collect();
-            }
-
-        }
-
         private void toolStripButton_In_Click(object sender, EventArgs e)
         {
             XuatReport("PHIEU_NHAPMUA_NCC", "Phiếu nhập mua nhà cung cấp");
         }
         private void XuatReport(string _reportName, string _tieude)
         {
-                    if (pKhoa != null)
+                    if (_khoa != null)
                     {
                         Form frm = new Form();
                         CrystalReportViewer Crv = new CrystalReportViewer();
@@ -1095,17 +1027,14 @@ namespace STOCK
                         ReportDocument doc = new ReportDocument(); 
                         doc.Load(System.Windows.Forms.Application.StartupPath + "\\Reports\\" + _reportName + @".rpt");
                         Thongtin = doc.Database.Tables[0].LogOnInfo;
-                        // Thêm code kiểm tra này trước khi dùng
 
                         Thongtin.ConnectionInfo.ServerName = myFunctions._srv;
                         Thongtin.ConnectionInfo.DatabaseName = myFunctions._db;
-                        //    Thongtin.ConnectionInfo.UserID = myFunctions._us;
-                        //   Thongtin.ConnectionInfo.Password = myFunctions._pw;
                         Thongtin.ConnectionInfo.IntegratedSecurity = true;
                         doc.Database.Tables[0].ApplyLogOnInfo(Thongtin);
                         try
                         {
-                            doc.SetParameterValue("khoa", pKhoa.ToString());
+                            doc.SetParameterValue("khoa", _khoa.ToString());
                             Crv.Dock = DockStyle.Fill;
                             Crv.ReportSource = doc;
                             frm.Controls.Add(Crv);
@@ -1125,11 +1054,6 @@ namespace STOCK
                     {
                         MessageBox.Show("Không có dữ liệu", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-        }
-
-        private void tb_soluongct_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

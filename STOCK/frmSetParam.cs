@@ -28,10 +28,10 @@ namespace STOCK
         {
             _congty = new CONGTY();
             _donvi = new DONVI();
-            cboCongTy.SelectedValue = "CT01";
-            cboCongTy.SelectedIndexChanged += cboCongTy_SelectedIndexChanged;
             loadCongty();
             loadDonvi();
+            cboCongTy.SelectedIndex = 4;
+            cboCongTy.SelectedIndexChanged += cboCongTy_SelectedIndexChanged;
         }
         void loadCongty()
         {

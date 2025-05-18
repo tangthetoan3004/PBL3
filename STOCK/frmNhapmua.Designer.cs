@@ -250,6 +250,7 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1383, 629);
             this.tabControl1.TabIndex = 2;
+            this.tabControl1.TabStop = false;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             this.tabControl1.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tabControl1_Selecting);
             // 
@@ -292,6 +293,7 @@
             this.tb_tongtien.Name = "tb_tongtien";
             this.tb_tongtien.Size = new System.Drawing.Size(250, 32);
             this.tb_tongtien.TabIndex = 17;
+            this.tb_tongtien.TabStop = false;
             // 
             // lb_tongtien
             // 
@@ -322,6 +324,7 @@
             this.tb_soluong1.Name = "tb_soluong1";
             this.tb_soluong1.Size = new System.Drawing.Size(150, 32);
             this.tb_soluong1.TabIndex = 14;
+            this.tb_soluong1.TabStop = false;
             // 
             // lb_tong
             // 
@@ -374,6 +377,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1369, 332);
             this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.TabStop = false;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             this.dataGridView1.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting);
             this.dataGridView1.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dataGridView1_CellPainting);
@@ -535,46 +539,49 @@
             // 
             this.cbb_Donvi.BackColor = System.Drawing.Color.LightGray;
             this.cbb_Donvi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_Donvi.Enabled = false;
             this.cbb_Donvi.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_Donvi.FormattingEnabled = true;
             this.cbb_Donvi.Location = new System.Drawing.Point(308, 139);
             this.cbb_Donvi.Name = "cbb_Donvi";
             this.cbb_Donvi.Size = new System.Drawing.Size(677, 33);
-            this.cbb_Donvi.TabIndex = 4;
-            this.cbb_Donvi.SelectedIndexChanged += new System.EventHandler(this.cbb_Donvi_SelectedIndexChanged);
+            this.cbb_Donvi.TabIndex = 2;
             // 
             // cbb_Congty
             // 
             this.cbb_Congty.BackColor = System.Drawing.Color.LightGray;
             this.cbb_Congty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_Congty.Enabled = false;
             this.cbb_Congty.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_Congty.FormattingEnabled = true;
             this.cbb_Congty.Location = new System.Drawing.Point(308, 77);
             this.cbb_Congty.Name = "cbb_Congty";
             this.cbb_Congty.Size = new System.Drawing.Size(677, 33);
-            this.cbb_Congty.TabIndex = 3;
-            this.cbb_Congty.SelectedIndexChanged += new System.EventHandler(this.cbb_Congty_SelectedIndexChanged);
+            this.cbb_Congty.TabIndex = 2;
+            this.cbb_Congty.TabStop = false;
             // 
             // dtp2
             // 
             this.dtp2.CalendarMonthBackground = System.Drawing.Color.LightGray;
+            this.dtp2.Checked = false;
             this.dtp2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp2.Location = new System.Drawing.Point(785, 26);
             this.dtp2.Name = "dtp2";
             this.dtp2.Size = new System.Drawing.Size(225, 32);
-            this.dtp2.TabIndex = 2;
+            this.dtp2.TabIndex = 1;
             this.dtp2.ValueChanged += new System.EventHandler(this.dtp2_ValueChanged);
             // 
             // dtp1
             // 
             this.dtp1.CalendarMonthBackground = System.Drawing.Color.LightGray;
+            this.dtp1.Checked = false;
             this.dtp1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp1.Location = new System.Drawing.Point(308, 26);
             this.dtp1.Name = "dtp1";
             this.dtp1.Size = new System.Drawing.Size(225, 32);
-            this.dtp1.TabIndex = 1;
+            this.dtp1.TabIndex = 0;
             this.dtp1.ValueChanged += new System.EventHandler(this.dtp1_ValueChanged);
             // 
             // tabPage2
@@ -615,6 +622,7 @@
             this.tb_tongtienct.Name = "tb_tongtienct";
             this.tb_tongtienct.Size = new System.Drawing.Size(250, 32);
             this.tb_tongtienct.TabIndex = 17;
+            this.tb_tongtienct.TabStop = false;
             // 
             // lb_tongtienct
             // 
@@ -645,7 +653,7 @@
             this.tb_soluongct.Name = "tb_soluongct";
             this.tb_soluongct.Size = new System.Drawing.Size(150, 32);
             this.tb_soluongct.TabIndex = 14;
-            this.tb_soluongct.TextChanged += new System.EventHandler(this.tb_soluongct_TextChanged);
+            this.tb_soluongct.TabStop = false;
             // 
             // lb_tong2
             // 
@@ -698,8 +706,8 @@
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(1369, 310);
             this.dataGridView2.TabIndex = 4;
+            this.dataGridView2.TabStop = false;
             this.dataGridView2.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellEndEdit);
-            this.dataGridView2.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellValueChanged);
             this.dataGridView2.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridView2_RowsAdded);
             this.dataGridView2.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dataGridView2_RowsRemoved);
             // 
@@ -797,7 +805,7 @@
             this.cbb_trangthai.Location = new System.Drawing.Point(1034, 31);
             this.cbb_trangthai.Name = "cbb_trangthai";
             this.cbb_trangthai.Size = new System.Drawing.Size(225, 33);
-            this.cbb_trangthai.TabIndex = 14;
+            this.cbb_trangthai.TabIndex = 2;
             // 
             // tb_sophieu
             // 
@@ -807,7 +815,7 @@
             this.tb_sophieu.Location = new System.Drawing.Point(668, 30);
             this.tb_sophieu.Name = "tb_sophieu";
             this.tb_sophieu.Size = new System.Drawing.Size(225, 32);
-            this.tb_sophieu.TabIndex = 13;
+            this.tb_sophieu.TabIndex = 1;
             // 
             // tb_ghichu
             // 
@@ -818,7 +826,7 @@
             this.tb_ghichu.Multiline = true;
             this.tb_ghichu.Name = "tb_ghichu";
             this.tb_ghichu.Size = new System.Drawing.Size(1450, 63);
-            this.tb_ghichu.TabIndex = 12;
+            this.tb_ghichu.TabIndex = 4;
             // 
             // lb_ghichu
             // 
@@ -884,12 +892,13 @@
             // 
             this.cbb_donvi1.BackColor = System.Drawing.Color.LightGray;
             this.cbb_donvi1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_donvi1.Enabled = false;
             this.cbb_donvi1.FormattingEnabled = true;
             this.cbb_donvi1.Location = new System.Drawing.Point(103, 81);
             this.cbb_donvi1.Name = "cbb_donvi1";
             this.cbb_donvi1.Size = new System.Drawing.Size(677, 33);
-            this.cbb_donvi1.TabIndex = 4;
-            this.cbb_donvi1.SelectedIndexChanged += new System.EventHandler(this.cbb_donvi1_SelectedIndexChanged);
+            this.cbb_donvi1.TabIndex = 3;
+            this.cbb_donvi1.TabStop = false;
             // 
             // cbb_nhacc
             // 
@@ -905,12 +914,13 @@
             // dtp
             // 
             this.dtp.CalendarMonthBackground = System.Drawing.Color.LightGray;
+            this.dtp.Checked = false;
             this.dtp.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp.Location = new System.Drawing.Point(308, 26);
             this.dtp.Name = "dtp";
             this.dtp.Size = new System.Drawing.Size(225, 32);
-            this.dtp.TabIndex = 1;
+            this.dtp.TabIndex = 0;
             // 
             // imageList1
             // 
@@ -928,7 +938,6 @@
             this.Name = "frmNhapmua";
             this.Text = "Phiếu nhập mua";
             this.Load += new System.EventHandler(this.frmNhapmua_Load);
-            this.Resize += new System.EventHandler(this.frmNhapmua_Resize);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.tabControl1.ResumeLayout(false);

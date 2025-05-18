@@ -90,6 +90,7 @@
             this.Name = "frmTrahang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trả hàng";
+            this.Load += new System.EventHandler(this.frmTrahang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

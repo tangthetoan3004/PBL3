@@ -86,9 +86,9 @@ namespace POS
             BinaryFormatter bf = new BinaryFormatter();
             FileStream fs = File.Open("sysparam.ini", FileMode.Open, FileAccess.Read);
             _sysParam = (SYS_PARAM)bf.Deserialize(fs);
-            fs.Close();
             myFunctions._macty = _sysParam.macty;
             myFunctions._madvi = _sysParam.madvi;
+            fs.Close();
             txtUserName.Text = "KChi";
             txtPass.Text = "1";
             lb_saidangnhap.Text = "";

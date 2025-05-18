@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBanle));
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,18 +64,18 @@
             // dataGridView2
             // 
             this.dataGridView2.AllowUserToAddRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightGray;
-            this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.LightGray;
+            this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle26;
             this.dataGridView2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle27;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.STT,
@@ -85,14 +85,14 @@
             this.SOLUONGCT,
             this.DONGIA,
             this.THANHTIEN});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle30;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView2.Location = new System.Drawing.Point(0, 0);
             this.dataGridView2.Name = "dataGridView2";
@@ -100,6 +100,7 @@
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(1323, 419);
             this.dataGridView2.TabIndex = 5;
+            this.dataGridView2.TabStop = false;
             this.dataGridView2.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridView2_RowsAdded);
             // 
             // STT
@@ -145,9 +146,9 @@
             // DONGIA
             // 
             this.DONGIA.DataPropertyName = "DONGIA";
-            dataGridViewCellStyle3.Format = "N0";
-            dataGridViewCellStyle3.NullValue = null;
-            this.DONGIA.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle28.Format = "N0";
+            dataGridViewCellStyle28.NullValue = null;
+            this.DONGIA.DefaultCellStyle = dataGridViewCellStyle28;
             this.DONGIA.HeaderText = "ĐƠN GIÁ";
             this.DONGIA.MinimumWidth = 6;
             this.DONGIA.Name = "DONGIA";
@@ -156,9 +157,9 @@
             // THANHTIEN
             // 
             this.THANHTIEN.DataPropertyName = "THANHTIEN";
-            dataGridViewCellStyle4.Format = "N0";
-            dataGridViewCellStyle4.NullValue = null;
-            this.THANHTIEN.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle29.Format = "N0";
+            dataGridViewCellStyle29.NullValue = null;
+            this.THANHTIEN.DefaultCellStyle = dataGridViewCellStyle29;
             this.THANHTIEN.HeaderText = "THÀNH TIỀN";
             this.THANHTIEN.MinimumWidth = 6;
             this.THANHTIEN.Name = "THANHTIEN";
@@ -189,6 +190,7 @@
             this.tb_tongtienct.Name = "tb_tongtienct";
             this.tb_tongtienct.Size = new System.Drawing.Size(250, 32);
             this.tb_tongtienct.TabIndex = 17;
+            this.tb_tongtienct.TabStop = false;
             // 
             // lb_tongtienct
             // 
@@ -219,6 +221,7 @@
             this.tb_soluongct.Name = "tb_soluongct";
             this.tb_soluongct.Size = new System.Drawing.Size(150, 32);
             this.tb_soluongct.TabIndex = 14;
+            this.tb_soluongct.TabStop = false;
             // 
             // lb_tong2
             // 
@@ -237,12 +240,13 @@
             this.bt_luu.Location = new System.Drawing.Point(582, 508);
             this.bt_luu.Name = "bt_luu";
             this.bt_luu.Size = new System.Drawing.Size(141, 67);
-            this.bt_luu.TabIndex = 9;
+            this.bt_luu.TabIndex = 1;
             this.bt_luu.Text = "  Lưu";
             this.bt_luu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_luu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_luu.UseVisualStyleBackColor = true;
             this.bt_luu.Click += new System.EventHandler(this.bt_luu_Click);
+            this.bt_luu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.bt_luu_KeyPress);
             // 
             // tb_barcode
             // 
@@ -252,7 +256,7 @@
             this.tb_barcode.Multiline = true;
             this.tb_barcode.Name = "tb_barcode";
             this.tb_barcode.Size = new System.Drawing.Size(348, 67);
-            this.tb_barcode.TabIndex = 10;
+            this.tb_barcode.TabIndex = 0;
             this.tb_barcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_barcode_KeyDown);
             // 
             // imageList1
@@ -271,12 +275,13 @@
             this.bt_bill.Location = new System.Drawing.Point(729, 508);
             this.bt_bill.Name = "bt_bill";
             this.bt_bill.Size = new System.Drawing.Size(177, 67);
-            this.bt_bill.TabIndex = 11;
+            this.bt_bill.TabIndex = 2;
             this.bt_bill.Text = "  In Bill";
             this.bt_bill.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_bill.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_bill.UseVisualStyleBackColor = true;
             this.bt_bill.Click += new System.EventHandler(this.bt_bill_Click);
+            this.bt_bill.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.bt_bill_KeyPress);
             // 
             // bt_chietkhau
             // 
@@ -285,12 +290,13 @@
             this.bt_chietkhau.Location = new System.Drawing.Point(912, 508);
             this.bt_chietkhau.Name = "bt_chietkhau";
             this.bt_chietkhau.Size = new System.Drawing.Size(208, 67);
-            this.bt_chietkhau.TabIndex = 12;
+            this.bt_chietkhau.TabIndex = 3;
             this.bt_chietkhau.Text = "  Chiết khấu";
             this.bt_chietkhau.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_chietkhau.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_chietkhau.UseVisualStyleBackColor = true;
             this.bt_chietkhau.Click += new System.EventHandler(this.bt_chietkhau_Click);
+            this.bt_chietkhau.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.bt_chietkhau_KeyPress);
             // 
             // bt_trahang
             // 
@@ -299,12 +305,13 @@
             this.bt_trahang.Location = new System.Drawing.Point(1126, 508);
             this.bt_trahang.Name = "bt_trahang";
             this.bt_trahang.Size = new System.Drawing.Size(185, 67);
-            this.bt_trahang.TabIndex = 13;
+            this.bt_trahang.TabIndex = 4;
             this.bt_trahang.Text = "  Trả hàng";
             this.bt_trahang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_trahang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.bt_trahang.UseVisualStyleBackColor = true;
             this.bt_trahang.Click += new System.EventHandler(this.bt_trahang_Click);
+            this.bt_trahang.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.bt_trahang_KeyPress);
             // 
             // pictureBox1
             // 

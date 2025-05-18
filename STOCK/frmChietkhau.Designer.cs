@@ -41,6 +41,7 @@
             this.tb_chietkhau.Name = "tb_chietkhau";
             this.tb_chietkhau.Size = new System.Drawing.Size(100, 41);
             this.tb_chietkhau.TabIndex = 0;
+            this.tb_chietkhau.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_chietkhau_KeyPress);
             // 
             // lb_chietkhau
             // 
@@ -58,7 +59,7 @@
             this.bt_capnhat.Location = new System.Drawing.Point(301, 37);
             this.bt_capnhat.Name = "bt_capnhat";
             this.bt_capnhat.Size = new System.Drawing.Size(129, 41);
-            this.bt_capnhat.TabIndex = 2;
+            this.bt_capnhat.TabIndex = 1;
             this.bt_capnhat.Text = "Cập nhật";
             this.bt_capnhat.UseVisualStyleBackColor = true;
             this.bt_capnhat.Click += new System.EventHandler(this.bt_capnhat_Click);

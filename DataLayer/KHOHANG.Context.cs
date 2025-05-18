@@ -27,7 +27,6 @@ namespace DataLayer
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<tb_CONGTY> tb_CONGTY { get; set; }
         public virtual DbSet<tb_DONVI> tb_DONVI { get; set; }
         public virtual DbSet<tb_DVT> tb_DVT { get; set; }
         public virtual DbSet<tb_HANGHOA> tb_HANGHOA { get; set; }
@@ -49,6 +48,7 @@ namespace DataLayer
         public virtual DbSet<tb_CHUNGTU_CT> tb_CHUNGTU_CT { get; set; }
         public virtual DbSet<tb_CHUNGTU> tb_CHUNGTU { get; set; }
         public virtual DbSet<tb_KHACHHANG> tb_KHACHHANG { get; set; }
+        public virtual DbSet<tb_CONGTY> tb_CONGTY { get; set; }
     
         public virtual int spNGAY_TINHTON(ObjectParameter nGAYC, ObjectParameter nGAYD, ObjectParameter nAM, ObjectParameter kY)
         {
@@ -66,6 +66,19 @@ namespace DataLayer
                 new ObjectParameter("MADVI", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("TINH_TONKHO_DONVI", nGAYCParameter, mADVIParameter);
+        }
+    
+        public virtual int TINH_TONKHO_CONGTY(Nullable<System.DateTime> nGAYC, string mACTY)
+        {
+            var nGAYCParameter = nGAYC.HasValue ?
+                new ObjectParameter("NGAYC", nGAYC) :
+                new ObjectParameter("NGAYC", typeof(System.DateTime));
+    
+            var mACTYParameter = mACTY != null ?
+                new ObjectParameter("MACTY", mACTY) :
+                new ObjectParameter("MACTY", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("TINH_TONKHO_CONGTY", nGAYCParameter, mACTYParameter);
         }
     }
 }

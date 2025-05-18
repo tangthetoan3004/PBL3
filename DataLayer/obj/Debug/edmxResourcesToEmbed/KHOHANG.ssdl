@@ -298,6 +298,10 @@ warning 6002: The table/view 'QUANLY_KHOHANG.dbo.V_USER_NOTIN_GROUP' does not ha
     <Parameter Name="NAM" Type="int" Mode="InOut" />
     <Parameter Name="KY" Type="int" Mode="InOut" />
   </Function>
+  <Function Name="TINH_TONKHO_CONGTY" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NGAYC" Type="datetime" Mode="In" />
+    <Parameter Name="MACTY" Type="varchar" Mode="In" />
+  </Function>
   <Function Name="TINH_TONKHO_DONVI" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="NGAYC" Type="datetime" Mode="In" />
     <Parameter Name="MADVI" Type="varchar" Mode="In" />

@@ -25,8 +25,8 @@ namespace BusinessLayer
         }
         public SYS_PARAM(string macty, string madvi)
         {
-            this.macty = macty;
-            this.madvi = madvi;
+            this._macty = macty;
+            this._madvi = madvi;
         }
         public void SaveFile()
         {

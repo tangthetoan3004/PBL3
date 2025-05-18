@@ -40,13 +40,19 @@ namespace STOCK
         private void toolStripButton_Tonkho_Click(object sender, EventArgs e)
         {
             string madvi = "";
+            string macty = "";
             TONKHO _tonkho = new TONKHO();
-            if (myFunctions._madvi == "")
+            if (myFunctions._madvi == "" && myFunctions._macty == "")
             {
-                madvi = "CNMB";
+                macty = "CT07";
+                madvi = "KHODN1";
             }
-            else madvi = myFunctions._madvi;
-            if (_tonkho.TinhTon(madvi, DateTime.Now))
+            else
+            {
+                madvi = myFunctions._madvi;
+                macty = myFunctions._macty;
+            }
+            if (_tonkho.TinhTon(madvi, macty, DateTime.Now))
             {
                 MessageBox.Show("Cập nhật tồn kho thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -78,7 +84,7 @@ namespace STOCK
                 groupButton.FlatAppearance.BorderSize = 0;
                 groupButton.BackColor = Color.Transparent;
                 groupButton.Font = new Font("Segoe UI", 11, FontStyle.Bold);
-                groupButton.Height = 40;
+                groupButton.Height = 28;
                 groupButton.Image = imageList1.Images[0];
                 groupButton.ImageAlign = ContentAlignment.MiddleLeft;
                 groupButton.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -95,7 +101,7 @@ namespace STOCK
                 itemsPanel.BackColor = Color.Transparent;
                 itemsPanel.AutoSizeMode = AutoSizeMode.GrowAndShrink;
                 itemsPanel.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-                itemsPanel.Padding = new Padding(20, 0, 0, 5);
+                itemsPanel.Padding = new Padding(20, 0, 0, 2);
 
 
                 var _IsChild = _func.getChild(i.FUNC_CODE);
@@ -106,20 +112,20 @@ namespace STOCK
                     itemButton.Name = j.FUNC_CODE;
                     itemButton.Tag = j.FUNC_CODE;
                     itemButton.Font = new Font("Segoe UI", 11, FontStyle.Regular);
-                    itemButton.Height = 30;
+                    itemButton.Height = 28;
                     itemButton.ForeColor = Color.Black;
                     itemButton.BackColor = Color.Transparent;
                     itemButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
                     itemButton.Width = 235;
                     itemButton.FlatStyle = FlatStyle.Flat;
-                    itemButton.Margin = new Padding(0, 5, 0, 5);
+                    itemButton.Margin = new Padding(20, 2, 0, 2);
                     itemButton.FlatAppearance.BorderSize = 0;
                     itemButton.TextAlign = ContentAlignment.MiddleLeft;
                     itemButton.Click += (s, e) => click_ItemButton(itemButton);
                     itemButton.FlatAppearance.MouseOverBackColor = ColorTranslator.FromHtml("#7E7471");
                     itemsPanel.Controls.Add(itemButton);
                 }
-                itemsPanel.Height = itemsPanel.Controls.Count * (30 + 5 + 5) + itemsPanel.Padding.Top + itemsPanel.Padding.Bottom;
+                itemsPanel.Height = itemsPanel.Controls.Count * (28 + 2 + 2) + itemsPanel.Padding.Top + itemsPanel.Padding.Bottom;
                 groupPanel.Controls.Add(itemsPanel);
                 itemsPanel.Top = groupButton.Height;
                 itemsPanel.Left = 0;

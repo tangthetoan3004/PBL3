@@ -37,7 +37,8 @@ namespace STOCK
         }
 
         tb_SYS_USER _user;
-        int right;
+        private int right;
+        private int creater;
         CONGTY _cty;
         DONVI _dvi;
         List<_TRANGTHAI> trangthai;
@@ -51,7 +52,6 @@ namespace STOCK
         tb_SYS_SEQUENCE _tbs;
         List<tb_CHUNGTU> _lsChungtu;
         private bool allowTabChange = false;
-        Guid pKhoa;
 
         private void frmNhapNB_Load(object sender, EventArgs e)
         {
@@ -69,12 +69,8 @@ namespace STOCK
 
             _bdChungtu.PositionChanged += _bdChungtu_PositionChanged;
 
-            _enableControl(false);
-
-            cbb_Congty.SelectedValue = myFunctions._macty;
-
             loadCongty();
-
+            cbb_Congty.SelectedValue = myFunctions._macty;
 
             trangthai = _TRANGTHAI.getList();
             cbb_trangthai.DataSource = trangthai;
@@ -86,15 +82,16 @@ namespace STOCK
             loadDonviNhap();
             loadDonvi1();
             cbb_Donvi.Enabled = false;
+            cbb_Congty.Enabled = false;
             if (myFunctions._madvi == "~")
             {
-                cbb_Donvi.SelectedValue = "CT01";               
+                cbb_Donvi.SelectedValue = "CTKH01";
             }
             else
             {
                 cbb_Donvi.SelectedValue = myFunctions._madvi;
             }
-            _lsChungtu = _chungtu.getPhieuNhap(2, dtp1.Value, dtp2.Value.AddDays(1), cbb_Donvi.SelectedValue.ToString());
+            _lsChungtu = _chungtu.getPhieuNhap(2, dtp1.Value, dtp2.Value.AddDays(1),cbb_Donvi.SelectedValue.ToString());
             _bdChungtu.DataSource = _lsChungtu;
             dataGridView1.DataSource = _bdChungtu;
             _visible1();
@@ -110,7 +107,6 @@ namespace STOCK
         private void _bdChungtu_PositionChanged(object sender, EventArgs e)
         {
             xuatThongtin();
-            
         }
 
         private void toolStripButton_Tao_Click(object sender, EventArgs e)
@@ -131,8 +127,7 @@ namespace STOCK
                 {
                     madvi = cbb_Donvi.SelectedValue.ToString();
                 }
-                    tb_DONVI dvi = _dvi.getItem(cbb_Donvi.SelectedValue.ToString());
-               
+                tb_DONVI dvi = _dvi.getItem(cbb_Donvi.SelectedValue.ToString());
                 _tbs = _seq.getItem("NNB@" + DateTime.Today.Year.ToString() + "@" + dvi.KYHIEU);
                 if (_tbs == null)
                 {
@@ -140,6 +135,11 @@ namespace STOCK
                     _tbs.SEQNAME = "NNB@" + DateTime.Today.Year.ToString() + "@" + dvi.KYHIEU;
                     _tbs.SEQVALUE = 1;
                     _seq.add(_tbs);
+                }
+                if (_bdChungtu.Current == null)
+                {
+                    MessageBox.Show("Không có phiếu để tạo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
                 }
                 ct = (tb_CHUNGTU)_bdChungtu.Current;
                 ct = _chungtu.getItem(ct.KHOA);
@@ -175,25 +175,10 @@ namespace STOCK
            this.Close();
         }
 
-        private void cbb_Donvi_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (cbb_Donvi.SelectedValue == null)
-                return;
-            _lsChungtu = _chungtu.getPhieuNhap(2, dtp1.Value, dtp2.Value.AddDays(1), cbb_Donvi.SelectedValue.ToString());
-            _bdChungtu.DataSource = _lsChungtu;
-            dataGridView1.DataSource = _bdChungtu;
-            _visible1();
-            UpdateTongCongMain();
-            loadDonvi1();
-            xuatThongtin();
-        }
-
         private void _visible1()
         {
             dataGridView1.Columns["KHOA"].Visible = false;
-        //    dataGridView1.Columns["SCT2"].Visible = false;
             dataGridView1.Columns["LCT"].Visible = false;
-        //    dataGridView1.Columns["NGAY2"].Visible = false;
             dataGridView1.Columns["MACTY"].Visible = false;
             dataGridView1.Columns["MADVI"].Visible = false;
             dataGridView1.Columns["MADVI2"].Visible = false;
@@ -212,18 +197,12 @@ namespace STOCK
             dataGridView2.Columns["CHIETKHAU"].Visible = false;
         }
 
-        void showHideControl(bool t)
-        {
-            
-        }
-
         void _enableControl(bool t)
         {
             tb_sophieu.Enabled = t;
             tb_ghichu.Enabled = t;
             cbb_trangthai.Enabled = t;
             cbb_donvixuat.Enabled = t;
-            cbb_donvinhap.Enabled = t;
             dtp.Enabled = t;
             dtNgayNhap.Enabled = t;
             txtSoPhieuNhap.Enabled = t;
@@ -244,7 +223,7 @@ namespace STOCK
         }
         private void loadDonvi1()
         {
-            cbb_donvixuat.DataSource = _dvi.getAll(cbb_Congty.SelectedValue.ToString());
+            cbb_donvixuat.DataSource = _dvi.getAllbyKho(cbb_Congty.SelectedValue.ToString());
             cbb_donvixuat.DisplayMember = "TENDVI";
             cbb_donvixuat.ValueMember = "MADV";
         }
@@ -360,14 +339,9 @@ namespace STOCK
 
         private void loadDonviNhap()
         {
-            cbb_donvinhap.DataSource = _dvi.getDonViByCty(cbb_Congty.SelectedValue.ToString(), false);
+            cbb_donvinhap.DataSource = _dvi.getAll(cbb_Congty.SelectedValue.ToString());
             cbb_donvinhap.DisplayMember = "TENDVI";
             cbb_donvinhap.ValueMember = "MADV";
-        }
-
-        private void cbb_Congty_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            loadDonvi(cbb_Congty.SelectedValue.ToString());
         }
 
         private void UpdateTongCongMain()
@@ -419,7 +393,7 @@ namespace STOCK
             tb_CHUNGTU ct = (tb_CHUNGTU)_bdChungtu.Current;
             if (ct != null)
             {
-                pKhoa = ct.KHOA;
+                _khoa = ct.KHOA;
                 dtp.Value = ct.NGAY.Value;
                 tb_sophieu.Text = ct.SCT;
                 tb_ghichu.Text = ct.GHICHU;
@@ -431,11 +405,27 @@ namespace STOCK
                 }
                 txtSoPhieuNhap.Text = ct.SCT2;
                 cbb_trangthai.SelectedValue = ct.TRANGTHAI;
-                toolStripButton_Tao.Enabled = true;
+                creater = ct.CREATED_BY ?? 0;
                 _bdChungtuCT.DataSource = _chungtuct.getListByKhoaFull(ct.KHOA);
                 dataGridView2.DataSource = _bdChungtuCT;
                 _visible2();
-                UpdateTongCong();
+                if (ct.SCT2 != null || !string.IsNullOrEmpty((ct.DELETED_BY).ToString()))
+                {
+                    toolStripButton_Tao.Enabled = false;
+                }
+                else
+                {
+                    toolStripButton_Tao.Enabled = true;
+                }
+                if (ct.SCT2 != null)
+                {
+                    toolStripButton_In.Enabled = true;
+                }
+                else
+                {
+                    toolStripButton_In.Enabled = false;
+                }
+                    UpdateTongCong();
             }
         }
 
@@ -446,12 +436,6 @@ namespace STOCK
             dataGridView2.ReadOnly = true;
             allowTabChange = false;
         }
-
-        private void dataGridView2_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
-        {
-
-        }
-
         private void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
             if (dataGridView1.Columns[e.ColumnIndex].Name == "TRANGTHAIDS")
@@ -475,7 +459,7 @@ namespace STOCK
                 return;
             if (dataGridView1.Columns[e.ColumnIndex].Name == "DELETED_BY")
             {
-                if (e.Value != null && e.Value.ToString() == "1")
+                if (e.Value != null && e.Value.ToString() == Convert.ToString(creater))
                 {
                     using (SolidBrush whiteBrush = new SolidBrush(Color.White))
                     {
@@ -587,14 +571,9 @@ namespace STOCK
                 toolStripButton_quaylai.Enabled = false;
             }
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-           
-        }
         private void XuatReport(string _reportName, string _tieude)
         {
-            if (pKhoa != null)
+            if (_khoa != null)
             {
                 Form frm = new Form();
                 CrystalReportViewer Crv = new CrystalReportViewer();
@@ -605,17 +584,14 @@ namespace STOCK
                 ReportDocument doc = new ReportDocument();
                 doc.Load(System.Windows.Forms.Application.StartupPath + "\\Reports\\" + _reportName + @".rpt");
                 Thongtin = doc.Database.Tables[0].LogOnInfo;
-                // Thêm code kiểm tra này trước khi dùng
 
                 Thongtin.ConnectionInfo.ServerName = myFunctions._srv;
                 Thongtin.ConnectionInfo.DatabaseName = myFunctions._db;
-                //    Thongtin.ConnectionInfo.UserID = myFunctions._us;
-                //   Thongtin.ConnectionInfo.Password = myFunctions._pw;
                 Thongtin.ConnectionInfo.IntegratedSecurity = true;
                 doc.Database.Tables[0].ApplyLogOnInfo(Thongtin);
                 try
                 {
-                    doc.SetParameterValue("khoa", pKhoa.ToString());
+                    doc.SetParameterValue("khoa", _khoa.ToString());
                     Crv.Dock = DockStyle.Fill;
                     Crv.ReportSource = doc;
                     frm.Controls.Add(Crv);
@@ -628,8 +604,6 @@ namespace STOCK
                 {
                     MessageBox.Show($"Lỗi: {ex.Message}\nChi tiết: {ex.InnerException?.Message}");
                 }
-
-
             }
             else
             {
@@ -637,5 +611,25 @@ namespace STOCK
             }
         }
 
+        private void dtp1_ValueChanged(object sender, EventArgs e)
+        {
+            ReloadChungTuList();
+        }
+
+        private void dtp2_ValueChanged(object sender, EventArgs e)
+        {
+            ReloadChungTuList();
+        }
+        private void ReloadChungTuList()
+        {
+            if (cbb_Donvi.SelectedValue == null)
+                return;
+            _lsChungtu = _chungtu.getPhieuNhap(2, dtp1.Value, dtp2.Value.AddDays(1), cbb_Donvi.SelectedValue.ToString());
+            _bdChungtu.DataSource = _lsChungtu;
+            dataGridView1.DataSource = _bdChungtu;
+            _visible1();
+            UpdateTongCongMain();
+            xuatThongtin();
+        }
     }
 }

@@ -32,8 +32,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton_Export = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bt_xem = new System.Windows.Forms.Button();
             this.cbb_congty = new System.Windows.Forms.ComboBox();
             this.dtp = new System.Windows.Forms.DateTimePicker();
             this.lb_congty = new System.Windows.Forms.Label();
@@ -42,8 +43,6 @@
             this.tb_find = new System.Windows.Forms.TextBox();
             this.bt_find = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.toolStripButton_Export = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Thoat = new System.Windows.Forms.ToolStripButton();
             this.BARCODE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TENHH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DVT = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -76,11 +75,31 @@
             this.toolStrip1.TabIndex = 5;
             this.toolStrip1.Text = "toolStrip1";
             // 
+            // toolStripButton_Export
+            // 
+            this.toolStripButton_Export.Image = global::STOCK.Properties.Resources.excel;
+            this.toolStripButton_Export.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Export.Name = "toolStripButton_Export";
+            this.toolStripButton_Export.Size = new System.Drawing.Size(73, 52);
+            this.toolStripButton_Export.Text = "Export";
+            this.toolStripButton_Export.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Export.Click += new System.EventHandler(this.toolStripButton_Export_Click);
+            // 
+            // toolStripButton_Thoat
+            // 
+            this.toolStripButton_Thoat.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.toolStripButton_Thoat.Image = global::STOCK.Properties.Resources.exit;
+            this.toolStripButton_Thoat.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Thoat.Name = "toolStripButton_Thoat";
+            this.toolStripButton_Thoat.Size = new System.Drawing.Size(66, 52);
+            this.toolStripButton_Thoat.Text = "Thoát";
+            this.toolStripButton_Thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton_Thoat.Click += new System.EventHandler(this.toolStripButton_Thoat_Click);
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.bt_xem);
             this.panel1.Controls.Add(this.cbb_congty);
             this.panel1.Controls.Add(this.dtp);
             this.panel1.Controls.Add(this.lb_congty);
@@ -93,21 +112,10 @@
             this.panel1.TabIndex = 6;
             this.panel1.Resize += new System.EventHandler(this.panel1_Resize);
             // 
-            // bt_xem
-            // 
-            this.bt_xem.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_xem.Location = new System.Drawing.Point(1238, 6);
-            this.bt_xem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.bt_xem.Name = "bt_xem";
-            this.bt_xem.Size = new System.Drawing.Size(108, 39);
-            this.bt_xem.TabIndex = 4;
-            this.bt_xem.Text = "Xem";
-            this.bt_xem.UseVisualStyleBackColor = true;
-            this.bt_xem.Click += new System.EventHandler(this.bt_xem_Click);
-            // 
             // cbb_congty
             // 
             this.cbb_congty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_congty.Enabled = false;
             this.cbb_congty.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_congty.FormattingEnabled = true;
             this.cbb_congty.Location = new System.Drawing.Point(559, 11);
@@ -124,7 +132,8 @@
             this.dtp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtp.Name = "dtp";
             this.dtp.Size = new System.Drawing.Size(195, 32);
-            this.dtp.TabIndex = 2;
+            this.dtp.TabIndex = 0;
+            this.dtp.ValueChanged += new System.EventHandler(this.dtp_ValueChanged);
             // 
             // lb_congty
             // 
@@ -168,7 +177,8 @@
             this.tb_find.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_find.Name = "tb_find";
             this.tb_find.Size = new System.Drawing.Size(414, 27);
-            this.tb_find.TabIndex = 6;
+            this.tb_find.TabIndex = 1;
+            this.tb_find.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_find_KeyPress);
             // 
             // bt_find
             // 
@@ -177,7 +187,7 @@
             this.bt_find.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bt_find.Name = "bt_find";
             this.bt_find.Size = new System.Drawing.Size(92, 30);
-            this.bt_find.TabIndex = 5;
+            this.bt_find.TabIndex = 2;
             this.bt_find.Text = "Find";
             this.bt_find.UseVisualStyleBackColor = true;
             this.bt_find.Click += new System.EventHandler(this.bt_find_Click);
@@ -225,27 +235,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1403, 351);
             this.dataGridView1.TabIndex = 8;
-            // 
-            // toolStripButton_Export
-            // 
-            this.toolStripButton_Export.Image = global::STOCK.Properties.Resources.excel;
-            this.toolStripButton_Export.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Export.Name = "toolStripButton_Export";
-            this.toolStripButton_Export.Size = new System.Drawing.Size(73, 52);
-            this.toolStripButton_Export.Text = "Export";
-            this.toolStripButton_Export.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Export.Click += new System.EventHandler(this.toolStripButton_Export_Click);
-            // 
-            // toolStripButton_Thoat
-            // 
-            this.toolStripButton_Thoat.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.toolStripButton_Thoat.Image = global::STOCK.Properties.Resources.exit;
-            this.toolStripButton_Thoat.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Thoat.Name = "toolStripButton_Thoat";
-            this.toolStripButton_Thoat.Size = new System.Drawing.Size(66, 52);
-            this.toolStripButton_Thoat.Text = "Thoát";
-            this.toolStripButton_Thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton_Thoat.Click += new System.EventHandler(this.toolStripButton_Thoat_Click);
+            this.dataGridView1.TabStop = false;
             // 
             // BARCODE
             // 
@@ -373,7 +363,6 @@
         private System.Windows.Forms.ToolStripButton toolStripButton_Export;
         private System.Windows.Forms.ToolStripButton toolStripButton_Thoat;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button bt_xem;
         private System.Windows.Forms.ComboBox cbb_congty;
         private System.Windows.Forms.DateTimePicker dtp;
         private System.Windows.Forms.Label lb_congty;

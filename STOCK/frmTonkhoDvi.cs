@@ -54,20 +54,6 @@ namespace STOCK
             cbb_donvi.DisplayMember = "TENDVI";
             cbb_donvi.ValueMember = "MADV";
         }
-
-        private void cbb_congty_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            loadDonvi(cbb_congty.SelectedValue.ToString());
-        }
-
-        private void vbb_donvi_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (cbb_congty.SelectedValue != null && cbb_donvi.SelectedValue != null)
-            {
-                loadTonKho(cbb_congty.SelectedValue.ToString(), cbb_donvi.SelectedValue.ToString(), dtp.Value.Year, dtp.Value.Month);
-                _lstTK = _tonkho.getTonKhoDvi(cbb_congty.SelectedValue.ToString(), cbb_donvi.SelectedValue.ToString(), dtp.Value.Year, dtp.Value.Month);
-            }
-        }
         void loadCty()
         {
             cbb_congty.DataSource = _congty.getAll();
@@ -99,10 +85,6 @@ namespace STOCK
 
             cbb_donvi.Top = lb_donvi.Top - 3;
             cbb_donvi.Left = cbb_congty.Left;
-
-            bt_xem.Top = lb_congty.Top - 3;
-            bt_xem.Left = cbb_congty.Right + 30;
-            bt_xem.Height = panel1.Height - cbb_congty.Top - cbb_donvi.Bottom;
 
             panel1.Height = lb_donvi.Bottom + 20;
         }
@@ -236,13 +218,6 @@ namespace STOCK
             _exportExcel();
         }
 
-        private void bt_xem_Click(object sender, EventArgs e)
-        {
-            loadTonKho(cbb_congty.SelectedValue.ToString(), cbb_donvi.SelectedValue.ToString(), dtp.Value.Year, dtp.Value.Month);
-            _lstTK = _tonkho.getTonKhoDvi(cbb_congty.SelectedValue.ToString(), cbb_donvi.SelectedValue.ToString(), dtp.Value.Year, dtp.Value.Month);
-            tb_find.Text = "";
-        }
-
         private void bt_find_Click(object sender, EventArgs e)
         {
             string barcode = tb_find.Text.Trim().ToLower();
@@ -264,6 +239,25 @@ namespace STOCK
         private void toolStripButton_Thoat_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void dtp_ValueChanged(object sender, EventArgs e)
+        {
+            if (cbb_donvi.SelectedValue != null)
+            {
+                loadTonKho(cbb_congty.SelectedValue.ToString(), cbb_donvi.SelectedValue.ToString(), dtp.Value.Year, dtp.Value.Month);
+                _lstTK = _tonkho.getTonKhoDvi(cbb_congty.SelectedValue.ToString(), cbb_donvi.SelectedValue.ToString(), dtp.Value.Year, dtp.Value.Month);
+                tb_find.Text = "";
+            }
+        }
+
+        private void tb_find_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                bt_find_Click(sender, e);
+            }
         }
     }
 }

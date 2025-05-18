@@ -1,4 +1,7 @@
 ﻿using BusinessLayer;
+using CrystalDecisions.CrystalReports.Engine;
+using CrystalDecisions.Shared;
+using CrystalDecisions.Windows.Forms;
 using DataLayer;
 using STOCK.ucControl;
 using System;
@@ -35,8 +38,45 @@ namespace STOCK
 
         private void bt_thuchien_Click(object sender, EventArgs e)
         {
+            tb_SYS_REPORT rp = _sysReport.getItem(int.Parse(lstDanhSach.SelectedValue.ToString()));
+            Form frm = new Form();
+            CrystalReportViewer Crv = new CrystalReportViewer();
+            Crv.ShowGroupTreeButton = false;
+            Crv.ShowParameterPanelButton = false;
+            Crv.ToolPanelView = ToolPanelViewType.None;
+            TableLogOnInfo Thongtin;
+            ReportDocument doc = new ReportDocument();
+            doc.Load(System.Windows.Forms.Application.StartupPath + "\\Reports\\" + rp.REP_NAME + @".rpt");
+            Thongtin = doc.Database.Tables[0].LogOnInfo;
+            Thongtin.ConnectionInfo.ServerName = myFunctions._srv;
+            Thongtin.ConnectionInfo.DatabaseName = myFunctions._db;
+            Thongtin.ConnectionInfo.IntegratedSecurity = true;
+            doc.Database.Tables[0].ApplyLogOnInfo(Thongtin);
 
+            if(rp.TUNGAY == true)
+            {
+                doc.SetParameterValue("@NGAYD", _ucNgay.Dtp1.Value);
+                doc.SetParameterValue("@NGAYC", _ucNgay.Dtp2.Value);
+            }
+            if(rp.MACTY == true)
+            {
+                doc.SetParameterValue("@MACTY", _ucCongty.CbbCongty.SelectedValue.ToString());
+            }
+            if(rp.MADVI == true)
+            {
+  //              doc.SetParameterValue("@MACTY", _ucCongty.CbbCongty.SelectedValue.ToString());
+                doc.SetParameterValue("@MADVI", _ucDonvi.CbbDonvi.SelectedValue.ToString());
+
+            }
+            Crv.Dock = DockStyle.Fill;
+            Crv.ReportSource = doc;
+            frm.Controls.Add(Crv);
+            Crv.Refresh();
+            frm.Text = rp.DESCRIPTION;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.ShowDialog();
         }
+      
 
         private void bt_dong_Click(object sender, EventArgs e)
         {
@@ -52,13 +92,13 @@ namespace STOCK
             lstDanhSach.DisplayMember = "DESCRIPTION";
             lstDanhSach.ValueMember = "REP_CODE";
             loadUserControls();
-
         }
 
         private void lstDanhSach_SelectedIndexChanged(object sender, EventArgs e)
         {
             loadUserControls();
         }
+      
         private void loadUserControls() {
             tb_SYS_REPORT rep = new tb_SYS_REPORT();
             if (lstDanhSach.SelectedValue != null && int.TryParse(lstDanhSach.SelectedValue.ToString(), out int selectedId))

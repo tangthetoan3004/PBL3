@@ -132,5 +132,22 @@ namespace BusinessLayer
             }
             return lstbarcode;
         }
+        public List<obj_BARCODE> getListByKey(int idNhom, string keyword)
+        {
+            var lstDM = db.tb_HANGHOA.Where(p => p.IDNHOM == idNhom && (p.TENHH.Contains(keyword) || p.BARCODE.Contains(keyword))).ToList();
+            List<obj_BARCODE> lstbarcode = new List<obj_BARCODE>();
+            obj_BARCODE obj;
+            foreach (var item in lstDM)
+            {
+                obj = new obj_BARCODE();
+                obj.BARCODE = item.BARCODE;
+                obj.TENHH = item.TENHH;
+                obj.TENTAT = item.TENTAT;
+                obj.DONGIA = item.DONGIA;
+                obj.SOTEM = null;
+                lstbarcode.Add(obj);
+            }
+            return lstbarcode;
+        }
     }
 }

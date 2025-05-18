@@ -14,11 +14,12 @@ namespace BusinessLayer
         {
             db = Entities.CreateEntities();
         }
-        public bool TinhTon(string madvi, DateTime ngay)
+        public bool TinhTon(string madvi, string macty, DateTime ngay)
         {
             try
             {
                 db.TINH_TONKHO_DONVI(ngay, madvi);
+                db.TINH_TONKHO_CONGTY(ngay, macty);
                 return true;
             }
             catch  (Exception ex) 
@@ -29,6 +30,7 @@ namespace BusinessLayer
             }
             
         }
+       
         public List<obj_TONKHO> getTonKhoCty(string macty, int nam, int ky)
         {
             var tk = db.tb_TONKHO.Where(x => x.MACTY == macty && x.NAM == nam && x.KY == ky).ToList();

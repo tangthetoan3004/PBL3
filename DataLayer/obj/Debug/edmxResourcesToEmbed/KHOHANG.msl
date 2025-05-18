@@ -3,19 +3,6 @@
   <EntityContainerMapping StorageEntityContainer="QUANLY_KHOHANGModelStoreContainer" CdmEntityContainer="QUANLY_KHOHANGEntities">
     <FunctionImportMapping FunctionImportName="spNGAY_TINHTON" FunctionName="QUANLY_KHOHANGModel.Store.spNGAY_TINHTON" />
     <FunctionImportMapping FunctionImportName="TINH_TONKHO_DONVI" FunctionName="QUANLY_KHOHANGModel.Store.TINH_TONKHO_DONVI" />
-    <EntitySetMapping Name="tb_CONGTY">
-      <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_CONGTY">
-        <MappingFragment StoreEntitySet="tb_CONGTY">
-          <ScalarProperty Name="DISABLED" ColumnName="DISABLED" />
-          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
-          <ScalarProperty Name="FAX" ColumnName="FAX" />
-          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
-          <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
-          <ScalarProperty Name="TENCTY" ColumnName="TENCTY" />
-          <ScalarProperty Name="MACTY" ColumnName="MACTY" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="tb_DONVI">
       <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_DONVI">
         <MappingFragment StoreEntitySet="tb_DONVI">
@@ -299,5 +286,19 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="tb_CONGTY">
+      <EntityTypeMapping TypeName="QUANLY_KHOHANGModel.tb_CONGTY">
+        <MappingFragment StoreEntitySet="tb_CONGTY">
+          <ScalarProperty Name="DISABLED" ColumnName="DISABLED" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="FAX" ColumnName="FAX" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
+          <ScalarProperty Name="TENCTY" ColumnName="TENCTY" />
+          <ScalarProperty Name="MACTY" ColumnName="MACTY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="TINH_TONKHO_CONGTY" FunctionName="QUANLY_KHOHANGModel.Store.TINH_TONKHO_CONGTY" />
   </EntityContainerMapping>
 </Mapping>

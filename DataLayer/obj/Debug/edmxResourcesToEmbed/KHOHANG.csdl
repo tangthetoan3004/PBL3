@@ -11,7 +11,6 @@
       <Parameter Name="NGAYC" Mode="In" Type="DateTime" />
       <Parameter Name="MADVI" Mode="In" Type="String" />
     </FunctionImport>
-    <EntitySet Name="tb_CONGTY" EntityType="QUANLY_KHOHANGModel.tb_CONGTY" />
     <EntitySet Name="tb_DONVI" EntityType="QUANLY_KHOHANGModel.tb_DONVI" />
     <EntitySet Name="tb_DVT" EntityType="QUANLY_KHOHANGModel.tb_DVT" />
     <EntitySet Name="tb_HANGHOA" EntityType="QUANLY_KHOHANGModel.tb_HANGHOA" />
@@ -33,19 +32,12 @@
     <EntitySet Name="tb_CHUNGTU_CT" EntityType="QUANLY_KHOHANGModel.tb_CHUNGTU_CT" />
     <EntitySet Name="tb_CHUNGTU" EntityType="QUANLY_KHOHANGModel.tb_CHUNGTU" />
     <EntitySet Name="tb_KHACHHANG" EntityType="QUANLY_KHOHANGModel.tb_KHACHHANG" />
+    <EntitySet Name="tb_CONGTY" EntityType="QUANLY_KHOHANGModel.tb_CONGTY" />
+    <FunctionImport Name="TINH_TONKHO_CONGTY">
+      <Parameter Name="NGAYC" Mode="In" Type="DateTime" />
+      <Parameter Name="MACTY" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
-  <EntityType Name="tb_CONGTY">
-    <Key>
-      <PropertyRef Name="MACTY" />
-    </Key>
-    <Property Name="MACTY" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="TENCTY" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-    <Property Name="DIENTHOAI" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="FAX" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <Property Name="DIACHI" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
-    <Property Name="DISABLED" Type="Boolean" />
-  </EntityType>
   <EntityType Name="tb_DONVI">
     <Key>
       <PropertyRef Name="MADV" />
@@ -317,5 +309,17 @@
     <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="DIACHI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="MST" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tb_CONGTY">
+    <Key>
+      <PropertyRef Name="MACTY" />
+    </Key>
+    <Property Name="MACTY" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TENCTY" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DIENTHOAI" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FAX" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DISABLED" Type="Boolean" />
   </EntityType>
 </Schema>

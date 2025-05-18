@@ -27,11 +27,11 @@ namespace STOCK.ucControl
             loadCongTy();
             cbb_Congty.SelectedValue = myFunctions._macty;
             loadDonVi();
+            cbb_Donvi.SelectedValue = myFunctions._madvi;
         }
-
-        private void cbb_Congty_SelectedIndexChanged(object sender, EventArgs e)
+        public ComboBox CbbDonvi
         {
-            loadDonVi();
+            get { return cbb_Donvi; }
         }
         private void loadCongTy()
         {
@@ -44,6 +44,11 @@ namespace STOCK.ucControl
             cbb_Donvi.DataSource = _dvi.getAll(cbb_Congty.SelectedValue.ToString());
             cbb_Donvi.DisplayMember = "TENDVI";
             cbb_Donvi.ValueMember = "MADV";
+        }
+
+        private void cbb_Congty_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            loadDonVi();
         }
     }
 }

@@ -74,6 +74,10 @@ namespace POS
 
         private void bt_chietkhau_Click(object sender, EventArgs e)
         {
+            _ck();
+        }
+        private void _ck()
+        {
             frmChietkhau f = new frmChietkhau();
             f.d += (chietKhau) =>
             {
@@ -302,6 +306,48 @@ namespace POS
         {
             _stt_main();
             UpdateTongCongMain();
+        }
+
+        private void bt_luu_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                if (dataGridView2.RowCount == 0)
+                {
+                    MessageBox.Show("Chi tiết đơn hàng không được rỗng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+                luuthongtin();
+                lstChungTuCT = new List<obj_CHUNGTU_CT>();
+                dataGridView2.DataSource = lstChungTuCT;
+                tb_tongtienct.Text = "";
+                tb_soluongct.Text = "";
+            }
+        }
+
+        private void bt_bill_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void bt_chietkhau_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                _ck();
+            }
+        }
+
+        private void bt_trahang_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                frmTrahang f = new frmTrahang(lstChungTuCT, dataGridView2);
+                f.ShowDialog();
+            }
         }
     }
 }

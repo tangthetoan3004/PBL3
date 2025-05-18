@@ -58,6 +58,7 @@
             // 
             this.cbb_Donvi.BackColor = System.Drawing.Color.LightGray;
             this.cbb_Donvi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_Donvi.Enabled = false;
             this.cbb_Donvi.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_Donvi.FormattingEnabled = true;
             this.cbb_Donvi.Location = new System.Drawing.Point(18, 100);
@@ -69,13 +70,14 @@
             // 
             this.cbb_Congty.BackColor = System.Drawing.Color.LightGray;
             this.cbb_Congty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbb_Congty.Enabled = false;
             this.cbb_Congty.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_Congty.FormattingEnabled = true;
             this.cbb_Congty.Location = new System.Drawing.Point(18, 36);
             this.cbb_Congty.Name = "cbb_Congty";
             this.cbb_Congty.Size = new System.Drawing.Size(579, 33);
             this.cbb_Congty.TabIndex = 9;
-            this.cbb_Congty.SelectedIndexChanged += new System.EventHandler(this.cbb_Congty_SelectedIndexChanged);
+            this.cbb_Congty.SelectedIndexChanged += new System.EventHandler(this.cbb_Congty_SelectedIndexChanged_1);
             // 
             // ucDonvi
             // 

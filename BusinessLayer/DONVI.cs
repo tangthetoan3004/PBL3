@@ -23,6 +23,10 @@ namespace BusinessLayer
         {
             return db.tb_DONVI.ToList();
         }
+        public List<tb_DONVI> getAllExcept(string macty,string madvi)
+        {
+            return db.tb_DONVI.Where(p => p.MACTY == macty && p.MADV != madvi).ToList();
+        }
         public List<tb_DONVI> getAll(string macty)
         {
             return db.tb_DONVI.Where(p => p.MACTY == macty).ToList();

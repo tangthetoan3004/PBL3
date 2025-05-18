@@ -17,6 +17,10 @@ namespace STOCK.ucControl
         {
             InitializeComponent();
         }
+        public ComboBox CbbCongty
+        {
+            get { return cbb_Congty; }
+        }
 
         private void ucCongty_Load(object sender, EventArgs e)
         {

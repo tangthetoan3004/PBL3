@@ -67,10 +67,6 @@ namespace STOCK
 
             cbb_congty.Top = lb_congty.Top - 4;
             cbb_congty.Left = lb_congty.Right + 3;
-
-            bt_xem.Top = cbb_congty.Top;
-            bt_xem.Left = cbb_congty.Right + 30;
-            bt_xem.Height = cbb_congty.Height;
         }
 
         private void panel2_Resize(object sender, EventArgs e)
@@ -89,9 +85,7 @@ namespace STOCK
 
         private void bt_xem_Click(object sender, EventArgs e)
         {
-            loadTonKho(cbb_congty.SelectedValue.ToString(), dtp.Value.Year, dtp.Value.Month);
-            _lstTK = _tonkho.getTonKhoCty(cbb_congty.SelectedValue.ToString(), dtp.Value.Year, dtp.Value.Month);
-            tb_find.Text = "";
+           
         }
 
         private void toolStripButton_Export_Click(object sender, EventArgs e)
@@ -225,6 +219,22 @@ namespace STOCK
                     .ToList();
 
                 dataGridView1.DataSource = filteredList;
+            }
+        }
+
+        private void dtp_ValueChanged(object sender, EventArgs e)
+        {
+            loadTonKho(cbb_congty.SelectedValue.ToString(), dtp.Value.Year, dtp.Value.Month);
+            _lstTK = _tonkho.getTonKhoCty(cbb_congty.SelectedValue.ToString(), dtp.Value.Year, dtp.Value.Month);
+            tb_find.Text = "";
+        }
+
+        private void tb_find_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                bt_find_Click(sender, e);
             }
         }
     }

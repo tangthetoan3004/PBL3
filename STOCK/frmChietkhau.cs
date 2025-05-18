@@ -28,6 +28,10 @@ namespace STOCK
 
         private void bt_capnhat_Click(object sender, EventArgs e)
         {
+            _chietkhau();
+        }
+        private void _chietkhau()
+        {
             if (double.TryParse(tb_chietkhau.Text, out double chietKhau))
             {
                 d?.Invoke(chietKhau);
@@ -35,7 +39,16 @@ namespace STOCK
             }
             else
             {
-                MessageBox.Show("Chiết khấu không hợp lệ!!!","Lỗi",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Chiết khấu không hợp lệ!!!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void tb_chietkhau_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                _chietkhau();
             }
         }
     }
