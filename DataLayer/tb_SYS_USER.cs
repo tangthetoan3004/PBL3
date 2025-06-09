@@ -14,6 +14,14 @@ namespace DataLayer
     
     public partial class tb_SYS_USER
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tb_SYS_USER()
+        {
+            this.tb_SYS_GROUP = new HashSet<tb_SYS_GROUP>();
+            this.tb_SYS_RIGHT = new HashSet<tb_SYS_RIGHT>();
+            this.tb_SYS_RIGHT_REP = new HashSet<tb_SYS_RIGHT_REP>();
+        }
+    
         public int IDUSER { get; set; }
         public string USERNAME { get; set; }
         public string PASSWD { get; set; }
@@ -23,5 +31,14 @@ namespace DataLayer
         public Nullable<System.DateTime> LAST_PWD_CHANGED { get; set; }
         public Nullable<bool> DISABLED { get; set; }
         public Nullable<bool> ISGROUP { get; set; }
+    
+        public virtual tb_CONGTY tb_CONGTY { get; set; }
+        public virtual tb_DONVI tb_DONVI { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_SYS_GROUP> tb_SYS_GROUP { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_SYS_RIGHT> tb_SYS_RIGHT { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_SYS_RIGHT_REP> tb_SYS_RIGHT_REP { get; set; }
     }
 }

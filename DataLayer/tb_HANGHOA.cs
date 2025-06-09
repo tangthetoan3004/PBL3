@@ -14,6 +14,13 @@ namespace DataLayer
     
     public partial class tb_HANGHOA
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tb_HANGHOA()
+        {
+            this.tb_CHUNGTU_CT = new HashSet<tb_CHUNGTU_CT>();
+            this.tb_TONKHO = new HashSet<tb_TONKHO>();
+        }
+    
         public string BARCODE { get; set; }
         public string TENHH { get; set; }
         public string TENTAT { get; set; }
@@ -26,5 +33,14 @@ namespace DataLayer
         public Nullable<System.DateTime> CREATED_DATE { get; set; }
         public Nullable<int> CREATED_BY { get; set; }
         public Nullable<bool> DISABLE { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_CHUNGTU_CT> tb_CHUNGTU_CT { get; set; }
+        public virtual tb_DVT tb_DVT { get; set; }
+        public virtual tb_NHACUNGCAP tb_NHACUNGCAP { get; set; }
+        public virtual tb_NHOMHH tb_NHOMHH { get; set; }
+        public virtual tb_XUATXU tb_XUATXU { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_TONKHO> tb_TONKHO { get; set; }
     }
 }

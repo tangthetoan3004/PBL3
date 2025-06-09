@@ -58,14 +58,7 @@ namespace STOCK
                 }
                 con.Close();
                 fs.Close();
-                if(File.Exists("sysparam.ini"))
-                {
-                    Application.Run(new frmLogin());
-                }
-                else
-                {
-                    Application.Run(new frmSetParam());
-                }
+                Application.Run(new frmSetParam());
             }
             else
             {

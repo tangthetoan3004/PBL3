@@ -34,6 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnXacNhan = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.lb_loicongty = new System.Windows.Forms.Label();
+            this.lb_loidonvi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cboCongTy
@@ -102,12 +104,34 @@
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
+            // lb_loicongty
+            // 
+            this.lb_loicongty.AutoSize = true;
+            this.lb_loicongty.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_loicongty.ForeColor = System.Drawing.Color.Red;
+            this.lb_loicongty.Location = new System.Drawing.Point(60, 117);
+            this.lb_loicongty.Name = "lb_loicongty";
+            this.lb_loicongty.Size = new System.Drawing.Size(0, 17);
+            this.lb_loicongty.TabIndex = 6;
+            // 
+            // lb_loidonvi
+            // 
+            this.lb_loidonvi.AutoSize = true;
+            this.lb_loidonvi.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_loidonvi.ForeColor = System.Drawing.Color.Red;
+            this.lb_loidonvi.Location = new System.Drawing.Point(60, 220);
+            this.lb_loidonvi.Name = "lb_loidonvi";
+            this.lb_loidonvi.Size = new System.Drawing.Size(0, 17);
+            this.lb_loidonvi.TabIndex = 7;
+            // 
             // frmSetParam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(728, 315);
+            this.Controls.Add(this.lb_loidonvi);
+            this.Controls.Add(this.lb_loicongty);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnXacNhan);
             this.Controls.Add(this.label2);
@@ -131,5 +155,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnXacNhan;
         private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Label lb_loicongty;
+        private System.Windows.Forms.Label lb_loidonvi;
     }
 }

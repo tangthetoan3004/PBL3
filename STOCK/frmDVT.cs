@@ -166,7 +166,7 @@ namespace STOCK
             else
             {
                 tb_DVT dvt = (tb_DVT)dataGridView1.SelectedRows[0].DataBoundItem;
-                tb_DVT d = _dvt.getItem(dvt.ID);
+                tb_DVT d = _dvt.getItemID(dvt.ID);
                 d.TEN = textBox_Ten.Text;
                 _dvt.update(d);
             }

@@ -14,7 +14,9 @@ namespace DataLayer
     
     public partial class tb_SYS_GROUP
     {
-        public int GROUP { get; set; }
         public int MEMBER { get; set; }
+        public int GROUP { get; set; }
+    
+        public virtual tb_SYS_USER tb_SYS_USER { get; set; }
     }
 }

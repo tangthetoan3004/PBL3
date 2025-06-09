@@ -25,7 +25,7 @@ namespace BusinessLayer
         {
             return db.tb_DVT.FirstOrDefault(p => p.TEN == ten);
         }
-        public tb_DVT getItem(int id)
+        public tb_DVT getItemID(string id)
         {
             return db.tb_DVT.FirstOrDefault(p  => p.ID == id);
         }

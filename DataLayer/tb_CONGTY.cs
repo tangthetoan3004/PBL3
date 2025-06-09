@@ -14,6 +14,15 @@ namespace DataLayer
     
     public partial class tb_CONGTY
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tb_CONGTY()
+        {
+            this.tb_CHUNGTU = new HashSet<tb_CHUNGTU>();
+            this.tb_DONVI = new HashSet<tb_DONVI>();
+            this.tb_SYS_USER = new HashSet<tb_SYS_USER>();
+            this.tb_TONKHO = new HashSet<tb_TONKHO>();
+        }
+    
         public string MACTY { get; set; }
         public string TENCTY { get; set; }
         public string DIENTHOAI { get; set; }
@@ -21,5 +30,14 @@ namespace DataLayer
         public string FAX { get; set; }
         public string DIACHI { get; set; }
         public Nullable<bool> DISABLED { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_CHUNGTU> tb_CHUNGTU { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_DONVI> tb_DONVI { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_SYS_USER> tb_SYS_USER { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_TONKHO> tb_TONKHO { get; set; }
     }
 }

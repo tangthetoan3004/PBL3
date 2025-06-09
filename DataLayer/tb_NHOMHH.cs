@@ -14,9 +14,18 @@ namespace DataLayer
     
     public partial class tb_NHOMHH
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tb_NHOMHH()
+        {
+            this.tb_HANGHOA = new HashSet<tb_HANGHOA>();
+        }
+    
         public int IDNHOM { get; set; }
         public string TENNHOM { get; set; }
         public string GHICHU { get; set; }
         public Nullable<bool> DISABLED { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_HANGHOA> tb_HANGHOA { get; set; }
     }
 }

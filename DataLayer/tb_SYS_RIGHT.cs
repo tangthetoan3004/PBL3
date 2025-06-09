@@ -17,5 +17,8 @@ namespace DataLayer
         public string FUNC_CODE { get; set; }
         public int IDUSER { get; set; }
         public Nullable<int> USER_RIGHT { get; set; }
+    
+        public virtual tb_SYS_FUNC tb_SYS_FUNC { get; set; }
+        public virtual tb_SYS_USER tb_SYS_USER { get; set; }
     }
 }

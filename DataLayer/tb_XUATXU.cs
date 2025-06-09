@@ -14,8 +14,17 @@ namespace DataLayer
     
     public partial class tb_XUATXU
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tb_XUATXU()
+        {
+            this.tb_HANGHOA = new HashSet<tb_HANGHOA>();
+        }
+    
         public int ID { get; set; }
         public string TEN { get; set; }
         public Nullable<bool> DISABLED { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_HANGHOA> tb_HANGHOA { get; set; }
     }
 }

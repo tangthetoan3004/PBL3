@@ -23,5 +23,8 @@ namespace DataLayer
         public Nullable<int> CHIETKHAU { get; set; }
         public Nullable<double> THANHTIEN { get; set; }
         public Nullable<System.DateTime> NGAY { get; set; }
+    
+        public virtual tb_CHUNGTU tb_CHUNGTU { get; set; }
+        public virtual tb_HANGHOA tb_HANGHOA { get; set; }
     }
 }

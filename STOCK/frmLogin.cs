@@ -121,9 +121,18 @@ namespace STOCK
                             {
                                 lb_saimk.Text = "";
                                 lb_saidangnhap.Text = "";
-                                frmMain frm = new frmMain(user);
-                                frm.Show();
-                                this.Hide();
+                                if(txtUserName.Text == "THUNGAN")
+                                {
+                                    frmBanle f = new frmBanle();
+                                    f.Show();
+                                    this.Hide();                                    
+                                }
+                                else
+                                {
+                                    frmStockMain frm = new frmStockMain(user);
+                                    frm.Show();
+                                    this.Hide();
+                                }    
                             }
                             else
                             {
@@ -179,6 +188,17 @@ namespace STOCK
                 e.Handled = true;
                 _kt();
             }
+        }
+
+        private void bt_chondv_Click(object sender, EventArgs e)
+        {
+            if (File.Exists("sysparam.ini"))
+            {
+                File.Delete("sysparam.ini");
+            }
+            frmSetParam f = new frmSetParam();
+            f.Show();
+            this.Hide();
         }
     }
 }

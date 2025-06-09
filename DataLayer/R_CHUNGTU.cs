@@ -12,38 +12,25 @@ namespace DataLayer
     using System;
     using System.Collections.Generic;
     
-    public partial class tb_CHUNGTU
+    public partial class R_CHUNGTU
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public tb_CHUNGTU()
-        {
-            this.tb_CHUNGTU_CT = new HashSet<tb_CHUNGTU_CT>();
-        }
-    
         public System.Guid KHOA { get; set; }
+        public Nullable<System.DateTime> NGAY { get; set; }
         public string SCT2 { get; set; }
         public string SCT { get; set; }
-        public Nullable<System.DateTime> NGAY { get; set; }
         public Nullable<int> LCT { get; set; }
         public Nullable<System.DateTime> NGAY2 { get; set; }
-        public Nullable<int> CHIETKHAU { get; set; }
         public Nullable<int> SOLUONG { get; set; }
         public Nullable<double> TONGTIEN { get; set; }
         public string GHICHU { get; set; }
         public string MACTY { get; set; }
         public string MADVI2 { get; set; }
         public string MADVI { get; set; }
-        public Nullable<int> TRANGTHAI { get; set; }
         public Nullable<System.DateTime> CREATED_DATE { get; set; }
         public Nullable<int> CREATED_BY { get; set; }
         public Nullable<System.DateTime> UPDATED_DATE { get; set; }
         public Nullable<int> UPDATED_BY { get; set; }
         public Nullable<System.DateTime> DELETED_DATE { get; set; }
-        public Nullable<int> DELETED_BY { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tb_CHUNGTU_CT> tb_CHUNGTU_CT { get; set; }
-        public virtual tb_CONGTY tb_CONGTY { get; set; }
-        public virtual tb_DONVI tb_DONVI { get; set; }
+        public Nullable<int> TRANGTHAI { get; set; }
     }
 }

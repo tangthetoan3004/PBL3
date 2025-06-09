@@ -18,7 +18,7 @@ namespace USERMANAGEMENT
         {
             InitializeComponent();
         }
-        frmMain objMain = (frmMain)Application.OpenForms["frmMain"];
+        public USERMANAGEMENT.frmMain objMain;
         public string _macty;
         public string _madvi;
         public int _idUser;
@@ -69,36 +69,6 @@ namespace USERMANAGEMENT
             SaveData();
 
         }
-        /*       void SaveData()
-               {
-                   if(_them)
-                   {
-                       bool checkedUser = _sysUser.checkUserExist(_macty,_madvi,txtTenNhom.Text.Trim());
-                       if(checkedUser)
-                       {
-                           MessageBox.Show("Nhóm đã tồn tại. Vui lòng kiểm tra lại", "Thông báo ",MessageBoxButtons.OK, MessageBoxIcon.Information);
-                           txtTenNhom.SelectAll();
-                           txtTenNhom.Focus();
-                           return;
-                       }
-                       _user = new tb_SYS_USER();
-                       _user.USERNAME = txtTenNhom.Text.Trim();
-                       _user.FULLNAME = txtMota.Text;
-                       _user.ISGROUP = true;
-                       _user.DISABLED = false;
-                       _user.MACTY = _macty;
-                       _user.MADVI = _madvi;
-                       _sysUser.add(_user);
-                       objMain.LoadUser(_macty, _madvi);
-                   }
-                   else
-                   {
-                       _user = _sysUser.getItem(_idUser);
-                       _user.FULLNAME = txtMota.Text;
-                       _sysUser.update(_user);
-                   }
-                   objMain.LoadUser(_macty, _madvi);
-               }*/
         void SaveData()
         {
             if (_them)
@@ -139,7 +109,10 @@ namespace USERMANAGEMENT
             }
 
             // Làm mới danh sách trên form chính
-            objMain.LoadUser(_macty, _madvi);
+            if (objMain != null)
+            {
+                objMain.LoadUser(_macty, _madvi);
+            }
 
             // Đóng form nếu bạn muốn
             this.Close();

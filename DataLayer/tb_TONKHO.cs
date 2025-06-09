@@ -31,5 +31,8 @@ namespace DataLayer
         public Nullable<int> LG_BANLE { get; set; }
         public Nullable<double> TRIGIA { get; set; }
         public Nullable<double> TIEN_CUOI { get; set; }
+    
+        public virtual tb_CONGTY tb_CONGTY { get; set; }
+        public virtual tb_HANGHOA tb_HANGHOA { get; set; }
     }
 }

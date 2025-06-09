@@ -12,13 +12,12 @@ namespace DataLayer
     using System;
     using System.Collections.Generic;
     
-    public partial class tb_SYS_RIGHT_REP
+    public partial class sysdiagram
     {
-        public int REP_CODE { get; set; }
-        public int IDUSER { get; set; }
-        public Nullable<bool> USER_RIGHT { get; set; }
-    
-        public virtual tb_SYS_REPORT tb_SYS_REPORT { get; set; }
-        public virtual tb_SYS_USER tb_SYS_USER { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

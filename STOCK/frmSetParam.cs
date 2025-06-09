@@ -21,7 +21,7 @@ namespace STOCK
         DONVI _donvi;
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void frmSetParam_Load(object sender, EventArgs e)
@@ -54,11 +54,23 @@ namespace STOCK
 
         private void btnXacNhan_Click(object sender, EventArgs e)
         {
+            if(cboDonvi.SelectedIndex < 0)
+            {
+                lb_loidonvi.Text = "Bạn chưa chọn đơn vị.";
+                return;
+            }
+            else
+            {
+                lb_loidonvi.Text = "";
+            }
             string macty = cboCongTy.SelectedValue.ToString();
-            string madvi = (cboDonvi.Text.Trim() == "") ? "~" : cboDonvi.SelectedValue.ToString();
+            string madvi = cboDonvi.SelectedValue.ToString();
             SYS_PARAM _sysParam = new SYS_PARAM(macty,madvi);
             _sysParam.SaveFile();
-            MessageBox.Show("Xác lập đơn vị sử dụng thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //            MessageBox.Show("Xác lập đơn vị sử dụng thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            frmLogin f = new frmLogin();
+            f.Show();
+            this.Hide();
         }
     }
 }

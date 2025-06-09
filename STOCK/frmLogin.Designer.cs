@@ -37,6 +37,7 @@
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.lb_saidangnhap = new System.Windows.Forms.Label();
             this.lb_saimk = new System.Windows.Forms.Label();
+            this.bt_chondv = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtUserName
@@ -97,10 +98,10 @@
             // 
             this.btnThoat.BackColor = System.Drawing.SystemColors.Control;
             this.btnThoat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.Location = new System.Drawing.Point(346, 249);
+            this.btnThoat.Location = new System.Drawing.Point(382, 249);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(157, 43);
-            this.btnThoat.TabIndex = 3;
+            this.btnThoat.TabIndex = 4;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
@@ -110,10 +111,10 @@
             // 
             this.btnDangNhap.BackColor = System.Drawing.SystemColors.Control;
             this.btnDangNhap.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangNhap.Location = new System.Drawing.Point(96, 249);
+            this.btnDangNhap.Location = new System.Drawing.Point(219, 249);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(157, 43);
-            this.btnDangNhap.TabIndex = 2;
+            this.btnDangNhap.TabIndex = 3;
             this.btnDangNhap.Text = "Đăng nhập ";
             this.btnDangNhap.UseVisualStyleBackColor = false;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
@@ -140,12 +141,25 @@
             this.lb_saimk.Size = new System.Drawing.Size(0, 19);
             this.lb_saimk.TabIndex = 9;
             // 
+            // bt_chondv
+            // 
+            this.bt_chondv.BackColor = System.Drawing.SystemColors.Control;
+            this.bt_chondv.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_chondv.Location = new System.Drawing.Point(12, 249);
+            this.bt_chondv.Name = "bt_chondv";
+            this.bt_chondv.Size = new System.Drawing.Size(201, 43);
+            this.bt_chondv.TabIndex = 2;
+            this.bt_chondv.Text = "Chọn đơn vị";
+            this.bt_chondv.UseVisualStyleBackColor = false;
+            this.bt_chondv.Click += new System.EventHandler(this.bt_chondv_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(568, 321);
+            this.Controls.Add(this.bt_chondv);
             this.Controls.Add(this.lb_saimk);
             this.Controls.Add(this.lb_saidangnhap);
             this.Controls.Add(this.btnDangNhap);
@@ -175,5 +189,6 @@
         private System.Windows.Forms.Button btnDangNhap;
         private System.Windows.Forms.Label lb_saidangnhap;
         private System.Windows.Forms.Label lb_saimk;
+        private System.Windows.Forms.Button bt_chondv;
     }
 }

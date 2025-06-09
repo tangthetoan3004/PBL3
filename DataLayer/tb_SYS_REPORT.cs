@@ -14,6 +14,12 @@ namespace DataLayer
     
     public partial class tb_SYS_REPORT
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tb_SYS_REPORT()
+        {
+            this.tb_SYS_RIGHT_REP = new HashSet<tb_SYS_RIGHT_REP>();
+        }
+    
         public int REP_CODE { get; set; }
         public string DESCRIPTION { get; set; }
         public string REP_NAME { get; set; }
@@ -22,5 +28,8 @@ namespace DataLayer
         public Nullable<bool> THANGNAM { get; set; }
         public Nullable<bool> MACTY { get; set; }
         public Nullable<bool> MADVI { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_SYS_RIGHT_REP> tb_SYS_RIGHT_REP { get; set; }
     }
 }

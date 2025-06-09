@@ -171,11 +171,11 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMain.cs">
+    <Compile Include="frmStockMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <Compile Include="frmStockMain.Designer.cs">
+      <DependentUpon>frmStockMain.cs</DependentUpon>
     </Compile>
     <Compile Include="frmNhaCungCap.cs">
       <SubType>Form</SubType>
@@ -322,8 +322,8 @@
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <EmbeddedResource Include="frmStockMain.resx">
+      <DependentUpon>frmStockMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNhaCungCap.resx">
       <DependentUpon>frmNhaCungCap.cs</DependentUpon>
@@ -476,10 +476,6 @@
       <Project>{b863261d-040e-486e-a21a-3f61be59b4c2}</Project>
       <Name>DataLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\POS\POS.csproj">
-      <Project>{7488a032-be8a-4610-a8ac-1c080e10a859}</Project>
-      <Name>POS</Name>
-    </ProjectReference>
     <ProjectReference Include="..\USERMANAGEMENT\USERMANAGEMENT.csproj">
       <Project>{565d8831-7c5e-444d-a36c-da5dbf864376}</Project>
       <Name>USERMANAGEMENT</Name>
@@ -498,6 +494,8 @@
     <None Include="Resources\bar-code.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\log-out.png" />
+    <None Include="Resources\exchange.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

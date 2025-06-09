@@ -14,6 +14,12 @@ namespace DataLayer
     
     public partial class tb_SYS_FUNC
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tb_SYS_FUNC()
+        {
+            this.tb_SYS_RIGHT = new HashSet<tb_SYS_RIGHT>();
+        }
+    
         public string FUNC_CODE { get; set; }
         public int SORT { get; set; }
         public string DESCRIPTION { get; set; }
@@ -21,5 +27,8 @@ namespace DataLayer
         public string PARENT { get; set; }
         public Nullable<bool> MENU { get; set; }
         public string TIPS { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_SYS_RIGHT> tb_SYS_RIGHT { get; set; }
     }
 }

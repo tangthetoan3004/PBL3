@@ -88,6 +88,8 @@ namespace STOCK
             loadDonviNhap();
             loadDonvi1();
 
+            cbb_Donvi.SelectedValue = myFunctions._madvi;
+
             _lsChungtu = _chungtu.getList(2, dtp1.Value, dtp2.Value.AddDays(1), cbb_Donvi.SelectedValue.ToString());
             _bdChungtu.DataSource = _lsChungtu;
             dataGridView1.DataSource = _bdChungtu;

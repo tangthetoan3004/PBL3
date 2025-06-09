@@ -1,6 +1,7 @@
 ﻿using BusinessLayer;
 using DataLayer;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,6 +12,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace USERMANAGEMENT
 {
     public partial class frmUser: Form
@@ -19,9 +22,11 @@ namespace USERMANAGEMENT
         {
             InitializeComponent();
         }
-        frmMain objMain = (frmMain)Application.OpenForms["frmMain"];
-        public string _macty;
-        public string _madvi;
+
+        USERMANAGEMENT.frmMain objMain = Application.OpenForms["frmMain"] as USERMANAGEMENT.frmMain;
+        
+public string _macty;
+public string _madvi;
         public int _idUser;
         public string _username;
         public string _fullname;
@@ -255,7 +260,10 @@ namespace USERMANAGEMENT
                 }
 
                 // Cập nhật lại DataGridView trong form main
-                objMain.LoadUser(_macty, _madvi);
+                if (objMain != null)
+                    objMain.LoadUser(_macty, _madvi);
+                else { }
+                   
             }
             catch (Exception ex)
             {

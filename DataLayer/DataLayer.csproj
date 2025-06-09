@@ -78,6 +78,18 @@
       <DependentUpon>KHOHANG.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="R_CHUNGTU.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>KHOHANG.tt</DependentUpon>
+    </Compile>
     <Compile Include="tb_CHUNGTU.cs">
       <DependentUpon>KHOHANG.tt</DependentUpon>
     </Compile>

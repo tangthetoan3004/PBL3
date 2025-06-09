@@ -14,6 +14,12 @@ namespace DataLayer
     
     public partial class tb_NHACUNGCAP
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tb_NHACUNGCAP()
+        {
+            this.tb_HANGHOA = new HashSet<tb_HANGHOA>();
+        }
+    
         public string MANCC { get; set; }
         public string TENNCC { get; set; }
         public string EMAIL { get; set; }
@@ -21,5 +27,8 @@ namespace DataLayer
         public string FAX { get; set; }
         public string DIACHI { get; set; }
         public Nullable<bool> DISABLED { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tb_HANGHOA> tb_HANGHOA { get; set; }
     }
 }
